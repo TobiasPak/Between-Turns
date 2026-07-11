@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [{ "type": "command", "command": "npx tsx src/cli/index.ts hook post-tool-use" }]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [{ "type": "command", "command": "npx tsx src/cli/index.ts hook user-prompt-submit" }]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [{ "type": "command", "command": "npx tsx src/cli/index.ts hook stop" }]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [{ "type": "command", "command": "npx tsx src/cli/index.ts hook pre-tool-use-pr" }]
+      }
+    ]
+  }
+}

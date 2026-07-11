@@ -1,0 +1,23 @@
+{
+  "enabled": false,
+  "translation": "NIV",
+  "modes": {
+    "ambient": true,
+    "visible": true
+  },
+  "pacing": {
+    "ambient_min_turns_between_deliveries": 4,
+    "ambient_stuck_loop_failure_threshold": 3,
+    "ambient_backoff_base_turns": 10,
+    "repetition_window": 5
+  },
+  "gloo": {
+    "tenant": "TBD",
+    "collection": "TBD-verify",
+    "api_key_env": "GLOO_API_KEY"
+  },
+  "youversion": {
+    "api_key_env": "YOUVERSION_API_KEY"
+  },
+  "log_dir": ".between-turns/logs"
+}

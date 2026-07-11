@@ -1,0 +1,25 @@
+{
+  "name": "between-turns",
+  "version": "0.1.0",
+  "description": "A Claude Code companion that lets an opted-in Claude's character be shaped by real, verified Scripture at genuine moments of struggle and completion.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "between-turns": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "node --test --import tsx test/**/*.test.ts",
+    "build-taxonomy": "tsx src/build/build-taxonomy.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
