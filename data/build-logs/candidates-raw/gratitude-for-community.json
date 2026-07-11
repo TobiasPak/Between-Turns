@@ -1,0 +1,77 @@
+{
+  "theme_id": "gratitude-for-community",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "1CO.3.6-9",
+      "rationale": "Paul acknowledges that different people contribute to the work—one plants, another waters, but all are co-workers together with God."
+    },
+    {
+      "osis_ref": "ROM.16.3-4",
+      "rationale": "Paul expresses deep gratitude to Priscilla and Aquila, his fellow workers who risked their lives for him and whose help all the churches appreciated."
+    },
+    {
+      "osis_ref": "PHP.4.14-16",
+      "rationale": "Paul thanks the Philippians for their partnership and repeated help in his ministry, acknowledging their shared work and support."
+    },
+    {
+      "osis_ref": "1TH.5.12-13",
+      "rationale": "Paul urges believers to respect and esteem highly those who labor among them and help them, giving honor where it is due."
+    },
+    {
+      "osis_ref": "ECC.4.9-10",
+      "rationale": "Two are better than one because they have a good return for their labor, and one can help the other when they fall—celebrating mutual assistance."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-1a525785-c104-4dbc-8f7e-93e7c82924c1",
+    "created": 1783749967,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"1CO.3.6-9\", \"rationale\": \"Paul acknowledges that different people contribute to the work\\u2014one plants, another waters, but all are co-workers together with God.\"}, {\"osis_ref\": \"ROM.16.3-4\", \"rationale\": \"Paul expresses deep gratitude to Priscilla and Aquila, his fellow workers who risked their lives for him and whose help all the churches appreciated.\"}, {\"osis_ref\": \"PHP.4.14-16\", \"rationale\": \"Paul thanks the Philippians for their partnership and repeated help in his ministry, acknowledging their shared work and support.\"}, {\"osis_ref\": \"1TH.5.12-13\", \"rationale\": \"Paul urges believers to respect and esteem highly those who labor among them and help them, giving honor where it is due.\"}, {\"osis_ref\": \"ECC.4.9-10\", \"rationale\": \"Two are better than one because they have a good return for their labor, and one can help the other when they fall\\u2014celebrating mutual assistance.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_019rkDXBTLM1DQKupUvqJLcg",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 329,
+      "prompt_tokens": 1876,
+      "total_tokens": 2205,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "9ac0ad09120040118ec69c36359256ef"
+  }
+}

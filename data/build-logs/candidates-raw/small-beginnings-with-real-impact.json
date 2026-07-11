@@ -1,0 +1,77 @@
+{
+  "theme_id": "small-beginnings-with-real-impact",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "MAT.13.31-32",
+      "rationale": "Jesus describes the kingdom of heaven as a mustard seed—the smallest of seeds that grows into a large tree, illustrating how something tiny can have enormous impact."
+    },
+    {
+      "osis_ref": "JAS.3.3-5",
+      "rationale": "James uses the metaphors of a bit in a horse's mouth and a small rudder steering a large ship to show how small things can control or direct much larger outcomes."
+    },
+    {
+      "osis_ref": "1CO.5.6",
+      "rationale": "Paul warns that a little leaven (yeast) spreads through the whole batch of dough, demonstrating how a small element can transform an entire system."
+    },
+    {
+      "osis_ref": "1SA.17.49-50",
+      "rationale": "David defeats the giant Goliath with a single small stone from his sling, a tiny action that decides the fate of two armies and changes Israel's future."
+    },
+    {
+      "osis_ref": "MAT.17.20",
+      "rationale": "Jesus teaches that faith as small as a mustard seed can move mountains, showing that even the smallest faith can produce disproportionately powerful results."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-f1eee5ca-1c33-4d5e-a996-221f2134134e",
+    "created": 1783750062,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"MAT.13.31-32\", \"rationale\": \"Jesus describes the kingdom of heaven as a mustard seed\\u2014the smallest of seeds that grows into a large tree, illustrating how something tiny can have enormous impact.\"}, {\"osis_ref\": \"JAS.3.3-5\", \"rationale\": \"James uses the metaphors of a bit in a horse's mouth and a small rudder steering a large ship to show how small things can control or direct much larger outcomes.\"}, {\"osis_ref\": \"1CO.5.6\", \"rationale\": \"Paul warns that a little leaven (yeast) spreads through the whole batch of dough, demonstrating how a small element can transform an entire system.\"}, {\"osis_ref\": \"1SA.17.49-50\", \"rationale\": \"David defeats the giant Goliath with a single small stone from his sling, a tiny action that decides the fate of two armies and changes Israel's future.\"}, {\"osis_ref\": \"MAT.17.20\", \"rationale\": \"Jesus teaches that faith as small as a mustard seed can move mountains, showing that even the smallest faith can produce disproportionately powerful results.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01HNnaD1CQcPfDRYoScQfTXj",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 354,
+      "prompt_tokens": 1877,
+      "total_tokens": 2231,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "9fdf696eed9f4df29e9420af87a91a8f"
+  }
+}

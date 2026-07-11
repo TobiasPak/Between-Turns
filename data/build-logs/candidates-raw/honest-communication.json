@@ -1,0 +1,77 @@
+{
+  "theme_id": "honest-communication",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "EPH.4.25",
+      "rationale": "Paul commands believers to put away falsehood and speak truthfully to their neighbors, directly addressing honest communication."
+    },
+    {
+      "osis_ref": "PRO.12.17",
+      "rationale": "This proverb contrasts speaking truthfully with giving false testimony, emphasizing that truthful reporting is a mark of righteousness."
+    },
+    {
+      "osis_ref": "COL.3.9",
+      "rationale": "Paul instructs believers not to lie to one another, establishing truthfulness as foundational to new-life conduct."
+    },
+    {
+      "osis_ref": "PRO.24.26",
+      "rationale": "This verse describes an honest answer as a sign of loyalty and friendship, fitting contexts where truthful status updates build trust."
+    },
+    {
+      "osis_ref": "LEV.19.11",
+      "rationale": "God commands Israel not to lie or deceive one another, establishing truthfulness as a core covenant obligation in all dealings."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-e0476ccc-6c39-4068-a034-c3dce6ec2b4f",
+    "created": 1783750108,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"EPH.4.25\", \"rationale\": \"Paul commands believers to put away falsehood and speak truthfully to their neighbors, directly addressing honest communication.\"}, {\"osis_ref\": \"PRO.12.17\", \"rationale\": \"This proverb contrasts speaking truthfully with giving false testimony, emphasizing that truthful reporting is a mark of righteousness.\"}, {\"osis_ref\": \"COL.3.9\", \"rationale\": \"Paul instructs believers not to lie to one another, establishing truthfulness as foundational to new-life conduct.\"}, {\"osis_ref\": \"PRO.24.26\", \"rationale\": \"This verse describes an honest answer as a sign of loyalty and friendship, fitting contexts where truthful status updates build trust.\"}, {\"osis_ref\": \"LEV.19.11\", \"rationale\": \"God commands Israel not to lie or deceive one another, establishing truthfulness as a core covenant obligation in all dealings.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01UNpTqGJrECi29wSussStuY",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 300,
+      "prompt_tokens": 1879,
+      "total_tokens": 2179,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "314e550af654477ea0c65d9563b5e574"
+  }
+}

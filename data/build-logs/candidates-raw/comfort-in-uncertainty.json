@@ -1,0 +1,77 @@
+{
+  "theme_id": "comfort-in-uncertainty",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.3.5-6",
+      "rationale": "Classic wisdom about trusting God rather than leaning on your own understanding, with a promise that He will make your paths straight even when you can't see the way."
+    },
+    {
+      "osis_ref": "PSA.119.105",
+      "rationale": "God's word is described as a lamp to guide your feet and a light for your path, offering illumination one step at a time even when the full route isn't visible."
+    },
+    {
+      "osis_ref": "ISA.30.21",
+      "rationale": "Promises you'll hear a voice behind you saying 'This is the way, walk in it' when you turn right or left, providing direction when the path is unclear."
+    },
+    {
+      "osis_ref": "JER.29.11",
+      "rationale": "God declares He has plans to prosper you and give you hope and a future, reassuring that there is a good plan even when you can't see it yet."
+    },
+    {
+      "osis_ref": "PSA.37.23-24",
+      "rationale": "Affirms that the Lord makes firm the steps of someone who delights in Him, and even when they stumble they won't fall completely because the Lord upholds them."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-64a0a696-8f63-48f7-b93f-6ec3393e7bc2",
+    "created": 1783749885,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.3.5-6\", \"rationale\": \"Classic wisdom about trusting God rather than leaning on your own understanding, with a promise that He will make your paths straight even when you can't see the way.\"}, {\"osis_ref\": \"PSA.119.105\", \"rationale\": \"God's word is described as a lamp to guide your feet and a light for your path, offering illumination one step at a time even when the full route isn't visible.\"}, {\"osis_ref\": \"ISA.30.21\", \"rationale\": \"Promises you'll hear a voice behind you saying 'This is the way, walk in it' when you turn right or left, providing direction when the path is unclear.\"}, {\"osis_ref\": \"JER.29.11\", \"rationale\": \"God declares He has plans to prosper you and give you hope and a future, reassuring that there is a good plan even when you can't see it yet.\"}, {\"osis_ref\": \"PSA.37.23-24\", \"rationale\": \"Affirms that the Lord makes firm the steps of someone who delights in Him, and even when they stumble they won't fall completely because the Lord upholds them.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01MUueUuEi5WxiqNA8H7WD3i",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 360,
+      "prompt_tokens": 1879,
+      "total_tokens": 2239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "45039457bbe4448a86a2da2583f6d9d5"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "theme_id": "hope-after-setback",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.24.16",
+      "rationale": "Affirms that the righteous may fall seven times yet rise again, while the wicked stumble in calamity—failure is not final for those who persevere."
+    },
+    {
+      "osis_ref": "ROM.8.28",
+      "rationale": "Promises that God works all things together for good for those who love Him, framing even failures as part of a redemptive plan."
+    },
+    {
+      "osis_ref": "PSA.37.23-24",
+      "rationale": "Declares that though the righteous fall, they will not be utterly cast down because the Lord upholds them with His hand."
+    },
+    {
+      "osis_ref": "MIC.7.8",
+      "rationale": "The prophet declares that though he has fallen, he will rise—even in darkness, the Lord is his light, reframing present failure as temporary."
+    },
+    {
+      "osis_ref": "2CO.4.8-9",
+      "rationale": "Paul describes being hard pressed but not crushed, struck down but not destroyed—acknowledging setbacks without accepting defeat as final."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-09ef3ee3-7154-4ce6-9d46-4c867c26e06d",
+    "created": 1783749713,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.24.16\", \"rationale\": \"Affirms that the righteous may fall seven times yet rise again, while the wicked stumble in calamity\\u2014failure is not final for those who persevere.\"}, {\"osis_ref\": \"ROM.8.28\", \"rationale\": \"Promises that God works all things together for good for those who love Him, framing even failures as part of a redemptive plan.\"}, {\"osis_ref\": \"PSA.37.23-24\", \"rationale\": \"Declares that though the righteous fall, they will not be utterly cast down because the Lord upholds them with His hand.\"}, {\"osis_ref\": \"MIC.7.8\", \"rationale\": \"The prophet declares that though he has fallen, he will rise\\u2014even in darkness, the Lord is his light, reframing present failure as temporary.\"}, {\"osis_ref\": \"2CO.4.8-9\", \"rationale\": \"Paul describes being hard pressed but not crushed, struck down but not destroyed\\u2014acknowledging setbacks without accepting defeat as final.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01T8vDBHw94RDiCdsSuHQXiP",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 333,
+      "prompt_tokens": 5782,
+      "total_tokens": 6115,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "57b2a60570ec475398c36298566bb83d"
+  }
+}

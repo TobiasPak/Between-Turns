@@ -1,0 +1,77 @@
+{
+  "theme_id": "diligence-in-small-tasks",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "COL.3.23",
+      "rationale": "Paul instructs believers to work heartily at whatever they do, as for the Lord, affirming that even mundane tasks have divine significance."
+    },
+    {
+      "osis_ref": "LUK.16.10",
+      "rationale": "Jesus teaches that faithfulness in very small matters proves one's trustworthiness, elevating the importance of seemingly insignificant work."
+    },
+    {
+      "osis_ref": "1CO.10.31",
+      "rationale": "Paul encourages doing everything—even eating and drinking—for God's glory, suggesting no task is too small to matter."
+    },
+    {
+      "osis_ref": "ZEC.4.10",
+      "rationale": "The prophet warns against despising the day of small things, affirming God's care for humble beginnings and minor details."
+    },
+    {
+      "osis_ref": "PRO.22.29",
+      "rationale": "This proverb commends those who are skilled and diligent in their work, implying that excellence in small, routine tasks leads to greater responsibility."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-f47ba93a-bc4d-4a54-8566-e163ec3d58f1",
+    "created": 1783749826,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"COL.3.23\", \"rationale\": \"Paul instructs believers to work heartily at whatever they do, as for the Lord, affirming that even mundane tasks have divine significance.\"}, {\"osis_ref\": \"LUK.16.10\", \"rationale\": \"Jesus teaches that faithfulness in very small matters proves one's trustworthiness, elevating the importance of seemingly insignificant work.\"}, {\"osis_ref\": \"1CO.10.31\", \"rationale\": \"Paul encourages doing everything\\u2014even eating and drinking\\u2014for God's glory, suggesting no task is too small to matter.\"}, {\"osis_ref\": \"ZEC.4.10\", \"rationale\": \"The prophet warns against despising the day of small things, affirming God's care for humble beginnings and minor details.\"}, {\"osis_ref\": \"PRO.22.29\", \"rationale\": \"This proverb commends those who are skilled and diligent in their work, implying that excellence in small, routine tasks leads to greater responsibility.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01VkWsQnKQfHHEHGJqnDKKv8",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 320,
+      "prompt_tokens": 1871,
+      "total_tokens": 2191,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "f393b416ef304475aa41e80b8b02463f"
+  }
+}

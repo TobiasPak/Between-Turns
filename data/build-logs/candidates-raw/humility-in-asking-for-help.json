@@ -1,0 +1,77 @@
+{
+  "theme_id": "humility-in-asking-for-help",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "JAS.1.5",
+      "rationale": "Directly encourages asking God for wisdom when lacking it, promising generous help without reproach."
+    },
+    {
+      "osis_ref": "MAT.7.7-8",
+      "rationale": "Jesus urges persistent asking, seeking, and knocking with the promise that those who ask will receive."
+    },
+    {
+      "osis_ref": "PRO.11.14",
+      "rationale": "Highlights that safety and success come through seeking many counselors rather than going it alone."
+    },
+    {
+      "osis_ref": "EXO.18.13-24",
+      "rationale": "Moses receives crucial advice from Jethro to delegate and share burdens instead of carrying leadership alone."
+    },
+    {
+      "osis_ref": "GAL.6.2",
+      "rationale": "Calls believers to carry each other's burdens, implying we should share our struggles rather than bear them alone."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-2305a126-dad9-4ce5-aa24-23baa9f2e99b",
+    "created": 1783750004,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"JAS.1.5\", \"rationale\": \"Directly encourages asking God for wisdom when lacking it, promising generous help without reproach.\"}, {\"osis_ref\": \"MAT.7.7-8\", \"rationale\": \"Jesus urges persistent asking, seeking, and knocking with the promise that those who ask will receive.\"}, {\"osis_ref\": \"PRO.11.14\", \"rationale\": \"Highlights that safety and success come through seeking many counselors rather than going it alone.\"}, {\"osis_ref\": \"EXO.18.13-24\", \"rationale\": \"Moses receives crucial advice from Jethro to delegate and share burdens instead of carrying leadership alone.\"}, {\"osis_ref\": \"GAL.6.2\", \"rationale\": \"Calls believers to carry each other's burdens, implying we should share our struggles rather than bear them alone.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_0184HKTKxatELfLJu2i3w9NA",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 1873,
+      "total_tokens": 2161,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "5ff863c5f9914b5aab66bb1f70bf3ab8"
+  }
+}

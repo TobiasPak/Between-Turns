@@ -1,0 +1,77 @@
+{
+  "theme_id": "wisdom-in-simplicity",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "1KI.17.8-16",
+      "rationale": "Elijah relies on God's simple provision through a widow's jar of flour and jug of oil rather than complex human schemes to survive the famine."
+    },
+    {
+      "osis_ref": "2KI.5.10-14",
+      "rationale": "Naaman is told to simply wash in the Jordan River seven times rather than expecting an elaborate healing ritual, and his servants convince him to try the simpler solution."
+    },
+    {
+      "osis_ref": "1SA.17.38-40",
+      "rationale": "David rejects Saul's armor and sophisticated weaponry in favor of his simple sling and stones to face Goliath."
+    },
+    {
+      "osis_ref": "MAT.18.3-4",
+      "rationale": "Jesus teaches that entering the kingdom requires becoming like a child—embracing simplicity and humility rather than clever sophistication."
+    },
+    {
+      "osis_ref": "1CO.1.27",
+      "rationale": "God chose the foolish and simple things of the world to shame the wise, showing that divine wisdom often works through simplicity rather than human cleverness."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-0115a294-a672-454b-b450-3087cbfcdbae",
+    "created": 1783749765,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"1KI.17.8-16\", \"rationale\": \"Elijah relies on God's simple provision through a widow's jar of flour and jug of oil rather than complex human schemes to survive the famine.\"}, {\"osis_ref\": \"2KI.5.10-14\", \"rationale\": \"Naaman is told to simply wash in the Jordan River seven times rather than expecting an elaborate healing ritual, and his servants convince him to try the simpler solution.\"}, {\"osis_ref\": \"1SA.17.38-40\", \"rationale\": \"David rejects Saul's armor and sophisticated weaponry in favor of his simple sling and stones to face Goliath.\"}, {\"osis_ref\": \"MAT.18.3-4\", \"rationale\": \"Jesus teaches that entering the kingdom requires becoming like a child\\u2014embracing simplicity and humility rather than clever sophistication.\"}, {\"osis_ref\": \"1CO.1.27\", \"rationale\": \"God chose the foolish and simple things of the world to shame the wise, showing that divine wisdom often works through simplicity rather than human cleverness.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01DXpP4cBD8QHt8uNz3ucDMZ",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 340,
+      "prompt_tokens": 1877,
+      "total_tokens": 2217,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "382a04e9c76e4713846068827eeba960"
+  }
+}

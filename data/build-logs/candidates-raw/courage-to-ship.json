@@ -1,0 +1,77 @@
+{
+  "theme_id": "courage-to-ship",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "ECC.11.4",
+      "rationale": "Warns against waiting for perfect conditions before acting, since those who watch the wind will never sow or reap."
+    },
+    {
+      "osis_ref": "ECC.11.1-2",
+      "rationale": "Encourages casting bread upon waters and diversifying effort without knowing what will succeed, embracing uncertainty and imperfect knowledge."
+    },
+    {
+      "osis_ref": "LUK.14.28-30",
+      "rationale": "Jesus teaches counting the cost before building a tower, implying one should start only when ready (not perfect), lest it remain unfinished."
+    },
+    {
+      "osis_ref": "PHP.3.12-14",
+      "rationale": "Paul acknowledges he has not yet attained perfection but presses on toward the goal, modeling progress over perfection."
+    },
+    {
+      "osis_ref": "PRO.24.27",
+      "rationale": "Advises preparing your work and getting fields ready before building your house, emphasizing readiness and proper sequencing over waiting for ideal conditions."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-4a6b5a1e-fdf0-4424-a43e-b3aa5a1822e8",
+    "created": 1783749745,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"ECC.11.4\", \"rationale\": \"Warns against waiting for perfect conditions before acting, since those who watch the wind will never sow or reap.\"}, {\"osis_ref\": \"ECC.11.1-2\", \"rationale\": \"Encourages casting bread upon waters and diversifying effort without knowing what will succeed, embracing uncertainty and imperfect knowledge.\"}, {\"osis_ref\": \"LUK.14.28-30\", \"rationale\": \"Jesus teaches counting the cost before building a tower, implying one should start only when ready (not perfect), lest it remain unfinished.\"}, {\"osis_ref\": \"PHP.3.12-14\", \"rationale\": \"Paul acknowledges he has not yet attained perfection but presses on toward the goal, modeling progress over perfection.\"}, {\"osis_ref\": \"PRO.24.27\", \"rationale\": \"Advises preparing your work and getting fields ready before building your house, emphasizing readiness and proper sequencing over waiting for ideal conditions.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01AQ3he3eHKBsLxjXvWAdqqV",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 320,
+      "prompt_tokens": 1874,
+      "total_tokens": 2194,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "0955d6c9ba2e44e3a1ccbff005b6e426"
+  }
+}

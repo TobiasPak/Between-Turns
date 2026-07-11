@@ -1,0 +1,77 @@
+{
+  "theme_id": "patience-with-legacy-code",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "1CO.13.7",
+      "rationale": "Love bears all things and believes all things, encouraging a charitable assumption that past decisions were made in good faith."
+    },
+    {
+      "osis_ref": "ROM.14.1-4",
+      "rationale": "Paul instructs believers not to judge others' decisions in disputable matters, since each person is accountable to their own master and context."
+    },
+    {
+      "osis_ref": "JAS.4.11-12",
+      "rationale": "James warns against judging others, recognizing that only God knows all the constraints and motivations behind someone's choices."
+    },
+    {
+      "osis_ref": "MAT.7.1-2",
+      "rationale": "Jesus teaches against harsh judgment, warning that the same measure we use to judge others will be used on us."
+    },
+    {
+      "osis_ref": "PRO.18.13",
+      "rationale": "This proverb warns against answering (judging) before fully hearing the matter, applicable to understanding past constraints before criticizing decisions."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-945a621b-0519-4e1a-bb8d-4420f47514df",
+    "created": 1783749850,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"1CO.13.7\", \"rationale\": \"Love bears all things and believes all things, encouraging a charitable assumption that past decisions were made in good faith.\"}, {\"osis_ref\": \"ROM.14.1-4\", \"rationale\": \"Paul instructs believers not to judge others' decisions in disputable matters, since each person is accountable to their own master and context.\"}, {\"osis_ref\": \"JAS.4.11-12\", \"rationale\": \"James warns against judging others, recognizing that only God knows all the constraints and motivations behind someone's choices.\"}, {\"osis_ref\": \"MAT.7.1-2\", \"rationale\": \"Jesus teaches against harsh judgment, warning that the same measure we use to judge others will be used on us.\"}, {\"osis_ref\": \"PRO.18.13\", \"rationale\": \"This proverb warns against answering (judging) before fully hearing the matter, applicable to understanding past constraints before criticizing decisions.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01BVBEnVGUWfPM9feZWTa8Rv",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 1876,
+      "total_tokens": 2185,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "d73b84453aae4441a8df59b93148f44c"
+  }
+}

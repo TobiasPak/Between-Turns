@@ -1,0 +1,77 @@
+{
+  "theme_id": "rest-after-long-effort",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "GEN.2.2-3",
+      "rationale": "God rested on the seventh day after completing the work of creation, establishing the pattern that rest is appropriate once the work is finished."
+    },
+    {
+      "osis_ref": "JHN.19.30",
+      "rationale": "Jesus declared 'It is finished' and gave up his spirit, marking the completion of his earthly work and the permission to stop."
+    },
+    {
+      "osis_ref": "JHN.17.4",
+      "rationale": "Jesus says he glorified the Father by finishing the work given to him, showing that completion releases us from continued labor."
+    },
+    {
+      "osis_ref": "2TI.4.7",
+      "rationale": "Paul declares 'I have finished the race, I have kept the faith,' expressing the satisfaction and legitimacy of stopping when the work is truly done."
+    },
+    {
+      "osis_ref": "ECC.3.1",
+      "rationale": "There is a time for everything and a season for every activity, affirming that work has its proper endpoint and rest has its proper time."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-50196240-abae-4272-8e7d-00dbfd280f62",
+    "created": 1783749782,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"GEN.2.2-3\", \"rationale\": \"God rested on the seventh day after completing the work of creation, establishing the pattern that rest is appropriate once the work is finished.\"}, {\"osis_ref\": \"JHN.19.30\", \"rationale\": \"Jesus declared 'It is finished' and gave up his spirit, marking the completion of his earthly work and the permission to stop.\"}, {\"osis_ref\": \"JHN.17.4\", \"rationale\": \"Jesus says he glorified the Father by finishing the work given to him, showing that completion releases us from continued labor.\"}, {\"osis_ref\": \"2TI.4.7\", \"rationale\": \"Paul declares 'I have finished the race, I have kept the faith,' expressing the satisfaction and legitimacy of stopping when the work is truly done.\"}, {\"osis_ref\": \"ECC.3.1\", \"rationale\": \"There is a time for everything and a season for every activity, affirming that work has its proper endpoint and rest has its proper time.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01HUdiJY7WUUp8UbuTWLvNJZ",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 323,
+      "prompt_tokens": 1874,
+      "total_tokens": 2197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "80f3a4cfaa794ab8a648ed9f31679ab0"
+  }
+}

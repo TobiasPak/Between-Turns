@@ -1,0 +1,77 @@
+{
+  "theme_id": "learning-something-new",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PHP.4.13",
+      "rationale": "Affirms that we can do all things through Christ who strengthens us, encouraging perseverance when facing unfamiliar challenges."
+    },
+    {
+      "osis_ref": "ISA.41.10",
+      "rationale": "God promises to strengthen and help us when we're afraid or overwhelmed by new situations, assuring us not to fear."
+    },
+    {
+      "osis_ref": "PRO.2.1-6",
+      "rationale": "Encourages diligent pursuit of wisdom and understanding with the promise that God grants knowledge to those who seek it earnestly."
+    },
+    {
+      "osis_ref": "JOS.1.9",
+      "rationale": "Commands courage and confidence in unfamiliar territory, reminding us that God is with us wherever we go."
+    },
+    {
+      "osis_ref": "2TI.1.7",
+      "rationale": "Reminds us that God has given a spirit of power, love, and self-discipline rather than timidity when facing new tasks."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-7cc17678-bde6-49c1-b91f-736277a23f20",
+    "created": 1783750013,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PHP.4.13\", \"rationale\": \"Affirms that we can do all things through Christ who strengthens us, encouraging perseverance when facing unfamiliar challenges.\"}, {\"osis_ref\": \"ISA.41.10\", \"rationale\": \"God promises to strengthen and help us when we're afraid or overwhelmed by new situations, assuring us not to fear.\"}, {\"osis_ref\": \"PRO.2.1-6\", \"rationale\": \"Encourages diligent pursuit of wisdom and understanding with the promise that God grants knowledge to those who seek it earnestly.\"}, {\"osis_ref\": \"JOS.1.9\", \"rationale\": \"Commands courage and confidence in unfamiliar territory, reminding us that God is with us wherever we go.\"}, {\"osis_ref\": \"2TI.1.7\", \"rationale\": \"Reminds us that God has given a spirit of power, love, and self-discipline rather than timidity when facing new tasks.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01QMZn42C7M6mKK9NjMsFHxV",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 310,
+      "prompt_tokens": 1882,
+      "total_tokens": 2192,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "58e4af8460824aabbecde74ded33f5ba"
+  }
+}

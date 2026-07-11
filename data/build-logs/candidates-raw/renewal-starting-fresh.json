@@ -1,0 +1,77 @@
+{
+  "theme_id": "renewal-starting-fresh",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PHP.3.13-14",
+      "rationale": "Paul describes forgetting what lies behind and straining forward to what lies ahead, pressing on toward the goal—a picture of abandoning past attempts to pursue a better path."
+    },
+    {
+      "osis_ref": "LAM.3.22-23",
+      "rationale": "The mercies of the Lord are new every morning, offering fresh compassion and a clean start each day despite previous failures."
+    },
+    {
+      "osis_ref": "ISA.43.18-19",
+      "rationale": "God tells His people to forget the former things and not dwell on the past because He is doing a new thing—embracing a fresh approach after what didn't work."
+    },
+    {
+      "osis_ref": "JER.18.1-4",
+      "rationale": "The potter reshapes the marred vessel into another vessel as it seems good to him—a vivid metaphor for scrapping what failed and starting over with the same raw material."
+    },
+    {
+      "osis_ref": "2CO.5.17",
+      "rationale": "In Christ, the old has passed away and the new has come—a declaration of transformation and the possibility of beginning again with a renewed perspective."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-e6908081-360b-40c2-b7b2-ee8ea92e8eb0",
+    "created": 1783749799,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PHP.3.13-14\", \"rationale\": \"Paul describes forgetting what lies behind and straining forward to what lies ahead, pressing on toward the goal\\u2014a picture of abandoning past attempts to pursue a better path.\"}, {\"osis_ref\": \"LAM.3.22-23\", \"rationale\": \"The mercies of the Lord are new every morning, offering fresh compassion and a clean start each day despite previous failures.\"}, {\"osis_ref\": \"ISA.43.18-19\", \"rationale\": \"God tells His people to forget the former things and not dwell on the past because He is doing a new thing\\u2014embracing a fresh approach after what didn't work.\"}, {\"osis_ref\": \"JER.18.1-4\", \"rationale\": \"The potter reshapes the marred vessel into another vessel as it seems good to him\\u2014a vivid metaphor for scrapping what failed and starting over with the same raw material.\"}, {\"osis_ref\": \"2CO.5.17\", \"rationale\": \"In Christ, the old has passed away and the new has come\\u2014a declaration of transformation and the possibility of beginning again with a renewed perspective.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01TSnqBzyppsLKSk4rdh67RU",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 348,
+      "prompt_tokens": 1874,
+      "total_tokens": 2222,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "e122a72bd3f7433bb9b23d5010ac30c4"
+  }
+}

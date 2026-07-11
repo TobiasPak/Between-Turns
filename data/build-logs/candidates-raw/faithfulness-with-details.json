@@ -1,0 +1,77 @@
+{
+  "theme_id": "faithfulness-with-details",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "LUK.16.10",
+      "rationale": "Jesus teaches that whoever is faithful in very little is also faithful in much, directly affirming the importance of trustworthiness in small, mundane tasks."
+    },
+    {
+      "osis_ref": "PRO.27.23-24",
+      "rationale": "This passage instructs careful attention to the details of one's flocks and herds, emphasizing diligent oversight of the precise, routine aspects of work."
+    },
+    {
+      "osis_ref": "1CO.4.2",
+      "rationale": "Paul states that those entrusted with a responsibility must prove faithful, underscoring reliability in every part of stewardship."
+    },
+    {
+      "osis_ref": "EXO.36.1",
+      "rationale": "Bezalel and Oholiab are given skill and ability to do all the detailed work for the tabernacle exactly as the LORD commanded, exemplifying precision in technical execution."
+    },
+    {
+      "osis_ref": "NEH.13.13",
+      "rationale": "Nehemiah appoints men over the storerooms because they were considered trustworthy, highlighting faithfulness in administrative detail work."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-19b58bd6-4441-4b29-b35d-8ae26df92608",
+    "created": 1783749843,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"LUK.16.10\", \"rationale\": \"Jesus teaches that whoever is faithful in very little is also faithful in much, directly affirming the importance of trustworthiness in small, mundane tasks.\"}, {\"osis_ref\": \"PRO.27.23-24\", \"rationale\": \"This passage instructs careful attention to the details of one's flocks and herds, emphasizing diligent oversight of the precise, routine aspects of work.\"}, {\"osis_ref\": \"1CO.4.2\", \"rationale\": \"Paul states that those entrusted with a responsibility must prove faithful, underscoring reliability in every part of stewardship.\"}, {\"osis_ref\": \"EXO.36.1\", \"rationale\": \"Bezalel and Oholiab are given skill and ability to do all the detailed work for the tabernacle exactly as the LORD commanded, exemplifying precision in technical execution.\"}, {\"osis_ref\": \"NEH.13.13\", \"rationale\": \"Nehemiah appoints men over the storerooms because they were considered trustworthy, highlighting faithfulness in administrative detail work.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01Tjos8j5HTficvMicP6aiFR",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 341,
+      "prompt_tokens": 1881,
+      "total_tokens": 2222,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "f4cd722e61684c59a3bdba76856d8314"
+  }
+}

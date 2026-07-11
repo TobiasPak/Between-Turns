@@ -1,0 +1,77 @@
+{
+  "theme_id": "service-through-good-work",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "COL.3.23",
+      "rationale": "Paul instructs believers to work wholeheartedly as for the Lord, emphasizing diligence and quality regardless of who's watching."
+    },
+    {
+      "osis_ref": "PRO.22.29",
+      "rationale": "Proverbs commends the skilled worker who is diligent in their craft, noting they will stand before kings—excellence is noticed and honored."
+    },
+    {
+      "osis_ref": "EXO.31.1-5",
+      "rationale": "God fills Bezalel with skill and ability to craft the tabernacle with precision, modeling careful, Spirit-empowered craftsmanship for the community's benefit."
+    },
+    {
+      "osis_ref": "NEH.4.6",
+      "rationale": "The people rebuilt Jerusalem's wall with all their heart, demonstrating committed, thorough work for the protection and flourishing of future inhabitants."
+    },
+    {
+      "osis_ref": "1CO.3.10-13",
+      "rationale": "Paul warns that each builder should be careful how they build, because their work will be tested—emphasizing thoughtful, durable construction for those who follow."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-b916e581-1544-4a2f-a12b-3f7bb066d6be",
+    "created": 1783749941,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"COL.3.23\", \"rationale\": \"Paul instructs believers to work wholeheartedly as for the Lord, emphasizing diligence and quality regardless of who's watching.\"}, {\"osis_ref\": \"PRO.22.29\", \"rationale\": \"Proverbs commends the skilled worker who is diligent in their craft, noting they will stand before kings\\u2014excellence is noticed and honored.\"}, {\"osis_ref\": \"EXO.31.1-5\", \"rationale\": \"God fills Bezalel with skill and ability to craft the tabernacle with precision, modeling careful, Spirit-empowered craftsmanship for the community's benefit.\"}, {\"osis_ref\": \"NEH.4.6\", \"rationale\": \"The people rebuilt Jerusalem's wall with all their heart, demonstrating committed, thorough work for the protection and flourishing of future inhabitants.\"}, {\"osis_ref\": \"1CO.3.10-13\", \"rationale\": \"Paul warns that each builder should be careful how they build, because their work will be tested\\u2014emphasizing thoughtful, durable construction for those who follow.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_0141PmZ549GYUNATtu3Zwven",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 342,
+      "prompt_tokens": 1879,
+      "total_tokens": 2221,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "7c670c19bef4451d993c2522940eee17"
+  }
+}

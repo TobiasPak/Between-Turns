@@ -1,0 +1,77 @@
+{
+  "theme_id": "endurance-through-a-long-project",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "GAL.6.9",
+      "rationale": "Paul encourages believers not to grow weary in doing good, promising a harvest in due season if they don't give up—directly addressing perseverance through extended effort."
+    },
+    {
+      "osis_ref": "HEB.12.1-3",
+      "rationale": "The author urges running the race with endurance, fixing eyes on Jesus who endured the cross, providing both example and motivation for long-haul perseverance."
+    },
+    {
+      "osis_ref": "PHP.3.13-14",
+      "rationale": "Paul describes forgetting what lies behind and straining toward what is ahead, pressing on toward the goal—a sustained, forward-focused effort over time."
+    },
+    {
+      "osis_ref": "1CO.15.58",
+      "rationale": "Paul concludes by telling believers to stand firm and give themselves fully to the work, knowing their labor is not in vain—encouragement for steadfast effort when outcomes aren't immediate."
+    },
+    {
+      "osis_ref": "JAS.1.12",
+      "rationale": "James pronounces a blessing on those who persevere under trial, promising the crown of life to those who remain steadfast—affirming the value of endurance through prolonged difficulty."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-e25c1c31-822c-4e43-b5aa-c1539c134641",
+    "created": 1783750022,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"GAL.6.9\", \"rationale\": \"Paul encourages believers not to grow weary in doing good, promising a harvest in due season if they don't give up\\u2014directly addressing perseverance through extended effort.\"}, {\"osis_ref\": \"HEB.12.1-3\", \"rationale\": \"The author urges running the race with endurance, fixing eyes on Jesus who endured the cross, providing both example and motivation for long-haul perseverance.\"}, {\"osis_ref\": \"PHP.3.13-14\", \"rationale\": \"Paul describes forgetting what lies behind and straining toward what is ahead, pressing on toward the goal\\u2014a sustained, forward-focused effort over time.\"}, {\"osis_ref\": \"1CO.15.58\", \"rationale\": \"Paul concludes by telling believers to stand firm and give themselves fully to the work, knowing their labor is not in vain\\u2014encouragement for steadfast effort when outcomes aren't immediate.\"}, {\"osis_ref\": \"JAS.1.12\", \"rationale\": \"James pronounces a blessing on those who persevere under trial, promising the crown of life to those who remain steadfast\\u2014affirming the value of endurance through prolonged difficulty.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_015BDqzgKp4TZyL1yzecxbwH",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 360,
+      "prompt_tokens": 1881,
+      "total_tokens": 2241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "e1dcc9f4b34f419c9bc3adde56daa7f3"
+  }
+}

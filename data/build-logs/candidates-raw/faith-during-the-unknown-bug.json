@@ -1,0 +1,77 @@
+{
+  "theme_id": "faith-during-the-unknown-bug",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.3.5-6",
+      "rationale": "Classic call to trust God with all your heart and not lean on your own understanding when the path is unclear."
+    },
+    {
+      "osis_ref": "JOB.13.15",
+      "rationale": "Job affirms trust in God even when he cannot understand why his suffering is happening."
+    },
+    {
+      "osis_ref": "ISA.55.8-9",
+      "rationale": "God's ways and thoughts are higher than ours, reminding us that clarity is not a prerequisite for trust."
+    },
+    {
+      "osis_ref": "2CO.5.7",
+      "rationale": "Paul writes that we walk by faith, not by sight—trusting even when we cannot see or understand."
+    },
+    {
+      "osis_ref": "HEB.11.1",
+      "rationale": "Faith is defined as confidence in what we hope for and assurance about what we do not see or fully understand."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-f166d01e-6e34-4e61-812c-7e7f7fad9330",
+    "created": 1783750068,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.3.5-6\", \"rationale\": \"Classic call to trust God with all your heart and not lean on your own understanding when the path is unclear.\"}, {\"osis_ref\": \"JOB.13.15\", \"rationale\": \"Job affirms trust in God even when he cannot understand why his suffering is happening.\"}, {\"osis_ref\": \"ISA.55.8-9\", \"rationale\": \"God's ways and thoughts are higher than ours, reminding us that clarity is not a prerequisite for trust.\"}, {\"osis_ref\": \"2CO.5.7\", \"rationale\": \"Paul writes that we walk by faith, not by sight\\u2014trusting even when we cannot see or understand.\"}, {\"osis_ref\": \"HEB.11.1\", \"rationale\": \"Faith is defined as confidence in what we hope for and assurance about what we do not see or fully understand.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01BdLvvaxsnJEpRguhYjNMVG",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 293,
+      "prompt_tokens": 1875,
+      "total_tokens": 2168,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "d4f028d087904129bfa69a01d282d3ae"
+  }
+}

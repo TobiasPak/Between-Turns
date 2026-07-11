@@ -1,0 +1,77 @@
+{
+  "theme_id": "sufficiency-for-todays-work",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "MAT.6.34",
+      "rationale": "Jesus teaches not to worry about tomorrow because each day has enough trouble of its own, calling us to focus on today's needs."
+    },
+    {
+      "osis_ref": "EXO.16.4",
+      "rationale": "God provided manna daily in the wilderness, teaching Israel to gather only what they needed for each day rather than hoarding for the future."
+    },
+    {
+      "osis_ref": "DEU.33.25",
+      "rationale": "Moses blesses Israel with the promise that their strength will equal their days, provision matched to present need."
+    },
+    {
+      "osis_ref": "LAM.3.22-23",
+      "rationale": "God's mercies are new every morning, emphasizing daily renewed grace and faithfulness rather than bearing all burdens at once."
+    },
+    {
+      "osis_ref": "ISA.40.31",
+      "rationale": "Those who wait on the Lord will renew their strength, highlighting ongoing, timely provision of strength as we need it."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-31459136-0047-485a-a9cf-1b42d54566e6",
+    "created": 1783750100,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"MAT.6.34\", \"rationale\": \"Jesus teaches not to worry about tomorrow because each day has enough trouble of its own, calling us to focus on today's needs.\"}, {\"osis_ref\": \"EXO.16.4\", \"rationale\": \"God provided manna daily in the wilderness, teaching Israel to gather only what they needed for each day rather than hoarding for the future.\"}, {\"osis_ref\": \"DEU.33.25\", \"rationale\": \"Moses blesses Israel with the promise that their strength will equal their days, provision matched to present need.\"}, {\"osis_ref\": \"LAM.3.22-23\", \"rationale\": \"God's mercies are new every morning, emphasizing daily renewed grace and faithfulness rather than bearing all burdens at once.\"}, {\"osis_ref\": \"ISA.40.31\", \"rationale\": \"Those who wait on the Lord will renew their strength, highlighting ongoing, timely provision of strength as we need it.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01XWpStCh6XQdegzyTBrwdcg",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 1889,
+      "total_tokens": 2198,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "4964778b1a9c45e0a6d22fe55832b921"
+  }
+}

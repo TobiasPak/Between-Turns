@@ -1,0 +1,77 @@
+{
+  "theme_id": "strength-for-the-difficult-task",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "JOS.1.9",
+      "rationale": "God commands Joshua to be strong and courageous as he takes on the daunting task of leading Israel into the Promised Land."
+    },
+    {
+      "osis_ref": "NEH.2.17-18",
+      "rationale": "Nehemiah rallies the people to rebuild Jerusalem's walls—a massive, avoided project—and they respond 'Let us start rebuilding.'"
+    },
+    {
+      "osis_ref": "1CO.16.13",
+      "rationale": "Paul exhorts believers to stand firm, be courageous, and be strong—a call to face difficult challenges head-on."
+    },
+    {
+      "osis_ref": "PHP.4.13",
+      "rationale": "Paul affirms he can do all things through Christ who strengthens him, encouraging resolve in hard tasks."
+    },
+    {
+      "osis_ref": "PRO.24.10",
+      "rationale": "This proverb warns that if you falter in times of trouble, your strength is small—a challenge to press forward despite difficulty."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-4f3ee4e6-e632-4e33-9efd-a5d38971e73a",
+    "created": 1783749915,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"JOS.1.9\", \"rationale\": \"God commands Joshua to be strong and courageous as he takes on the daunting task of leading Israel into the Promised Land.\"}, {\"osis_ref\": \"NEH.2.17-18\", \"rationale\": \"Nehemiah rallies the people to rebuild Jerusalem's walls\\u2014a massive, avoided project\\u2014and they respond 'Let us start rebuilding.'\"}, {\"osis_ref\": \"1CO.16.13\", \"rationale\": \"Paul exhorts believers to stand firm, be courageous, and be strong\\u2014a call to face difficult challenges head-on.\"}, {\"osis_ref\": \"PHP.4.13\", \"rationale\": \"Paul affirms he can do all things through Christ who strengthens him, encouraging resolve in hard tasks.\"}, {\"osis_ref\": \"PRO.24.10\", \"rationale\": \"This proverb warns that if you falter in times of trouble, your strength is small\\u2014a challenge to press forward despite difficulty.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_014MJ4qq8YQQC7gaq8c3fsCd",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 317,
+      "prompt_tokens": 1870,
+      "total_tokens": 2187,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "e992f1bab55845638299eeac4453ae6d"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "theme_id": "steadiness-under-deadline",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.21.5",
+      "rationale": "Contrasts the value of careful planning with the haste that leads to loss, fitting high-pressure situations where rushing can cause mistakes."
+    },
+    {
+      "osis_ref": "ISA.28.16",
+      "rationale": "Emphasizes that those who have faith will not panic or act in haste, perfect for maintaining composure under deadline pressure."
+    },
+    {
+      "osis_ref": "PSA.46.10",
+      "rationale": "The command to 'be still and know that I am God' speaks to finding calm and composure even when everything feels urgent."
+    },
+    {
+      "osis_ref": "EXO.14.13-14",
+      "rationale": "Moses tells the Israelites to stand firm and be still when trapped between Pharaoh's army and the sea, a classic high-pressure scenario requiring composure."
+    },
+    {
+      "osis_ref": "PHP.4.6-7",
+      "rationale": "Paul's instruction not to be anxious but to pray, promising peace that guards hearts and minds, directly addresses maintaining calm under pressure."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-5a2101b7-31af-4bb3-b1f0-96eda0be205d",
+    "created": 1783749870,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.21.5\", \"rationale\": \"Contrasts the value of careful planning with the haste that leads to loss, fitting high-pressure situations where rushing can cause mistakes.\"}, {\"osis_ref\": \"ISA.28.16\", \"rationale\": \"Emphasizes that those who have faith will not panic or act in haste, perfect for maintaining composure under deadline pressure.\"}, {\"osis_ref\": \"PSA.46.10\", \"rationale\": \"The command to 'be still and know that I am God' speaks to finding calm and composure even when everything feels urgent.\"}, {\"osis_ref\": \"EXO.14.13-14\", \"rationale\": \"Moses tells the Israelites to stand firm and be still when trapped between Pharaoh's army and the sea, a classic high-pressure scenario requiring composure.\"}, {\"osis_ref\": \"PHP.4.6-7\", \"rationale\": \"Paul's instruction not to be anxious but to pray, promising peace that guards hearts and minds, directly addresses maintaining calm under pressure.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_016QLGdB6AZJP8qqhgAxiAjv",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 327,
+      "prompt_tokens": 1870,
+      "total_tokens": 2197,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "2385ea15794844e2b075c641aa2f6a30"
+  }
+}

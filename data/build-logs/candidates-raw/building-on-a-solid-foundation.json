@@ -1,0 +1,77 @@
+{
+  "theme_id": "building-on-a-solid-foundation",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "LUK.14.28-30",
+      "rationale": "Jesus teaches that a builder must count the cost and plan carefully before starting a tower, lest he lay a foundation but cannot finish."
+    },
+    {
+      "osis_ref": "PRO.24.27",
+      "rationale": "This proverb instructs to prepare your work outside and get fields ready before building your house, emphasizing proper sequencing and foundation."
+    },
+    {
+      "osis_ref": "1CO.3.10-11",
+      "rationale": "Paul warns that each builder must be careful how they build on the foundation, as the quality of their work will be tested."
+    },
+    {
+      "osis_ref": "MAT.7.24-27",
+      "rationale": "Jesus contrasts the wise man who builds his house on rock with the foolish man who builds on sand, illustrating the importance of solid foundations over shortcuts."
+    },
+    {
+      "osis_ref": "NEH.4.6",
+      "rationale": "The people rebuilt Jerusalem's wall with wholehearted dedication, showing commitment to thorough, quality work rather than hasty patches."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-e8b9bcdd-3a0f-4037-8af1-19f65a5d5e02",
+    "created": 1783750053,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"LUK.14.28-30\", \"rationale\": \"Jesus teaches that a builder must count the cost and plan carefully before starting a tower, lest he lay a foundation but cannot finish.\"}, {\"osis_ref\": \"PRO.24.27\", \"rationale\": \"This proverb instructs to prepare your work outside and get fields ready before building your house, emphasizing proper sequencing and foundation.\"}, {\"osis_ref\": \"1CO.3.10-11\", \"rationale\": \"Paul warns that each builder must be careful how they build on the foundation, as the quality of their work will be tested.\"}, {\"osis_ref\": \"MAT.7.24-27\", \"rationale\": \"Jesus contrasts the wise man who builds his house on rock with the foolish man who builds on sand, illustrating the importance of solid foundations over shortcuts.\"}, {\"osis_ref\": \"NEH.4.6\", \"rationale\": \"The people rebuilt Jerusalem's wall with wholehearted dedication, showing commitment to thorough, quality work rather than hasty patches.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_014oyTyLoc9cvm6DUVrbXJEE",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 326,
+      "prompt_tokens": 1873,
+      "total_tokens": 2199,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "04837b5c96764294a3940cc8f6e0dcbd"
+  }
+}

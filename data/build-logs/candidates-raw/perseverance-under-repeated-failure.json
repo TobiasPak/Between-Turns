@@ -1,0 +1,77 @@
+{
+  "theme_id": "perseverance-under-repeated-failure",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.24.16",
+      "rationale": "The righteous fall seven times but rise again, illustrating perseverance through repeated failure."
+    },
+    {
+      "osis_ref": "GAL.6.9",
+      "rationale": "Encourages not growing weary in doing good, with the promise of eventual harvest if we don't give up despite repeated setbacks."
+    },
+    {
+      "osis_ref": "2CO.4.8-9",
+      "rationale": "Paul describes being knocked down repeatedly but not destroyed, continuing despite recurring hardships."
+    },
+    {
+      "osis_ref": "LUK.18.1-8",
+      "rationale": "The persistent widow keeps returning to the judge despite repeated rejections, illustrating perseverance through repeated failure until success."
+    },
+    {
+      "osis_ref": "JAS.1.2-4",
+      "rationale": "Views repeated trials as opportunities for developing perseverance and maturity through the testing process."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-906f47e1-c0ac-4f60-8ec3-23c500f21dce",
+    "created": 1783749693,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.24.16\", \"rationale\": \"The righteous fall seven times but rise again, illustrating perseverance through repeated failure.\"}, {\"osis_ref\": \"GAL.6.9\", \"rationale\": \"Encourages not growing weary in doing good, with the promise of eventual harvest if we don't give up despite repeated setbacks.\"}, {\"osis_ref\": \"2CO.4.8-9\", \"rationale\": \"Paul describes being knocked down repeatedly but not destroyed, continuing despite recurring hardships.\"}, {\"osis_ref\": \"LUK.18.1-8\", \"rationale\": \"The persistent widow keeps returning to the judge despite repeated rejections, illustrating perseverance through repeated failure until success.\"}, {\"osis_ref\": \"JAS.1.2-4\", \"rationale\": \"Views repeated trials as opportunities for developing perseverance and maturity through the testing process.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_012fssw2r333mdBjKwD19TiZ",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 292,
+      "prompt_tokens": 1876,
+      "total_tokens": 2168,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "02a9e2447f2d4759abcfdb757a8419c3"
+  }
+}

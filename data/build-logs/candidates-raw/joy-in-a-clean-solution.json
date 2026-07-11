@@ -1,0 +1,77 @@
+{
+  "theme_id": "joy-in-a-clean-solution",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.25.2",
+      "rationale": "The glory of searching out a matter that God has concealed captures the delight of discovery when complexity yields to understanding."
+    },
+    {
+      "osis_ref": "JOB.32.8",
+      "rationale": "The breath of the Almighty giving understanding speaks to that moment when insight suddenly illuminates what was obscure."
+    },
+    {
+      "osis_ref": "LUK.24.31-32",
+      "rationale": "The disciples' eyes being opened and their hearts burning as everything suddenly made sense captures the 'aha' moment of clarity."
+    },
+    {
+      "osis_ref": "PSA.119.130",
+      "rationale": "The unfolding of God's words giving light and understanding to the simple reflects that moment when complexity resolves into elegant simplicity."
+    },
+    {
+      "osis_ref": "1CO.13.12",
+      "rationale": "The contrast between seeing dimly and then face to face captures the transition from confusion to complete clarity and understanding."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-16a53e3b-7b2b-4317-a5f2-2302629a2a4a",
+    "created": 1783749818,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.25.2\", \"rationale\": \"The glory of searching out a matter that God has concealed captures the delight of discovery when complexity yields to understanding.\"}, {\"osis_ref\": \"JOB.32.8\", \"rationale\": \"The breath of the Almighty giving understanding speaks to that moment when insight suddenly illuminates what was obscure.\"}, {\"osis_ref\": \"LUK.24.31-32\", \"rationale\": \"The disciples' eyes being opened and their hearts burning as everything suddenly made sense captures the 'aha' moment of clarity.\"}, {\"osis_ref\": \"PSA.119.130\", \"rationale\": \"The unfolding of God's words giving light and understanding to the simple reflects that moment when complexity resolves into elegant simplicity.\"}, {\"osis_ref\": \"1CO.13.12\", \"rationale\": \"The contrast between seeing dimly and then face to face captures the transition from confusion to complete clarity and understanding.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01JN8Z4a9ChMMWmXzg8pp5Ud",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 306,
+      "prompt_tokens": 1878,
+      "total_tokens": 2184,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "c8f7de5217844e248ec9c386dc86ed41"
+  }
+}

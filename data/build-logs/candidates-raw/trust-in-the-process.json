@@ -1,0 +1,77 @@
+{
+  "theme_id": "trust-in-the-process",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.21.5",
+      "rationale": "Directly contrasts careful, steady planning with haste, promising that diligent methods lead to profit."
+    },
+    {
+      "osis_ref": "LUK.14.28-30",
+      "rationale": "Jesus teaches the importance of methodically counting the cost before building, warning against starting without careful preparation."
+    },
+    {
+      "osis_ref": "PRO.24.27",
+      "rationale": "Instructs to prepare your work carefully and finish your outdoor tasks before building your house, emphasizing methodical order."
+    },
+    {
+      "osis_ref": "GAL.6.9",
+      "rationale": "Encourages persistence in doing good with the promise that in due season we will reap if we do not give up."
+    },
+    {
+      "osis_ref": "HEB.6.10-12",
+      "rationale": "Affirms that God honors diligent work and encourages patience and faith in waiting for the promise to be realized."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-4876e693-946c-4f5d-9dfa-154ca7c2dfe5",
+    "created": 1783749893,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.21.5\", \"rationale\": \"Directly contrasts careful, steady planning with haste, promising that diligent methods lead to profit.\"}, {\"osis_ref\": \"LUK.14.28-30\", \"rationale\": \"Jesus teaches the importance of methodically counting the cost before building, warning against starting without careful preparation.\"}, {\"osis_ref\": \"PRO.24.27\", \"rationale\": \"Instructs to prepare your work carefully and finish your outdoor tasks before building your house, emphasizing methodical order.\"}, {\"osis_ref\": \"GAL.6.9\", \"rationale\": \"Encourages persistence in doing good with the promise that in due season we will reap if we do not give up.\"}, {\"osis_ref\": \"HEB.6.10-12\", \"rationale\": \"Affirms that God honors diligent work and encourages patience and faith in waiting for the promise to be realized.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_012cUrpynuSQksoMZV2r5Sgn",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 1873,
+      "total_tokens": 2174,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "8a2949d27dbd4ab1b6031ef5108722b7"
+  }
+}

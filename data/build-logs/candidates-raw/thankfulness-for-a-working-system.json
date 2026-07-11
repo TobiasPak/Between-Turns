@@ -1,0 +1,77 @@
+{
+  "theme_id": "thankfulness-for-a-working-system",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "COL.1.16-17",
+      "rationale": "Paul describes Christ as holding all things together, emphasizing the sustaining power that keeps creation functioning."
+    },
+    {
+      "osis_ref": "HEB.1.3",
+      "rationale": "God's Son sustains all things by his powerful word, explaining the ongoing maintenance of the entire universe."
+    },
+    {
+      "osis_ref": "ACT.17.28",
+      "rationale": "Paul declares that in God we live and move and have our being, acknowledging the fundamental dependency of all existence on divine sustenance."
+    },
+    {
+      "osis_ref": "NEH.9.6",
+      "rationale": "Nehemiah's prayer praises God for making and preserving the heavens, earth, and all their hosts, recognizing the wonder of continued existence."
+    },
+    {
+      "osis_ref": "PSA.104.10-14",
+      "rationale": "The psalmist marvels at God's intricate providence in water cycles, vegetation, and ecosystems that reliably function to sustain life."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-2317e3a0-4bfc-4af0-bd49-6af80edc0418",
+    "created": 1783750076,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"COL.1.16-17\", \"rationale\": \"Paul describes Christ as holding all things together, emphasizing the sustaining power that keeps creation functioning.\"}, {\"osis_ref\": \"HEB.1.3\", \"rationale\": \"God's Son sustains all things by his powerful word, explaining the ongoing maintenance of the entire universe.\"}, {\"osis_ref\": \"ACT.17.28\", \"rationale\": \"Paul declares that in God we live and move and have our being, acknowledging the fundamental dependency of all existence on divine sustenance.\"}, {\"osis_ref\": \"NEH.9.6\", \"rationale\": \"Nehemiah's prayer praises God for making and preserving the heavens, earth, and all their hosts, recognizing the wonder of continued existence.\"}, {\"osis_ref\": \"PSA.104.10-14\", \"rationale\": \"The psalmist marvels at God's intricate providence in water cycles, vegetation, and ecosystems that reliably function to sustain life.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01SHshUzvaTjnjTr1S9U4hgE",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 315,
+      "prompt_tokens": 1872,
+      "total_tokens": 2187,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "194de3c308da486d997ccfc22c530c62"
+  }
+}

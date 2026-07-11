@@ -1,0 +1,77 @@
+{
+  "theme_id": "integrity-in-testing",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.12.22",
+      "rationale": "Directly contrasts lying lips (claiming something is verified when it's not) with truthful lips that delight the Lord."
+    },
+    {
+      "osis_ref": "PRO.11.1",
+      "rationale": "False scales represent dishonest measurement or verification, while accurate weights represent honest assessment of what's actually tested."
+    },
+    {
+      "osis_ref": "LUK.16.10",
+      "rationale": "Being faithful in small things (like writing proper tests) reflects trustworthiness in larger matters, emphasizing integrity in seemingly minor details."
+    },
+    {
+      "osis_ref": "COL.3.9",
+      "rationale": "A command not to lie to one another, which applies to honest reporting about whether verification work has actually been done."
+    },
+    {
+      "osis_ref": "1TH.5.21",
+      "rationale": "Instructs believers to test everything and hold fast to what is good, affirming the importance of actual verification rather than assumptions."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-4483f2e6-f299-4f57-9d9d-b4c81c7d1c78",
+    "created": 1783749834,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.12.22\", \"rationale\": \"Directly contrasts lying lips (claiming something is verified when it's not) with truthful lips that delight the Lord.\"}, {\"osis_ref\": \"PRO.11.1\", \"rationale\": \"False scales represent dishonest measurement or verification, while accurate weights represent honest assessment of what's actually tested.\"}, {\"osis_ref\": \"LUK.16.10\", \"rationale\": \"Being faithful in small things (like writing proper tests) reflects trustworthiness in larger matters, emphasizing integrity in seemingly minor details.\"}, {\"osis_ref\": \"COL.3.9\", \"rationale\": \"A command not to lie to one another, which applies to honest reporting about whether verification work has actually been done.\"}, {\"osis_ref\": \"1TH.5.21\", \"rationale\": \"Instructs believers to test everything and hold fast to what is good, affirming the importance of actual verification rather than assumptions.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01XdcPBnJHs6fQH8wHgbKEvn",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 307,
+      "prompt_tokens": 1873,
+      "total_tokens": 2180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "d96a01df5e7a4ec18b3e6a853af56442"
+  }
+}

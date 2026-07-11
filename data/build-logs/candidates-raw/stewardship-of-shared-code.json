@@ -1,0 +1,77 @@
+{
+  "theme_id": "stewardship-of-shared-code",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "1CO.3.10-15",
+      "rationale": "Paul speaks of building carefully on a foundation others will use, warning that each builder's work will be tested and must be of quality."
+    },
+    {
+      "osis_ref": "NEH.2.17-18",
+      "rationale": "Nehemiah rallies people to rebuild Jerusalem's walls, recognizing the collective dependence on shared infrastructure and the need for careful, coordinated work."
+    },
+    {
+      "osis_ref": "LUK.12.48",
+      "rationale": "Jesus teaches that those entrusted with much are held to a higher standard of responsibility, applicable to those maintaining critical systems."
+    },
+    {
+      "osis_ref": "PRO.27.23-24",
+      "rationale": "This passage instructs leaders to know the state of their flocks and be diligent, as riches and positions of responsibility do not last forever without careful stewardship."
+    },
+    {
+      "osis_ref": "EXO.31.1-6",
+      "rationale": "God appoints skilled craftsmen filled with wisdom and ability to build the tabernacle, emphasizing the importance of competence and care in work others will depend upon."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-955b8542-3d48-450d-a8eb-9f81e97d8fe6",
+    "created": 1783749950,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"1CO.3.10-15\", \"rationale\": \"Paul speaks of building carefully on a foundation others will use, warning that each builder's work will be tested and must be of quality.\"}, {\"osis_ref\": \"NEH.2.17-18\", \"rationale\": \"Nehemiah rallies people to rebuild Jerusalem's walls, recognizing the collective dependence on shared infrastructure and the need for careful, coordinated work.\"}, {\"osis_ref\": \"LUK.12.48\", \"rationale\": \"Jesus teaches that those entrusted with much are held to a higher standard of responsibility, applicable to those maintaining critical systems.\"}, {\"osis_ref\": \"PRO.27.23-24\", \"rationale\": \"This passage instructs leaders to know the state of their flocks and be diligent, as riches and positions of responsibility do not last forever without careful stewardship.\"}, {\"osis_ref\": \"EXO.31.1-6\", \"rationale\": \"God appoints skilled craftsmen filled with wisdom and ability to build the tabernacle, emphasizing the importance of competence and care in work others will depend upon.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01F6kdFzAKhn4MPVbYSGYoTx",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 343,
+      "prompt_tokens": 1877,
+      "total_tokens": 2220,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "e55630781eca41bea75fb890e36e7dc7"
+  }
+}

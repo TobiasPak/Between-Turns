@@ -1,0 +1,77 @@
+{
+  "theme_id": "letting-go-of-perfectionism",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "ECC.11.4",
+      "rationale": "Warns that waiting for perfect conditions means nothing ever gets done."
+    },
+    {
+      "osis_ref": "PHP.3.12-14",
+      "rationale": "Paul admits he hasn't attained perfection yet but presses on, modeling progress over flawlessness."
+    },
+    {
+      "osis_ref": "2CO.12.9-10",
+      "rationale": "God's strength is made perfect in weakness, affirming that our imperfections are where grace operates."
+    },
+    {
+      "osis_ref": "ROM.7.18-19",
+      "rationale": "Paul acknowledges the gap between intention and execution, normalizing our inability to achieve perfection."
+    },
+    {
+      "osis_ref": "ECC.7.16",
+      "rationale": "Cautions against being overly righteous or wise, suggesting that perfectionism can be self-destructive."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-b5523113-9e73-452c-bfb9-e15c9e742ff2",
+    "created": 1783749996,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"ECC.11.4\", \"rationale\": \"Warns that waiting for perfect conditions means nothing ever gets done.\"}, {\"osis_ref\": \"PHP.3.12-14\", \"rationale\": \"Paul admits he hasn't attained perfection yet but presses on, modeling progress over flawlessness.\"}, {\"osis_ref\": \"2CO.12.9-10\", \"rationale\": \"God's strength is made perfect in weakness, affirming that our imperfections are where grace operates.\"}, {\"osis_ref\": \"ROM.7.18-19\", \"rationale\": \"Paul acknowledges the gap between intention and execution, normalizing our inability to achieve perfection.\"}, {\"osis_ref\": \"ECC.7.16\", \"rationale\": \"Cautions against being overly righteous or wise, suggesting that perfectionism can be self-destructive.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_01L2rXHM4kg8bKiZ34Bicm5p",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 1880,
+      "total_tokens": 2163,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "88aefd608e534bd2956386dbfe199dfd"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "theme_id": "unity-in-disagreement",
+  "request_model": "gloo-anthropic-claude-sonnet-4.5",
+  "candidates": [
+    {
+      "osis_ref": "PRO.27.17",
+      "rationale": "Iron sharpens iron, illustrating how teammates can refine each other's ideas through constructive disagreement."
+    },
+    {
+      "osis_ref": "PHP.2.1-4",
+      "rationale": "Paul urges unity and humility in handling different perspectives, prioritizing the team's shared purpose over individual preferences."
+    },
+    {
+      "osis_ref": "ACT.15.36-41",
+      "rationale": "Paul and Barnabas had a sharp disagreement over ministry approach yet both continued their work, showing that technical disputes don't have to end collaboration."
+    },
+    {
+      "osis_ref": "1CO.12.12-27",
+      "rationale": "The body metaphor emphasizes that diverse members with different functions must remain connected despite differences, valuing each contribution."
+    },
+    {
+      "osis_ref": "EPH.4.2-3",
+      "rationale": "Paul counsels bearing with one another in love and maintaining unity through patience, directly applicable to working through technical disagreements."
+    }
+  ],
+  "raw": {
+    "id": "chatcmpl-1be3640f-8ba9-4cbb-81b2-41d7c6e4091a",
+    "created": 1783749923,
+    "model": "gloo-anthropic-claude-sonnet-4.5",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "choices": [
+      {
+        "finish_reason": "tool_calls",
+        "index": 0,
+        "message": {
+          "content": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "index": 0,
+              "caller": {
+                "type": "direct"
+              },
+              "function": {
+                "arguments": "{\"candidates\": [{\"osis_ref\": \"PRO.27.17\", \"rationale\": \"Iron sharpens iron, illustrating how teammates can refine each other's ideas through constructive disagreement.\"}, {\"osis_ref\": \"PHP.2.1-4\", \"rationale\": \"Paul urges unity and humility in handling different perspectives, prioritizing the team's shared purpose over individual preferences.\"}, {\"osis_ref\": \"ACT.15.36-41\", \"rationale\": \"Paul and Barnabas had a sharp disagreement over ministry approach yet both continued their work, showing that technical disputes don't have to end collaboration.\"}, {\"osis_ref\": \"1CO.12.12-27\", \"rationale\": \"The body metaphor emphasizes that diverse members with different functions must remain connected despite differences, valuing each contribution.\"}, {\"osis_ref\": \"EPH.4.2-3\", \"rationale\": \"Paul counsels bearing with one another in love and maintaining unity through patience, directly applicable to working through technical disagreements.\"}]}",
+                "name": "propose_candidates"
+              },
+              "id": "toolu_013k4kfst6KEjsxw2JvdFD2Y",
+              "type": "function"
+            }
+          ],
+          "function_call": null,
+          "provider_specific_fields": {
+            "citations": null,
+            "thinking_blocks": null
+          }
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 311,
+      "prompt_tokens": 1875,
+      "total_tokens": 2186,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "not_available",
+      "speed": null
+    },
+    "provider": "Gloo AI",
+    "model_family": "Anthropic",
+    "auto_routing": false,
+    "routing_mechanism": "direct_model_selection",
+    "provider_tier": "direct",
+    "trace_id": "175a684846ed47a7acf7b113859ad009"
+  }
+}

@@ -1,0 +1,1209 @@
+{
+  "generated_at": "2026-07-11T06:08:36.240Z",
+  "model": "gloo-anthropic-claude-sonnet-4.5",
+  "total_themes": 48,
+  "total_proposed": 240,
+  "failed_themes": 0,
+  "results": [
+    {
+      "theme_id": "perseverance-under-repeated-failure",
+      "candidates": [
+        {
+          "osis_ref": "PRO.24.16",
+          "rationale": "The righteous fall seven times but rise again, illustrating perseverance through repeated failure."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Encourages not growing weary in doing good, with the promise of eventual harvest if we don't give up despite repeated setbacks."
+        },
+        {
+          "osis_ref": "2CO.4.8-9",
+          "rationale": "Paul describes being knocked down repeatedly but not destroyed, continuing despite recurring hardships."
+        },
+        {
+          "osis_ref": "LUK.18.1-8",
+          "rationale": "The persistent widow keeps returning to the judge despite repeated rejections, illustrating perseverance through repeated failure until success."
+        },
+        {
+          "osis_ref": "JAS.1.2-4",
+          "rationale": "Views repeated trials as opportunities for developing perseverance and maturity through the testing process."
+        }
+      ]
+    },
+    {
+      "theme_id": "patience-in-long-debugging",
+      "candidates": [
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Encourages persistence in doing good without giving up, promising a harvest in due season—matching the perseverance needed when debugging has no immediate payoff."
+        },
+        {
+          "osis_ref": "JAS.1.2-4",
+          "rationale": "Frames trials as opportunities to develop perseverance and maturity, which resonates with the frustrating grind of a debugging session that tests patience."
+        },
+        {
+          "osis_ref": "ROM.5.3-4",
+          "rationale": "Describes how suffering produces perseverance, character, and hope—a progression that mirrors the character-building discipline of staying steady through a hard debugging problem."
+        },
+        {
+          "osis_ref": "HEB.12.1",
+          "rationale": "Calls for running the race with perseverance, throwing off everything that hinders—apt for the long, methodical work of bisecting commits or hunting a memory leak."
+        },
+        {
+          "osis_ref": "PSA.37.7",
+          "rationale": "Advises being still before the Lord and waiting patiently, which parallels the discipline of staying calm and methodical when no quick answer emerges."
+        }
+      ]
+    },
+    {
+      "theme_id": "hope-after-setback",
+      "candidates": [
+        {
+          "osis_ref": "PRO.24.16",
+          "rationale": "Affirms that the righteous may fall seven times yet rise again, while the wicked stumble in calamity—failure is not final for those who persevere."
+        },
+        {
+          "osis_ref": "ROM.8.28",
+          "rationale": "Promises that God works all things together for good for those who love Him, framing even failures as part of a redemptive plan."
+        },
+        {
+          "osis_ref": "PSA.37.23-24",
+          "rationale": "Declares that though the righteous fall, they will not be utterly cast down because the Lord upholds them with His hand."
+        },
+        {
+          "osis_ref": "MIC.7.8",
+          "rationale": "The prophet declares that though he has fallen, he will rise—even in darkness, the Lord is his light, reframing present failure as temporary."
+        },
+        {
+          "osis_ref": "2CO.4.8-9",
+          "rationale": "Paul describes being hard pressed but not crushed, struck down but not destroyed—acknowledging setbacks without accepting defeat as final."
+        }
+      ]
+    },
+    {
+      "theme_id": "humility-accepting-critique",
+      "candidates": [
+        {
+          "osis_ref": "PRO.12.15",
+          "rationale": "Contrasts the fool who is right in his own eyes with the wise person who listens to advice."
+        },
+        {
+          "osis_ref": "PRO.15.31-32",
+          "rationale": "Teaches that those who listen to life-giving correction gain understanding, while rejecting discipline despises oneself."
+        },
+        {
+          "osis_ref": "PRO.27.17",
+          "rationale": "Describes how iron sharpens iron and one person sharpens another, illustrating the value of peer feedback."
+        },
+        {
+          "osis_ref": "PRO.19.20",
+          "rationale": "Encourages listening to advice and accepting instruction so that you may be wise in the end."
+        },
+        {
+          "osis_ref": "ECC.7.5",
+          "rationale": "States it is better to heed the rebuke of a wise person than to listen to the song of fools."
+        }
+      ]
+    },
+    {
+      "theme_id": "grace-under-frustration",
+      "candidates": [
+        {
+          "osis_ref": "PRO.15.1",
+          "rationale": "Advocates responding gently to turn away wrath rather than escalating frustration with harsh words."
+        },
+        {
+          "osis_ref": "JAM.1.19-20",
+          "rationale": "Instructs believers to be slow to anger and quick to listen, noting that human anger does not produce righteousness."
+        },
+        {
+          "osis_ref": "EPH.4.26-27",
+          "rationale": "Permits acknowledging anger but warns against sinning in it or letting it fester, maintaining self-control."
+        },
+        {
+          "osis_ref": "COL.3.12-13",
+          "rationale": "Calls for patience, kindness, and forgiveness even when provoked, mirroring the grace we've received."
+        },
+        {
+          "osis_ref": "1PE.3.8-9",
+          "rationale": "Urges believers not to repay insult with insult but to respond with blessing, maintaining composure."
+        }
+      ]
+    },
+    {
+      "theme_id": "honesty-about-not-knowing",
+      "candidates": [
+        {
+          "osis_ref": "PRO.3.5-7",
+          "rationale": "Warns against leaning on your own understanding and being wise in your own eyes, encouraging trust in God when we lack certainty."
+        },
+        {
+          "osis_ref": "JAS.4.13-15",
+          "rationale": "Addresses those who confidently predict outcomes without acknowledging uncertainty, teaching instead to say 'if the Lord wills.'"
+        },
+        {
+          "osis_ref": "1CO.8.2",
+          "rationale": "Directly states that if anyone thinks they know something, they do not yet know as they ought to know—a caution against overconfidence."
+        },
+        {
+          "osis_ref": "JOB.42.3",
+          "rationale": "Job admits he spoke of things too wonderful for him to understand, confessing he uttered what he did not know."
+        },
+        {
+          "osis_ref": "DEU.29.29",
+          "rationale": "Distinguishes between secret things that belong to God and revealed things, acknowledging the limits of human knowledge."
+        }
+      ]
+    },
+    {
+      "theme_id": "courage-to-ship",
+      "candidates": [
+        {
+          "osis_ref": "ECC.11.4",
+          "rationale": "Warns against waiting for perfect conditions before acting, since those who watch the wind will never sow or reap."
+        },
+        {
+          "osis_ref": "ECC.11.1-2",
+          "rationale": "Encourages casting bread upon waters and diversifying effort without knowing what will succeed, embracing uncertainty and imperfect knowledge."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches counting the cost before building a tower, implying one should start only when ready (not perfect), lest it remain unfinished."
+        },
+        {
+          "osis_ref": "PHP.3.12-14",
+          "rationale": "Paul acknowledges he has not yet attained perfection but presses on toward the goal, modeling progress over perfection."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "Advises preparing your work and getting fields ready before building your house, emphasizing readiness and proper sequencing over waiting for ideal conditions."
+        }
+      ]
+    },
+    {
+      "theme_id": "courage-to-refactor",
+      "candidates": [
+        {
+          "osis_ref": "JER.31.31-33",
+          "rationale": "God promises a new covenant to replace the old one, writing the law on hearts rather than continuing to patch the external system."
+        },
+        {
+          "osis_ref": "MAT.9.16-17",
+          "rationale": "Jesus teaches that new wine requires new wineskins and new cloth makes a worse tear in old garments, illustrating the need to replace rather than patch incompatible systems."
+        },
+        {
+          "osis_ref": "2CO.5.17",
+          "rationale": "Paul declares that in Christ one becomes a new creation where the old has passed away and everything has become new, not merely patched."
+        },
+        {
+          "osis_ref": "HEB.8.6-7",
+          "rationale": "The writer explains that Christ mediates a better covenant because if the first covenant had been faultless, there would have been no need to replace it with a second."
+        },
+        {
+          "osis_ref": "EZK.36.26",
+          "rationale": "God promises to remove the heart of stone and give a new heart of flesh, representing complete replacement rather than incremental repair."
+        }
+      ]
+    },
+    {
+      "theme_id": "wisdom-in-simplicity",
+      "candidates": [
+        {
+          "osis_ref": "1KI.17.8-16",
+          "rationale": "Elijah relies on God's simple provision through a widow's jar of flour and jug of oil rather than complex human schemes to survive the famine."
+        },
+        {
+          "osis_ref": "2KI.5.10-14",
+          "rationale": "Naaman is told to simply wash in the Jordan River seven times rather than expecting an elaborate healing ritual, and his servants convince him to try the simpler solution."
+        },
+        {
+          "osis_ref": "1SA.17.38-40",
+          "rationale": "David rejects Saul's armor and sophisticated weaponry in favor of his simple sling and stones to face Goliath."
+        },
+        {
+          "osis_ref": "MAT.18.3-4",
+          "rationale": "Jesus teaches that entering the kingdom requires becoming like a child—embracing simplicity and humility rather than clever sophistication."
+        },
+        {
+          "osis_ref": "1CO.1.27",
+          "rationale": "God chose the foolish and simple things of the world to shame the wise, showing that divine wisdom often works through simplicity rather than human cleverness."
+        }
+      ]
+    },
+    {
+      "theme_id": "discernment-between-good-options",
+      "candidates": [
+        {
+          "osis_ref": "1CO.6.12",
+          "rationale": "Paul weighs permissible actions against what is beneficial or constructive, not just lawful versus unlawful."
+        },
+        {
+          "osis_ref": "1CO.10.23",
+          "rationale": "Reiterates the principle that all things may be lawful but not all are beneficial or building up, requiring discernment between good options."
+        },
+        {
+          "osis_ref": "PHP.1.22-24",
+          "rationale": "Paul deliberates between two genuinely good outcomes: continuing his ministry on earth versus being with Christ in death."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches counting the cost before building a tower, weighing feasibility and timing of a good project."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "Wisdom literature on prioritizing tasks—preparing fields first, then building a house—both good but requiring wise sequencing."
+        }
+      ]
+    },
+    {
+      "theme_id": "rest-after-long-effort",
+      "candidates": [
+        {
+          "osis_ref": "GEN.2.2-3",
+          "rationale": "God rested on the seventh day after completing the work of creation, establishing the pattern that rest is appropriate once the work is finished."
+        },
+        {
+          "osis_ref": "JHN.19.30",
+          "rationale": "Jesus declared 'It is finished' and gave up his spirit, marking the completion of his earthly work and the permission to stop."
+        },
+        {
+          "osis_ref": "JHN.17.4",
+          "rationale": "Jesus says he glorified the Father by finishing the work given to him, showing that completion releases us from continued labor."
+        },
+        {
+          "osis_ref": "2TI.4.7",
+          "rationale": "Paul declares 'I have finished the race, I have kept the faith,' expressing the satisfaction and legitimacy of stopping when the work is truly done."
+        },
+        {
+          "osis_ref": "ECC.3.1",
+          "rationale": "There is a time for everything and a season for every activity, affirming that work has its proper endpoint and rest has its proper time."
+        }
+      ]
+    },
+    {
+      "theme_id": "weariness-in-long-hours",
+      "candidates": [
+        {
+          "osis_ref": "ISA.40.29-31",
+          "rationale": "Promises that God gives strength to the weary and renews those who wait on Him, enabling them to run without growing weary."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Encourages not growing weary in doing good, promising a harvest to those who don't give up."
+        },
+        {
+          "osis_ref": "MAT.11.28-30",
+          "rationale": "Jesus invites the weary and burdened to come to Him for rest, offering relief in the midst of heavy labor."
+        },
+        {
+          "osis_ref": "PSA.121.3-4",
+          "rationale": "Assures that God neither slumbers nor sleeps and will not let your foot slip, perfect for those working through the night."
+        },
+        {
+          "osis_ref": "2CO.4.16",
+          "rationale": "Affirms that even though outwardly we are wasting away, inwardly we are being renewed day by day."
+        }
+      ]
+    },
+    {
+      "theme_id": "renewal-starting-fresh",
+      "candidates": [
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul describes forgetting what lies behind and straining forward to what lies ahead, pressing on toward the goal—a picture of abandoning past attempts to pursue a better path."
+        },
+        {
+          "osis_ref": "LAM.3.22-23",
+          "rationale": "The mercies of the Lord are new every morning, offering fresh compassion and a clean start each day despite previous failures."
+        },
+        {
+          "osis_ref": "ISA.43.18-19",
+          "rationale": "God tells His people to forget the former things and not dwell on the past because He is doing a new thing—embracing a fresh approach after what didn't work."
+        },
+        {
+          "osis_ref": "JER.18.1-4",
+          "rationale": "The potter reshapes the marred vessel into another vessel as it seems good to him—a vivid metaphor for scrapping what failed and starting over with the same raw material."
+        },
+        {
+          "osis_ref": "2CO.5.17",
+          "rationale": "In Christ, the old has passed away and the new has come—a declaration of transformation and the possibility of beginning again with a renewed perspective."
+        }
+      ]
+    },
+    {
+      "theme_id": "gratitude-for-what-works",
+      "candidates": [
+        {
+          "osis_ref": "PHP.4.8",
+          "rationale": "Paul instructs believers to think about whatever is true, noble, right, pure, lovely, and admirable—directing attention toward what is good and praiseworthy rather than dwelling only on problems."
+        },
+        {
+          "osis_ref": "1TH.5.16-18",
+          "rationale": "Commands to rejoice always, pray continually, and give thanks in all circumstances emphasize recognizing and being grateful for what is working even amid challenges."
+        },
+        {
+          "osis_ref": "PSA.103.1-5",
+          "rationale": "David calls his soul to remember and recount all of God's benefits—a deliberate practice of noticing and celebrating the good things that are present and working."
+        },
+        {
+          "osis_ref": "LUK.17.12-19",
+          "rationale": "Ten lepers are healed, but only one returns to give thanks, illustrating the human tendency to focus on what's broken rather than stopping to notice and acknowledge what actually worked."
+        },
+        {
+          "osis_ref": "ECC.11.4",
+          "rationale": "Warns against waiting for perfect conditions or focusing only on obstacles, suggesting that those who obsess over every problem will never act or appreciate what is functioning well."
+        }
+      ]
+    },
+    {
+      "theme_id": "joy-in-a-clean-solution",
+      "candidates": [
+        {
+          "osis_ref": "PRO.25.2",
+          "rationale": "The glory of searching out a matter that God has concealed captures the delight of discovery when complexity yields to understanding."
+        },
+        {
+          "osis_ref": "JOB.32.8",
+          "rationale": "The breath of the Almighty giving understanding speaks to that moment when insight suddenly illuminates what was obscure."
+        },
+        {
+          "osis_ref": "LUK.24.31-32",
+          "rationale": "The disciples' eyes being opened and their hearts burning as everything suddenly made sense captures the 'aha' moment of clarity."
+        },
+        {
+          "osis_ref": "PSA.119.130",
+          "rationale": "The unfolding of God's words giving light and understanding to the simple reflects that moment when complexity resolves into elegant simplicity."
+        },
+        {
+          "osis_ref": "1CO.13.12",
+          "rationale": "The contrast between seeing dimly and then face to face captures the transition from confusion to complete clarity and understanding."
+        }
+      ]
+    },
+    {
+      "theme_id": "diligence-in-small-tasks",
+      "candidates": [
+        {
+          "osis_ref": "COL.3.23",
+          "rationale": "Paul instructs believers to work heartily at whatever they do, as for the Lord, affirming that even mundane tasks have divine significance."
+        },
+        {
+          "osis_ref": "LUK.16.10",
+          "rationale": "Jesus teaches that faithfulness in very small matters proves one's trustworthiness, elevating the importance of seemingly insignificant work."
+        },
+        {
+          "osis_ref": "1CO.10.31",
+          "rationale": "Paul encourages doing everything—even eating and drinking—for God's glory, suggesting no task is too small to matter."
+        },
+        {
+          "osis_ref": "ZEC.4.10",
+          "rationale": "The prophet warns against despising the day of small things, affirming God's care for humble beginnings and minor details."
+        },
+        {
+          "osis_ref": "PRO.22.29",
+          "rationale": "This proverb commends those who are skilled and diligent in their work, implying that excellence in small, routine tasks leads to greater responsibility."
+        }
+      ]
+    },
+    {
+      "theme_id": "integrity-in-testing",
+      "candidates": [
+        {
+          "osis_ref": "PRO.12.22",
+          "rationale": "Directly contrasts lying lips (claiming something is verified when it's not) with truthful lips that delight the Lord."
+        },
+        {
+          "osis_ref": "PRO.11.1",
+          "rationale": "False scales represent dishonest measurement or verification, while accurate weights represent honest assessment of what's actually tested."
+        },
+        {
+          "osis_ref": "LUK.16.10",
+          "rationale": "Being faithful in small things (like writing proper tests) reflects trustworthiness in larger matters, emphasizing integrity in seemingly minor details."
+        },
+        {
+          "osis_ref": "COL.3.9",
+          "rationale": "A command not to lie to one another, which applies to honest reporting about whether verification work has actually been done."
+        },
+        {
+          "osis_ref": "1TH.5.21",
+          "rationale": "Instructs believers to test everything and hold fast to what is good, affirming the importance of actual verification rather than assumptions."
+        }
+      ]
+    },
+    {
+      "theme_id": "faithfulness-with-details",
+      "candidates": [
+        {
+          "osis_ref": "LUK.16.10",
+          "rationale": "Jesus teaches that whoever is faithful in very little is also faithful in much, directly affirming the importance of trustworthiness in small, mundane tasks."
+        },
+        {
+          "osis_ref": "PRO.27.23-24",
+          "rationale": "This passage instructs careful attention to the details of one's flocks and herds, emphasizing diligent oversight of the precise, routine aspects of work."
+        },
+        {
+          "osis_ref": "1CO.4.2",
+          "rationale": "Paul states that those entrusted with a responsibility must prove faithful, underscoring reliability in every part of stewardship."
+        },
+        {
+          "osis_ref": "EXO.36.1",
+          "rationale": "Bezalel and Oholiab are given skill and ability to do all the detailed work for the tabernacle exactly as the LORD commanded, exemplifying precision in technical execution."
+        },
+        {
+          "osis_ref": "NEH.13.13",
+          "rationale": "Nehemiah appoints men over the storerooms because they were considered trustworthy, highlighting faithfulness in administrative detail work."
+        }
+      ]
+    },
+    {
+      "theme_id": "patience-with-legacy-code",
+      "candidates": [
+        {
+          "osis_ref": "1CO.13.7",
+          "rationale": "Love bears all things and believes all things, encouraging a charitable assumption that past decisions were made in good faith."
+        },
+        {
+          "osis_ref": "ROM.14.1-4",
+          "rationale": "Paul instructs believers not to judge others' decisions in disputable matters, since each person is accountable to their own master and context."
+        },
+        {
+          "osis_ref": "JAS.4.11-12",
+          "rationale": "James warns against judging others, recognizing that only God knows all the constraints and motivations behind someone's choices."
+        },
+        {
+          "osis_ref": "MAT.7.1-2",
+          "rationale": "Jesus teaches against harsh judgment, warning that the same measure we use to judge others will be used on us."
+        },
+        {
+          "osis_ref": "PRO.18.13",
+          "rationale": "This proverb warns against answering (judging) before fully hearing the matter, applicable to understanding past constraints before criticizing decisions."
+        }
+      ]
+    },
+    {
+      "theme_id": "peace-amid-production-incident",
+      "candidates": [
+        {
+          "osis_ref": "PRO.21.5",
+          "rationale": "Contrasts the hasty responses that lead to loss with the steady, deliberate plans that bring profit—directly applicable to rollback decisions under pressure."
+        },
+        {
+          "osis_ref": "ISA.30.15",
+          "rationale": "Strength and salvation come through quietness and trust, not panic—a call to composed confidence when systems are failing."
+        },
+        {
+          "osis_ref": "PSA.46.10",
+          "rationale": "The command to 'Be still, and know that I am God' encourages stepping back for clear perspective even in the midst of chaos."
+        },
+        {
+          "osis_ref": "JAS.1.19",
+          "rationale": "Urges being quick to listen, slow to speak, slow to anger—essential posture for clear-headed incident response and team communication."
+        },
+        {
+          "osis_ref": "ISA.28.16",
+          "rationale": "The one who believes will not be in haste—a promise that grounded trust enables measured, non-reactive decision-making in crisis."
+        }
+      ]
+    },
+    {
+      "theme_id": "steadiness-under-deadline",
+      "candidates": [
+        {
+          "osis_ref": "PRO.21.5",
+          "rationale": "Contrasts the value of careful planning with the haste that leads to loss, fitting high-pressure situations where rushing can cause mistakes."
+        },
+        {
+          "osis_ref": "ISA.28.16",
+          "rationale": "Emphasizes that those who have faith will not panic or act in haste, perfect for maintaining composure under deadline pressure."
+        },
+        {
+          "osis_ref": "PSA.46.10",
+          "rationale": "The command to 'be still and know that I am God' speaks to finding calm and composure even when everything feels urgent."
+        },
+        {
+          "osis_ref": "EXO.14.13-14",
+          "rationale": "Moses tells the Israelites to stand firm and be still when trapped between Pharaoh's army and the sea, a classic high-pressure scenario requiring composure."
+        },
+        {
+          "osis_ref": "PHP.4.6-7",
+          "rationale": "Paul's instruction not to be anxious but to pray, promising peace that guards hearts and minds, directly addresses maintaining calm under pressure."
+        }
+      ]
+    },
+    {
+      "theme_id": "comfort-in-uncertainty",
+      "candidates": [
+        {
+          "osis_ref": "PRO.3.5-6",
+          "rationale": "Classic wisdom about trusting God rather than leaning on your own understanding, with a promise that He will make your paths straight even when you can't see the way."
+        },
+        {
+          "osis_ref": "PSA.119.105",
+          "rationale": "God's word is described as a lamp to guide your feet and a light for your path, offering illumination one step at a time even when the full route isn't visible."
+        },
+        {
+          "osis_ref": "ISA.30.21",
+          "rationale": "Promises you'll hear a voice behind you saying 'This is the way, walk in it' when you turn right or left, providing direction when the path is unclear."
+        },
+        {
+          "osis_ref": "JER.29.11",
+          "rationale": "God declares He has plans to prosper you and give you hope and a future, reassuring that there is a good plan even when you can't see it yet."
+        },
+        {
+          "osis_ref": "PSA.37.23-24",
+          "rationale": "Affirms that the Lord makes firm the steps of someone who delights in Him, and even when they stumble they won't fall completely because the Lord upholds them."
+        }
+      ]
+    },
+    {
+      "theme_id": "trust-in-the-process",
+      "candidates": [
+        {
+          "osis_ref": "PRO.21.5",
+          "rationale": "Directly contrasts careful, steady planning with haste, promising that diligent methods lead to profit."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches the importance of methodically counting the cost before building, warning against starting without careful preparation."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "Instructs to prepare your work carefully and finish your outdoor tasks before building your house, emphasizing methodical order."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Encourages persistence in doing good with the promise that in due season we will reap if we do not give up."
+        },
+        {
+          "osis_ref": "HEB.6.10-12",
+          "rationale": "Affirms that God honors diligent work and encourages patience and faith in waiting for the promise to be realized."
+        }
+      ]
+    },
+    {
+      "theme_id": "encouragement-for-the-discouraged",
+      "candidates": [
+        {
+          "osis_ref": "PHP.4.13",
+          "rationale": "Paul's declaration that he can do all things through Christ who strengthens him directly addresses finding strength when personal confidence is lacking."
+        },
+        {
+          "osis_ref": "2CO.12.9-10",
+          "rationale": "God's power is made perfect in weakness, encouraging those who feel inadequate or criticized to find strength in acknowledging their limitations."
+        },
+        {
+          "osis_ref": "ISA.41.10",
+          "rationale": "God's command not to fear, paired with His promise to strengthen and uphold, directly supports those experiencing doubt and low confidence."
+        },
+        {
+          "osis_ref": "PRO.3.5-6",
+          "rationale": "Trusting in the Lord rather than leaning on one's own understanding speaks to moments when you doubt your approach or feel behind."
+        },
+        {
+          "osis_ref": "JOS.1.9",
+          "rationale": "God's command to Joshua to be strong and courageous because He will be with him reassures those facing self-doubt after setbacks."
+        }
+      ]
+    },
+    {
+      "theme_id": "strength-for-the-difficult-task",
+      "candidates": [
+        {
+          "osis_ref": "JOS.1.9",
+          "rationale": "God commands Joshua to be strong and courageous as he takes on the daunting task of leading Israel into the Promised Land."
+        },
+        {
+          "osis_ref": "NEH.2.17-18",
+          "rationale": "Nehemiah rallies the people to rebuild Jerusalem's walls—a massive, avoided project—and they respond 'Let us start rebuilding.'"
+        },
+        {
+          "osis_ref": "1CO.16.13",
+          "rationale": "Paul exhorts believers to stand firm, be courageous, and be strong—a call to face difficult challenges head-on."
+        },
+        {
+          "osis_ref": "PHP.4.13",
+          "rationale": "Paul affirms he can do all things through Christ who strengthens him, encouraging resolve in hard tasks."
+        },
+        {
+          "osis_ref": "PRO.24.10",
+          "rationale": "This proverb warns that if you falter in times of trouble, your strength is small—a challenge to press forward despite difficulty."
+        }
+      ]
+    },
+    {
+      "theme_id": "unity-in-disagreement",
+      "candidates": [
+        {
+          "osis_ref": "PRO.27.17",
+          "rationale": "Iron sharpens iron, illustrating how teammates can refine each other's ideas through constructive disagreement."
+        },
+        {
+          "osis_ref": "PHP.2.1-4",
+          "rationale": "Paul urges unity and humility in handling different perspectives, prioritizing the team's shared purpose over individual preferences."
+        },
+        {
+          "osis_ref": "ACT.15.36-41",
+          "rationale": "Paul and Barnabas had a sharp disagreement over ministry approach yet both continued their work, showing that technical disputes don't have to end collaboration."
+        },
+        {
+          "osis_ref": "1CO.12.12-27",
+          "rationale": "The body metaphor emphasizes that diverse members with different functions must remain connected despite differences, valuing each contribution."
+        },
+        {
+          "osis_ref": "EPH.4.2-3",
+          "rationale": "Paul counsels bearing with one another in love and maintaining unity through patience, directly applicable to working through technical disagreements."
+        }
+      ]
+    },
+    {
+      "theme_id": "generosity-in-helping-others",
+      "candidates": [
+        {
+          "osis_ref": "PHP.2.4",
+          "rationale": "Paul directly instructs believers to look not only to their own interests but also to the interests of others."
+        },
+        {
+          "osis_ref": "GAL.6.2",
+          "rationale": "Commands believers to bear one another's burdens, embodying the law of Christ through helping with others' problems."
+        },
+        {
+          "osis_ref": "LUK.10.33-34",
+          "rationale": "The Good Samaritan stops his journey to help a stranger in need, exemplifying selfless assistance beyond one's own concerns."
+        },
+        {
+          "osis_ref": "ROM.15.1-2",
+          "rationale": "Paul teaches that the strong should bear the weaknesses of others and please their neighbor for their good, not just themselves."
+        },
+        {
+          "osis_ref": "HEB.10.24",
+          "rationale": "Encourages believers to consider how to spur one another toward love and good deeds, focusing outward on others' needs."
+        }
+      ]
+    },
+    {
+      "theme_id": "service-through-good-work",
+      "candidates": [
+        {
+          "osis_ref": "COL.3.23",
+          "rationale": "Paul instructs believers to work wholeheartedly as for the Lord, emphasizing diligence and quality regardless of who's watching."
+        },
+        {
+          "osis_ref": "PRO.22.29",
+          "rationale": "Proverbs commends the skilled worker who is diligent in their craft, noting they will stand before kings—excellence is noticed and honored."
+        },
+        {
+          "osis_ref": "EXO.31.1-5",
+          "rationale": "God fills Bezalel with skill and ability to craft the tabernacle with precision, modeling careful, Spirit-empowered craftsmanship for the community's benefit."
+        },
+        {
+          "osis_ref": "NEH.4.6",
+          "rationale": "The people rebuilt Jerusalem's wall with all their heart, demonstrating committed, thorough work for the protection and flourishing of future inhabitants."
+        },
+        {
+          "osis_ref": "1CO.3.10-13",
+          "rationale": "Paul warns that each builder should be careful how they build, because their work will be tested—emphasizing thoughtful, durable construction for those who follow."
+        }
+      ]
+    },
+    {
+      "theme_id": "stewardship-of-shared-code",
+      "candidates": [
+        {
+          "osis_ref": "1CO.3.10-15",
+          "rationale": "Paul speaks of building carefully on a foundation others will use, warning that each builder's work will be tested and must be of quality."
+        },
+        {
+          "osis_ref": "NEH.2.17-18",
+          "rationale": "Nehemiah rallies people to rebuild Jerusalem's walls, recognizing the collective dependence on shared infrastructure and the need for careful, coordinated work."
+        },
+        {
+          "osis_ref": "LUK.12.48",
+          "rationale": "Jesus teaches that those entrusted with much are held to a higher standard of responsibility, applicable to those maintaining critical systems."
+        },
+        {
+          "osis_ref": "PRO.27.23-24",
+          "rationale": "This passage instructs leaders to know the state of their flocks and be diligent, as riches and positions of responsibility do not last forever without careful stewardship."
+        },
+        {
+          "osis_ref": "EXO.31.1-6",
+          "rationale": "God appoints skilled craftsmen filled with wisdom and ability to build the tabernacle, emphasizing the importance of competence and care in work others will depend upon."
+        }
+      ]
+    },
+    {
+      "theme_id": "mentorship-and-teaching",
+      "candidates": [
+        {
+          "osis_ref": "1TH.5.14",
+          "rationale": "Paul urges believers to be patient with everyone, including those who are weak or struggling—directly applicable to teaching contexts."
+        },
+        {
+          "osis_ref": "2TI.2.24-25",
+          "rationale": "Describes how the Lord's servant must gently instruct those who oppose, showing patience as they guide others to understanding."
+        },
+        {
+          "osis_ref": "COL.3.12-13",
+          "rationale": "Calls for compassion, kindness, humility, gentleness, and patience—qualities essential when helping someone learn."
+        },
+        {
+          "osis_ref": "GAL.6.1-2",
+          "rationale": "Instructs believers to restore others gently and bear one another's burdens, reflecting patience in walking alongside learners."
+        },
+        {
+          "osis_ref": "EPH.4.2",
+          "rationale": "Exhorts believers to be completely humble, gentle, and patient, bearing with one another in love—core virtues for teaching and mentoring."
+        }
+      ]
+    },
+    {
+      "theme_id": "gratitude-for-community",
+      "candidates": [
+        {
+          "osis_ref": "1CO.3.6-9",
+          "rationale": "Paul acknowledges that different people contribute to the work—one plants, another waters, but all are co-workers together with God."
+        },
+        {
+          "osis_ref": "ROM.16.3-4",
+          "rationale": "Paul expresses deep gratitude to Priscilla and Aquila, his fellow workers who risked their lives for him and whose help all the churches appreciated."
+        },
+        {
+          "osis_ref": "PHP.4.14-16",
+          "rationale": "Paul thanks the Philippians for their partnership and repeated help in his ministry, acknowledging their shared work and support."
+        },
+        {
+          "osis_ref": "1TH.5.12-13",
+          "rationale": "Paul urges believers to respect and esteem highly those who labor among them and help them, giving honor where it is due."
+        },
+        {
+          "osis_ref": "ECC.4.9-10",
+          "rationale": "Two are better than one because they have a good return for their labor, and one can help the other when they fall—celebrating mutual assistance."
+        }
+      ]
+    },
+    {
+      "theme_id": "hope-for-what-is-not-yet-done",
+      "candidates": [
+        {
+          "osis_ref": "PHP.1.6",
+          "rationale": "Paul expresses confidence that God who began a good work will carry it on to completion, perfect for ongoing work with a long road ahead."
+        },
+        {
+          "osis_ref": "NEH.6.15-16",
+          "rationale": "The completion of Jerusalem's wall in just 52 days despite opposition shows that even massive unfinished projects can reach their goal."
+        },
+        {
+          "osis_ref": "HAB.2.3",
+          "rationale": "The vision awaits an appointed time and will not fail though it tarries, encouraging patience and optimism when the goal seems distant."
+        },
+        {
+          "osis_ref": "1CO.3.6-8",
+          "rationale": "Paul planted, Apollos watered, but God gives growth—showing that in-progress work is part of a larger process that will succeed."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Encouragement not to grow weary in doing good because in due season we will reap if we don't give up, ideal for work still underway."
+        }
+      ]
+    },
+    {
+      "theme_id": "contentment-with-imperfect-solutions",
+      "candidates": [
+        {
+          "osis_ref": "PHP.4.11-12",
+          "rationale": "Paul describes learning to be content in whatever circumstances he finds himself, modeling acceptance of present realities even when they're not ideal."
+        },
+        {
+          "osis_ref": "ECC.3.1",
+          "rationale": "This verse affirms that there is a season and time for everything, supporting the wisdom of accepting what is appropriate for the current moment rather than forcing perfection."
+        },
+        {
+          "osis_ref": "1TI.6.6-8",
+          "rationale": "Paul teaches that godliness with contentment is great gain, and if we have basic necessities, we should be content, embracing sufficiency over perfection."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "This proverb advises getting outside work in order first, then building your house—accepting phased progress and provisional steps toward a larger goal."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches about counting the cost before building, implying wisdom in honest assessment of constraints and avoiding overcommitment to unattainable ideals."
+        }
+      ]
+    },
+    {
+      "theme_id": "letting-go-of-perfectionism",
+      "candidates": [
+        {
+          "osis_ref": "ECC.11.4",
+          "rationale": "Warns that waiting for perfect conditions means nothing ever gets done."
+        },
+        {
+          "osis_ref": "PHP.3.12-14",
+          "rationale": "Paul admits he hasn't attained perfection yet but presses on, modeling progress over flawlessness."
+        },
+        {
+          "osis_ref": "2CO.12.9-10",
+          "rationale": "God's strength is made perfect in weakness, affirming that our imperfections are where grace operates."
+        },
+        {
+          "osis_ref": "ROM.7.18-19",
+          "rationale": "Paul acknowledges the gap between intention and execution, normalizing our inability to achieve perfection."
+        },
+        {
+          "osis_ref": "ECC.7.16",
+          "rationale": "Cautions against being overly righteous or wise, suggesting that perfectionism can be self-destructive."
+        }
+      ]
+    },
+    {
+      "theme_id": "humility-in-asking-for-help",
+      "candidates": [
+        {
+          "osis_ref": "JAS.1.5",
+          "rationale": "Directly encourages asking God for wisdom when lacking it, promising generous help without reproach."
+        },
+        {
+          "osis_ref": "MAT.7.7-8",
+          "rationale": "Jesus urges persistent asking, seeking, and knocking with the promise that those who ask will receive."
+        },
+        {
+          "osis_ref": "PRO.11.14",
+          "rationale": "Highlights that safety and success come through seeking many counselors rather than going it alone."
+        },
+        {
+          "osis_ref": "EXO.18.13-24",
+          "rationale": "Moses receives crucial advice from Jethro to delegate and share burdens instead of carrying leadership alone."
+        },
+        {
+          "osis_ref": "GAL.6.2",
+          "rationale": "Calls believers to carry each other's burdens, implying we should share our struggles rather than bear them alone."
+        }
+      ]
+    },
+    {
+      "theme_id": "learning-something-new",
+      "candidates": [
+        {
+          "osis_ref": "PHP.4.13",
+          "rationale": "Affirms that we can do all things through Christ who strengthens us, encouraging perseverance when facing unfamiliar challenges."
+        },
+        {
+          "osis_ref": "ISA.41.10",
+          "rationale": "God promises to strengthen and help us when we're afraid or overwhelmed by new situations, assuring us not to fear."
+        },
+        {
+          "osis_ref": "PRO.2.1-6",
+          "rationale": "Encourages diligent pursuit of wisdom and understanding with the promise that God grants knowledge to those who seek it earnestly."
+        },
+        {
+          "osis_ref": "JOS.1.9",
+          "rationale": "Commands courage and confidence in unfamiliar territory, reminding us that God is with us wherever we go."
+        },
+        {
+          "osis_ref": "2TI.1.7",
+          "rationale": "Reminds us that God has given a spirit of power, love, and self-discipline rather than timidity when facing new tasks."
+        }
+      ]
+    },
+    {
+      "theme_id": "endurance-through-a-long-project",
+      "candidates": [
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Paul encourages believers not to grow weary in doing good, promising a harvest in due season if they don't give up—directly addressing perseverance through extended effort."
+        },
+        {
+          "osis_ref": "HEB.12.1-3",
+          "rationale": "The author urges running the race with endurance, fixing eyes on Jesus who endured the cross, providing both example and motivation for long-haul perseverance."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul describes forgetting what lies behind and straining toward what is ahead, pressing on toward the goal—a sustained, forward-focused effort over time."
+        },
+        {
+          "osis_ref": "1CO.15.58",
+          "rationale": "Paul concludes by telling believers to stand firm and give themselves fully to the work, knowing their labor is not in vain—encouragement for steadfast effort when outcomes aren't immediate."
+        },
+        {
+          "osis_ref": "JAS.1.12",
+          "rationale": "James pronounces a blessing on those who persevere under trial, promising the crown of life to those who remain steadfast—affirming the value of endurance through prolonged difficulty."
+        }
+      ]
+    },
+    {
+      "theme_id": "clarity-out-of-confusion",
+      "candidates": [
+        {
+          "osis_ref": "GEN.1.2-3",
+          "rationale": "God brings order and light out of the formless, chaotic void at creation."
+        },
+        {
+          "osis_ref": "1CO.14.33",
+          "rationale": "Paul declares that God is not a God of disorder but of peace, establishing order in chaotic worship."
+        },
+        {
+          "osis_ref": "PRO.15.22",
+          "rationale": "Plans fail without counsel, but through many advisers they succeed—turning confusion into clear direction."
+        },
+        {
+          "osis_ref": "JAS.1.5",
+          "rationale": "God gives wisdom generously to those who lack it, bringing clarity to confusion."
+        },
+        {
+          "osis_ref": "LUK.1.1-4",
+          "rationale": "Luke methodically organizes accounts into an orderly narrative so readers may know the certainty of what they've been taught."
+        }
+      ]
+    },
+    {
+      "theme_id": "light-exposing-what-was-hidden",
+      "candidates": [
+        {
+          "osis_ref": "NUM.32.23",
+          "rationale": "Warns that sin will find you out, capturing the inevitability of hidden issues eventually being exposed."
+        },
+        {
+          "osis_ref": "LUK.8.17",
+          "rationale": "States that nothing hidden will remain hidden and all secrets will come to light, paralleling how bugs eventually surface."
+        },
+        {
+          "osis_ref": "MAT.10.26",
+          "rationale": "Promises that what is concealed will be disclosed and what is hidden will be made known, like latent bugs becoming visible."
+        },
+        {
+          "osis_ref": "1CO.4.5",
+          "rationale": "Describes how the Lord will bring to light what is hidden in darkness and expose the motives of hearts, similar to debugging revealing root causes."
+        },
+        {
+          "osis_ref": "JOB.28.11",
+          "rationale": "Speaks of bringing hidden things to light through deep searching, like logging and investigation revealing underlying problems."
+        }
+      ]
+    },
+    {
+      "theme_id": "building-on-a-solid-foundation",
+      "candidates": [
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches that a builder must count the cost and plan carefully before starting a tower, lest he lay a foundation but cannot finish."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "This proverb instructs to prepare your work outside and get fields ready before building your house, emphasizing proper sequencing and foundation."
+        },
+        {
+          "osis_ref": "1CO.3.10-11",
+          "rationale": "Paul warns that each builder must be careful how they build on the foundation, as the quality of their work will be tested."
+        },
+        {
+          "osis_ref": "MAT.7.24-27",
+          "rationale": "Jesus contrasts the wise man who builds his house on rock with the foolish man who builds on sand, illustrating the importance of solid foundations over shortcuts."
+        },
+        {
+          "osis_ref": "NEH.4.6",
+          "rationale": "The people rebuilt Jerusalem's wall with wholehearted dedication, showing commitment to thorough, quality work rather than hasty patches."
+        }
+      ]
+    },
+    {
+      "theme_id": "small-beginnings-with-real-impact",
+      "candidates": [
+        {
+          "osis_ref": "MAT.13.31-32",
+          "rationale": "Jesus describes the kingdom of heaven as a mustard seed—the smallest of seeds that grows into a large tree, illustrating how something tiny can have enormous impact."
+        },
+        {
+          "osis_ref": "JAS.3.3-5",
+          "rationale": "James uses the metaphors of a bit in a horse's mouth and a small rudder steering a large ship to show how small things can control or direct much larger outcomes."
+        },
+        {
+          "osis_ref": "1CO.5.6",
+          "rationale": "Paul warns that a little leaven (yeast) spreads through the whole batch of dough, demonstrating how a small element can transform an entire system."
+        },
+        {
+          "osis_ref": "1SA.17.49-50",
+          "rationale": "David defeats the giant Goliath with a single small stone from his sling, a tiny action that decides the fate of two armies and changes Israel's future."
+        },
+        {
+          "osis_ref": "MAT.17.20",
+          "rationale": "Jesus teaches that faith as small as a mustard seed can move mountains, showing that even the smallest faith can produce disproportionately powerful results."
+        }
+      ]
+    },
+    {
+      "theme_id": "faith-during-the-unknown-bug",
+      "candidates": [
+        {
+          "osis_ref": "PRO.3.5-6",
+          "rationale": "Classic call to trust God with all your heart and not lean on your own understanding when the path is unclear."
+        },
+        {
+          "osis_ref": "JOB.13.15",
+          "rationale": "Job affirms trust in God even when he cannot understand why his suffering is happening."
+        },
+        {
+          "osis_ref": "ISA.55.8-9",
+          "rationale": "God's ways and thoughts are higher than ours, reminding us that clarity is not a prerequisite for trust."
+        },
+        {
+          "osis_ref": "2CO.5.7",
+          "rationale": "Paul writes that we walk by faith, not by sight—trusting even when we cannot see or understand."
+        },
+        {
+          "osis_ref": "HEB.11.1",
+          "rationale": "Faith is defined as confidence in what we hope for and assurance about what we do not see or fully understand."
+        }
+      ]
+    },
+    {
+      "theme_id": "thankfulness-for-a-working-system",
+      "candidates": [
+        {
+          "osis_ref": "COL.1.16-17",
+          "rationale": "Paul describes Christ as holding all things together, emphasizing the sustaining power that keeps creation functioning."
+        },
+        {
+          "osis_ref": "HEB.1.3",
+          "rationale": "God's Son sustains all things by his powerful word, explaining the ongoing maintenance of the entire universe."
+        },
+        {
+          "osis_ref": "ACT.17.28",
+          "rationale": "Paul declares that in God we live and move and have our being, acknowledging the fundamental dependency of all existence on divine sustenance."
+        },
+        {
+          "osis_ref": "NEH.9.6",
+          "rationale": "Nehemiah's prayer praises God for making and preserving the heavens, earth, and all their hosts, recognizing the wonder of continued existence."
+        },
+        {
+          "osis_ref": "PSA.104.10-14",
+          "rationale": "The psalmist marvels at God's intricate providence in water cycles, vegetation, and ecosystems that reliably function to sustain life."
+        }
+      ]
+    },
+    {
+      "theme_id": "grace-toward-past-decisions",
+      "candidates": [
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul models forgetting what lies behind and straining forward, showing grace toward past choices while pressing on."
+        },
+        {
+          "osis_ref": "1CO.13.11",
+          "rationale": "Paul reflects on his own childish ways without condemnation, acknowledging growth and change over time."
+        },
+        {
+          "osis_ref": "ROM.7.15-17",
+          "rationale": "Paul extends compassion to his own conflicted past actions, recognizing the gap between intention and execution."
+        },
+        {
+          "osis_ref": "ISA.43.18-19",
+          "rationale": "God instructs not to dwell on former things, inviting a posture of moving forward rather than self-condemnation over the past."
+        },
+        {
+          "osis_ref": "2CO.5.17",
+          "rationale": "The old has passed away and the new has come, offering a framework for viewing one's earlier self with grace as part of transformation."
+        }
+      ]
+    },
+    {
+      "theme_id": "quiet-focus-for-hard-thinking",
+      "candidates": [
+        {
+          "osis_ref": "PSA.46.10",
+          "rationale": "God commands 'Be still, and know that I am God'—stillness as the posture for deeper understanding and knowledge."
+        },
+        {
+          "osis_ref": "1KI.19.11-12",
+          "rationale": "Elijah encounters God not in the wind, earthquake, or fire, but in the quiet whisper, illustrating that clarity comes in stillness."
+        },
+        {
+          "osis_ref": "PSA.4.4",
+          "rationale": "The psalmist advises to 'be still' and search one's heart in quiet reflection, suggesting stillness enables careful thought."
+        },
+        {
+          "osis_ref": "HAB.2.20",
+          "rationale": "The call for all the earth to be silent before the Lord in His temple points to the need for quiet to discern truth."
+        },
+        {
+          "osis_ref": "MAT.14.23",
+          "rationale": "Jesus withdraws alone to a mountainside to pray, modeling the practice of solitude and stillness for spiritual and mental clarity."
+        }
+      ]
+    },
+    {
+      "theme_id": "sufficiency-for-todays-work",
+      "candidates": [
+        {
+          "osis_ref": "MAT.6.34",
+          "rationale": "Jesus teaches not to worry about tomorrow because each day has enough trouble of its own, calling us to focus on today's needs."
+        },
+        {
+          "osis_ref": "EXO.16.4",
+          "rationale": "God provided manna daily in the wilderness, teaching Israel to gather only what they needed for each day rather than hoarding for the future."
+        },
+        {
+          "osis_ref": "DEU.33.25",
+          "rationale": "Moses blesses Israel with the promise that their strength will equal their days, provision matched to present need."
+        },
+        {
+          "osis_ref": "LAM.3.22-23",
+          "rationale": "God's mercies are new every morning, emphasizing daily renewed grace and faithfulness rather than bearing all burdens at once."
+        },
+        {
+          "osis_ref": "ISA.40.31",
+          "rationale": "Those who wait on the Lord will renew their strength, highlighting ongoing, timely provision of strength as we need it."
+        }
+      ]
+    },
+    {
+      "theme_id": "honest-communication",
+      "candidates": [
+        {
+          "osis_ref": "EPH.4.25",
+          "rationale": "Paul commands believers to put away falsehood and speak truthfully to their neighbors, directly addressing honest communication."
+        },
+        {
+          "osis_ref": "PRO.12.17",
+          "rationale": "This proverb contrasts speaking truthfully with giving false testimony, emphasizing that truthful reporting is a mark of righteousness."
+        },
+        {
+          "osis_ref": "COL.3.9",
+          "rationale": "Paul instructs believers not to lie to one another, establishing truthfulness as foundational to new-life conduct."
+        },
+        {
+          "osis_ref": "PRO.24.26",
+          "rationale": "This verse describes an honest answer as a sign of loyalty and friendship, fitting contexts where truthful status updates build trust."
+        },
+        {
+          "osis_ref": "LEV.19.11",
+          "rationale": "God commands Israel not to lie or deceive one another, establishing truthfulness as a core covenant obligation in all dealings."
+        }
+      ]
+    },
+    {
+      "theme_id": "celebration-of-completion",
+      "candidates": [
+        {
+          "osis_ref": "NEH.6.15-16",
+          "rationale": "The wall of Jerusalem is completed after 52 days of intense work, causing joy among the people and awe among their enemies."
+        },
+        {
+          "osis_ref": "JHN.17.4",
+          "rationale": "Jesus declares to the Father that He has glorified Him by finishing the work He was given to do, expressing the satisfaction of completing His mission."
+        },
+        {
+          "osis_ref": "2TI.4.7",
+          "rationale": "Paul expresses genuine satisfaction at the end of his life, having finished the race and kept the faith."
+        },
+        {
+          "osis_ref": "EXO.39.32-43",
+          "rationale": "The Israelites complete all the work on the tabernacle exactly as commanded, and Moses sees it finished and blesses them."
+        },
+        {
+          "osis_ref": "1KI.8.54-55",
+          "rationale": "Solomon finishes his prayer of dedication for the newly completed temple and stands to bless the assembly with joy over the finished house of God."
+        }
+      ]
+    }
+  ]
+}
