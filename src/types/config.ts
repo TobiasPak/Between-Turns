@@ -12,9 +12,14 @@ export interface BetweenTurnsConfig {
     repetition_window: number;
   };
   gloo: {
+    /** The Gloo "Publisher Name" (Organizations -> Publishers in Studio) -- passed as `tenant` on search requests. Not the org name or org UUID. */
     tenant: string;
+    /** Always "GlooProd" -- a fixed platform-wide constant, not tenant-specific. */
     collection: string;
-    api_key_env: string;
+    /** The Publisher's UUID -- passed as `publisher_id` on ingestion requests. */
+    publisher_id: string;
+    client_id_env: string;
+    client_secret_env: string;
   };
   youversion: {
     api_key_env: string;

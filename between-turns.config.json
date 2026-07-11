@@ -12,9 +12,11 @@
     "repetition_window": 5
   },
   "gloo": {
-    "tenant": "TBD",
-    "collection": "TBD-verify",
-    "api_key_env": "GLOO_API_KEY"
+    "tenant": "",
+    "collection": "GlooProd",
+    "publisher_id": "",
+    "client_id_env": "GLOO_CLIENT_ID",
+    "client_secret_env": "GLOO_CLIENT_SECRET"
   },
   "youversion": {
     "api_key_env": "YOUVERSION_API_KEY"
