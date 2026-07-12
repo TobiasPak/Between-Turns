@@ -16,13 +16,3 @@ export function isEnabled(cwd: string): boolean {
     return false;
   }
 }
-
-export function loadConfig(cwd: string): BetweenTurnsConfig | null {
-  try {
-    const configPath = join(cwd, "between-turns.config.json");
-    const raw = readFileSync(configPath, "utf-8");
-    return JSON.parse(raw) as BetweenTurnsConfig;
-  } catch {
-    return null;
-  }
-}

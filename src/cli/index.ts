@@ -22,7 +22,7 @@ async function main(): Promise<void> {
   }
 
   if (command === "enable" || command === "disable" || command === "status") {
-    // TODO(week 3): implemented in toggle.ts.
+    // TODO(week 3): flip/report between-turns.config.json's "enabled" flag.
     console.error(`\`between-turns ${command}\` is not implemented yet.`);
     process.exit(1);
   }

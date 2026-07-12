@@ -22,17 +22,6 @@ export async function readHookInput(): Promise<ClaudeCodeHookInput> {
   return JSON.parse(raw) as ClaudeCodeHookInput;
 }
 
-export function emitAdditionalContext(hookEventName: string, additionalContext: string): void {
-  process.stdout.write(
-    JSON.stringify({
-      hookSpecificOutput: {
-        hookEventName,
-        additionalContext,
-      },
-    })
-  );
-}
-
 export function emitBlockReason(reason: string): void {
   process.stdout.write(JSON.stringify({ decision: "block", reason }));
 }
@@ -49,6 +38,3 @@ export function emitPreToolUseDeny(reason: string): void {
   );
 }
 
-export function noop(): void {
-  process.exit(0);
-}
