@@ -2,7 +2,7 @@
   "generated_at": "2026-07-11T06:08:36.240Z",
   "model": "gloo-anthropic-claude-sonnet-4.5",
   "total_themes": 48,
-  "total_proposed": 240,
+  "total_proposed": 328,
   "failed_themes": 0,
   "results": [
     {
@@ -177,6 +177,102 @@
         {
           "osis_ref": "PRO.24.27",
           "rationale": "Advises preparing your work and getting fields ready before building your house, emphasizing readiness and proper sequencing over waiting for ideal conditions."
+        },
+        {
+          "osis_ref": "GEN.1.10",
+          "rationale": "God declared the separation of land and sea 'good' on day three, before plants or any other creation was added—a model of affirming work-in-progress as complete for its stage."
+        },
+        {
+          "osis_ref": "GEN.1.31",
+          "rationale": "God saw all He had made and called it 'very good' at the end of day six, yet creation continued to unfold (Eden, humanity's mission)—shipping a complete phase while the larger story continues."
+        },
+        {
+          "osis_ref": "NEH.6.15-16",
+          "rationale": "Nehemiah finished and dedicated the wall in 52 days despite ongoing mockery, threats, and incomplete city infrastructure—releasing a critical deliverable under pressure with known gaps."
+        },
+        {
+          "osis_ref": "EXO.40.33-34",
+          "rationale": "Moses completed the tabernacle work and God's glory immediately filled it, even though Israel's journey and the tabernacle's full use were just beginning—shipping the minimum viable sanctuary."
+        },
+        {
+          "osis_ref": "1KI.6.37-38",
+          "rationale": "Solomon's temple was finished in seven years and immediately put into service, though the full dedication and furnishing occurred later—phased release of a complex project."
+        },
+        {
+          "osis_ref": "ECC.11.4",
+          "rationale": "Whoever watches the wind will not plant, and whoever looks at the clouds will not reap—a rebuke against waiting for perfect conditions before acting."
+        },
+        {
+          "osis_ref": "MRK.14.8",
+          "rationale": "Jesus commends the woman who anointed Him, saying 'She did what she could'—affirming imperfect but sincere action within one's capacity rather than waiting for ideal circumstances."
+        },
+        {
+          "osis_ref": "1CO.3.10-12",
+          "rationale": "Paul describes laying a foundation and others building on it with varying materials—acknowledging that each builder contributes imperfectly, and quality is tested over time, not at release."
+        },
+        {
+          "osis_ref": "1SA.17.38-40",
+          "rationale": "David rejects Saul's armor and goes into battle with only his shepherd's tools—shipping with what he knows works rather than waiting for 'perfect' equipment."
+        },
+        {
+          "osis_ref": "EST.4.16",
+          "rationale": "Esther decides to act decisively despite uncertain outcomes ('if I perish, I perish')—moving forward even when success isn't guaranteed."
+        },
+        {
+          "osis_ref": "EXO.14.15",
+          "rationale": "God tells Moses to stop deliberating and command the people to move forward into the unresolved Red Sea situation—action over endless preparation."
+        },
+        {
+          "osis_ref": "JHN.6.5-9",
+          "rationale": "Andrew brings the boy's five loaves and two fish to Jesus, acknowledging 'but what are they among so many?'—offering what's available despite obvious insufficiency."
+        },
+        {
+          "osis_ref": "JDG.7.7",
+          "rationale": "God reduces Gideon's army to 300 and says 'with these I will save you'—proceeding with minimal resources rather than waiting for ideal conditions."
+        },
+        {
+          "osis_ref": "2KI.7.3-4",
+          "rationale": "Four lepers decide to act on uncertain intelligence ('if we sit here, we die')—taking calculated risk with imperfect information rather than paralysis."
+        },
+        {
+          "osis_ref": "NEH.4.6",
+          "rationale": "The wall was built to half its height and the people 'had a mind to work'—celebrating interim milestones and momentum over waiting for completion."
+        },
+        {
+          "osis_ref": "LUK.5.4-6",
+          "rationale": "Peter lets down nets despite professional judgment that conditions aren't ideal ('we've worked all night and caught nothing')—trusting the call to ship over perfect timing."
+        },
+        {
+          "osis_ref": "ECC.11.6",
+          "rationale": "Directly commands continued action morning and evening without knowing which effort will succeed—the exact principle of shipping iteratively rather than waiting for certainty."
+        },
+        {
+          "osis_ref": "ECC.11.5",
+          "rationale": "Acknowledges we cannot understand all the work of God, paralleling the acceptance that we cannot foresee every outcome before releasing our work."
+        },
+        {
+          "osis_ref": "ECC.11.3",
+          "rationale": "States that when a tree falls, there it lies—a recognition that at some point you must let things stand as they are and move forward."
+        },
+        {
+          "osis_ref": "PRO.24.27",
+          "rationale": "Instructs to prepare your outdoor work first, then build your house—emphasizing staged, incremental progress rather than perfection before starting."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus teaches counting the cost before building a tower, warning against starting without being able to finish—balancing planning with pragmatic readiness to proceed."
+        },
+        {
+          "osis_ref": "EXO.35.30-35",
+          "rationale": "God calls Bezalel and others skilled in craftsmanship to work on the tabernacle—divine approval of work that is skillfully done within human limits, not divinely perfect."
+        },
+        {
+          "osis_ref": "1CO.3.10-15",
+          "rationale": "Paul warns each builder to be careful how they build, but acknowledges varying quality of work that will be tested—recognizing imperfect efforts can still have value."
+        },
+        {
+          "osis_ref": "NEH.6.15-16",
+          "rationale": "Nehemiah completes the Jerusalem wall in 52 days despite opposition and imperfections—a narrative of finishing a major project when it is ready, not perfect."
         }
       ]
     },
@@ -227,6 +323,38 @@
         {
           "osis_ref": "1CO.1.27",
           "rationale": "God chose the foolish and simple things of the world to shame the wise, showing that divine wisdom often works through simplicity rather than human cleverness."
+        },
+        {
+          "osis_ref": "ECC.7.29",
+          "rationale": "God made mankind upright, but they have gone in search of many schemes—a direct contrast between original simplicity and needless complexity."
+        },
+        {
+          "osis_ref": "2CO.1.12",
+          "rationale": "Paul boasts in conducting himself with simplicity and godly sincerity, not with worldly wisdom—valuing straightforwardness over cleverness."
+        },
+        {
+          "osis_ref": "2CO.11.3",
+          "rationale": "Paul warns against being led away from the simplicity that is in Christ by cunning deception—a call to preserve simple devotion against over-complication."
+        },
+        {
+          "osis_ref": "1KI.22.1-38",
+          "rationale": "Micaiah gives a simple, unpopular truth while 400 prophets offer elaborate, flattering advice—choosing honest simplicity over clever consensus."
+        },
+        {
+          "osis_ref": "2KI.5.10-14",
+          "rationale": "Naaman initially rejects Elisha's simple instruction to wash in the Jordan, expecting a clever ritual, but is healed only when he follows the plain solution."
+        },
+        {
+          "osis_ref": "PRO.30.5-6",
+          "rationale": "Every word of God is tested; do not add to his words—a warning against embellishing or over-engineering what is already sufficient."
+        },
+        {
+          "osis_ref": "MAR.12.28-34",
+          "rationale": "When asked which commandment is greatest, Jesus gives a simple, unified answer (love God, love neighbor) rather than a complex legal framework."
+        },
+        {
+          "osis_ref": "ACT.15.6-29",
+          "rationale": "The Jerusalem Council chooses a minimal set of requirements for Gentile believers instead of imposing the full complexity of Mosaic law—preferring a simpler solution."
         }
       ]
     },
@@ -277,6 +405,38 @@
         {
           "osis_ref": "ECC.3.1",
           "rationale": "There is a time for everything and a season for every activity, affirming that work has its proper endpoint and rest has its proper time."
+        },
+        {
+          "osis_ref": "GEN.2.2-3",
+          "rationale": "God himself rested on the seventh day after completing the work of creation, establishing the pattern that rest follows completed labor."
+        },
+        {
+          "osis_ref": "EXO.23.12",
+          "rationale": "Direct command to stop work on the seventh day so that people and animals may be refreshed—permission built into the law itself."
+        },
+        {
+          "osis_ref": "EXO.31.15",
+          "rationale": "Six days for work, seventh day for rest—explicit permission structure that sacred rest follows completed work."
+        },
+        {
+          "osis_ref": "MRK.6.30-31",
+          "rationale": "Jesus explicitly tells his disciples to come away and rest after they report back from ministry work—direct permission to stop."
+        },
+        {
+          "osis_ref": "DEU.5.14",
+          "rationale": "Sabbath command explicitly grants rest to workers, servants, and animals after six days of labor—permission encoded as commandment."
+        },
+        {
+          "osis_ref": "LEV.23.3",
+          "rationale": "Six days for work, seventh is a Sabbath of complete rest—a holy convocation where work ceases by divine ordinance."
+        },
+        {
+          "osis_ref": "LUK.10.38-42",
+          "rationale": "Martha is busy with service while Mary stops to sit and listen; Jesus affirms choosing the restful posture when the moment calls for it."
+        },
+        {
+          "osis_ref": "1KI.19.5-8",
+          "rationale": "Elijah collapses exhausted after his work; an angel tells him to eat, sleep, and rest before the next journey—divine permission to stop and recover."
         }
       ]
     },
@@ -377,6 +537,38 @@
         {
           "osis_ref": "1CO.13.12",
           "rationale": "The contrast between seeing dimly and then face to face captures the transition from confusion to complete clarity and understanding."
+        },
+        {
+          "osis_ref": "LUK.15.8-10",
+          "rationale": "The woman sweeps diligently searching for her lost coin, then rejoices with friends when she finds it—the joy of finally locating what was sought after persistent effort."
+        },
+        {
+          "osis_ref": "NEH.8.12",
+          "rationale": "After Ezra reads the Law and the Levites explain it, the people go away to celebrate with great joy because they now understood the words that had been made known to them."
+        },
+        {
+          "osis_ref": "DAN.10.12",
+          "rationale": "Daniel receives understanding as a direct answer to his seeking—'from the first day that you set your heart to understand... your words were heard'—affirming the resolution of his quest for insight."
+        },
+        {
+          "osis_ref": "ACT.8.30-35",
+          "rationale": "The Ethiopian eunuch is puzzling over Isaiah, Philip explains it, and the text clicks into place so clearly that he immediately asks to be baptized—a moment of sudden comprehension."
+        },
+        {
+          "osis_ref": "LUK.24.30-32",
+          "rationale": "On the Emmaus road, the disciples' eyes are opened and they recognize Jesus, then exclaim 'Were not our hearts burning within us?'—the exhilaration of sudden recognition after confusion."
+        },
+        {
+          "osis_ref": "GEN.41.37-40",
+          "rationale": "Pharaoh and his officials immediately recognize that Joseph's interpretation and solution are right—'the plan seemed good'—a moment of clarity that resolves a perplexing problem."
+        },
+        {
+          "osis_ref": "JOB.42.5",
+          "rationale": "Job's climactic statement 'I had heard of you by the hearing of the ear, but now my eye sees you' captures the transition from secondhand knowledge to direct, clear understanding."
+        },
+        {
+          "osis_ref": "2KI.5.13-14",
+          "rationale": "Naaman's servants present a simple solution to his complex problem ('if the prophet had told you to do something great... how much more this simple thing?'), he tries it, and it works—elegant simplicity resolving what seemed complicated."
         }
       ]
     },
@@ -477,6 +669,38 @@
         {
           "osis_ref": "PRO.18.13",
           "rationale": "This proverb warns against answering (judging) before fully hearing the matter, applicable to understanding past constraints before criticizing decisions."
+        },
+        {
+          "osis_ref": "GEN.50.19-21",
+          "rationale": "Joseph reassures his brothers that what they meant for evil God meant for good, explicitly showing grace toward their past decisions made in jealousy and fear."
+        },
+        {
+          "osis_ref": "NEH.9.16-21",
+          "rationale": "Nehemiah's prayer recounts Israel's rebellion in the wilderness yet emphasizes God's sustained provision and patience despite their poor decisions under stress."
+        },
+        {
+          "osis_ref": "2KI.22.13-20",
+          "rationale": "Josiah discovers the lost Law and God shows mercy on him despite generations of unfaithfulness, honoring his response to an imperfect inheritance."
+        },
+        {
+          "osis_ref": "1CO.3.10-15",
+          "rationale": "Paul describes building on another's foundation with varying quality materials, recognizing that later work is tested but the original builder is not condemned."
+        },
+        {
+          "osis_ref": "ACT.15.1-11",
+          "rationale": "The Jerusalem Council shows grace toward the early church's imperfect navigation of Jewish law, acknowledging they were working out new understanding under constraint."
+        },
+        {
+          "osis_ref": "2CH.30.18-20",
+          "rationale": "Hezekiah prays for people who celebrated Passover improperly due to past neglect, and God accepts them despite procedural failures inherited from previous generations."
+        },
+        {
+          "osis_ref": "PHM.1.8-19",
+          "rationale": "Paul appeals to Philemon to receive Onesimus charitably, acknowledging past wrongs but reframing them as potentially providential under constraint."
+        },
+        {
+          "osis_ref": "JHN.9.1-3",
+          "rationale": "Jesus rejects the assumption that past decisions or conditions explain present imperfection, redirecting focus toward redemptive purpose rather than blame."
         }
       ]
     },
@@ -1102,6 +1326,70 @@
         {
           "osis_ref": "2CO.5.17",
           "rationale": "The old has passed away and the new has come, offering a framework for viewing one's earlier self with grace as part of transformation."
+        },
+        {
+          "osis_ref": "PSA.103.10-12",
+          "rationale": "God does not treat us as our sins deserve and removes our transgressions as far as the east is from the west—a promise that past wrongs are not held against us."
+        },
+        {
+          "osis_ref": "ISA.43.25",
+          "rationale": "God declares 'I, even I, am he who blots out your transgressions... and remembers your sins no more'—divine forgetfulness of past failures."
+        },
+        {
+          "osis_ref": "ROM.8.1",
+          "rationale": "Paul affirms there is now no condemnation for those in Christ Jesus—freedom from guilt over past decisions and mistakes."
+        },
+        {
+          "osis_ref": "JOEL.2.25",
+          "rationale": "God promises to restore the years the locusts have eaten—a direct statement about restoration of what was lost through past circumstances or choices."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul models forgetting what is behind and straining toward what is ahead, explicitly releasing himself from dwelling on his own past (including persecuting Christians)."
+        },
+        {
+          "osis_ref": "1JN.1.9",
+          "rationale": "If we confess our sins, God is faithful to forgive and purify us from all unrighteousness—assurance that past wrongs are fully forgiven and cleansed."
+        },
+        {
+          "osis_ref": "ISA.61.7",
+          "rationale": "Instead of shame, a double portion is promised; God exchanges past disgrace for honor and gladness—compassion toward one's earlier state."
+        },
+        {
+          "osis_ref": "2CO.5.17",
+          "rationale": "In Christ, the old has gone and the new has come—a theological declaration that one's past self and choices are made new, not perpetually condemned."
+        },
+        {
+          "osis_ref": "1KI.8.17-19",
+          "rationale": "God commends David's original intent to build the temple even though circumstances prevented him from completing it himself—honoring the decision's validity at the time."
+        },
+        {
+          "osis_ref": "DEU.34.1-4",
+          "rationale": "Moses views the promised land he will not enter; his life's work is honored despite real constraints that prevented him from crossing over."
+        },
+        {
+          "osis_ref": "JDG.11.35-39",
+          "rationale": "Jephthah's rash vow is honored by his daughter; she respects her father's past commitment even though the outcome is tragic, illustrating acceptance of decisions made under pressure."
+        },
+        {
+          "osis_ref": "GEN.31.36-42",
+          "rationale": "Jacob defends the legitimacy of his earlier choices and labor under Laban, despite years of hardship and mistakes, asserting the reasonableness of his decisions given the constraints."
+        },
+        {
+          "osis_ref": "2CH.6.7-9",
+          "rationale": "Solomon recounts God's affirmation of David's original intent to build the temple, recognizing the decision was right in David's heart even though he could not execute it."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul advocates forgetting what is behind and pressing forward—not dwelling in regret over past decisions but acknowledging the journey and moving ahead constructively."
+        },
+        {
+          "osis_ref": "JON.4.2-3",
+          "rationale": "Jonah explains his earlier decision to flee to Tarshish was based on his knowledge of God's character—acknowledging his past reasoning even while confronting its outcome."
+        },
+        {
+          "osis_ref": "ECC.7.10",
+          "rationale": "The preacher warns against saying former times were better than now, encouraging acceptance of past eras and decisions without idealizing or second-guessing them unfairly."
         }
       ]
     },
@@ -1127,6 +1415,70 @@
         {
           "osis_ref": "MAT.14.23",
           "rationale": "Jesus withdraws alone to a mountainside to pray, modeling the practice of solitude and stillness for spiritual and mental clarity."
+        },
+        {
+          "osis_ref": "PRO.20.5",
+          "rationale": "Describes counsel in the heart as deep water that a person of understanding draws out—a metaphor for the deliberate, quiet effort needed to extract insight from complex problems."
+        },
+        {
+          "osis_ref": "PRO.2.1-5",
+          "rationale": "Calls for receiving words, storing up commands, inclining the ear to wisdom, and crying out for understanding—describing the intentional, focused mental effort required to gain discernment."
+        },
+        {
+          "osis_ref": "PRO.24.3-4",
+          "rationale": "States that by wisdom a house is built and by understanding it is established, and through knowledge rooms are filled—emphasizing thoughtful planning and cognitive work."
+        },
+        {
+          "osis_ref": "1KI.3.9-12",
+          "rationale": "Solomon requests an understanding mind to govern and discern between good and evil, and God grants him unparalleled wisdom—a narrative about seeking cognitive discernment for difficult decisions."
+        },
+        {
+          "osis_ref": "DAN.10.12",
+          "rationale": "Daniel is told his words were heard from the first day he set his heart to understand and humbled himself—describing deliberate, sustained mental effort to comprehend difficult revelations."
+        },
+        {
+          "osis_ref": "LUK.2.19",
+          "rationale": "Mary treasured up all these things and pondered them in her heart—a narrative example of withdrawing mentally to carefully think through complex, mysterious events."
+        },
+        {
+          "osis_ref": "NEH.8.8",
+          "rationale": "Describes reading the Law clearly and giving the sense so the people understood the reading—emphasizing careful explanation and cognitive processing needed for understanding."
+        },
+        {
+          "osis_ref": "MAR.6.31-32",
+          "rationale": "Jesus tells the disciples to come away to a desolate place and rest, then they go away in a boat by themselves—a narrative of deliberate withdrawal from busyness to regroup and think."
+        },
+        {
+          "osis_ref": "ECC.12.9-10",
+          "rationale": "The Teacher carefully pondered, searched out, and arranged many proverbs with deliberate effort—a picture of methodical intellectual work."
+        },
+        {
+          "osis_ref": "LUK.14.28",
+          "rationale": "Jesus commands sitting down first to calculate the cost before building a tower—explicit instruction to pause and reason through a complex task."
+        },
+        {
+          "osis_ref": "PRO.18.15",
+          "rationale": "The discerning heart acquires knowledge and the wise ear seeks it out—emphasizing the active, deliberate pursuit of understanding."
+        },
+        {
+          "osis_ref": "NEH.2.12",
+          "rationale": "Nehemiah rises at night and tells no one what God put in his heart to do for Jerusalem—solitary time to think through his difficult mission before acting."
+        },
+        {
+          "osis_ref": "ACT.17.11",
+          "rationale": "The Bereans examined the Scriptures daily with great eagerness to see if Paul's claims were true—careful, deliberate reasoning and verification."
+        },
+        {
+          "osis_ref": "ECC.7.25",
+          "rationale": "The Teacher turned his heart to know, to search, and to seek out wisdom and the scheme of things—active cognitive investigation and reasoning."
+        },
+        {
+          "osis_ref": "LUK.14.31-32",
+          "rationale": "A king sits down first to consider whether he can engage an opposing army with fewer troops—strategic deliberation before a difficult decision."
+        },
+        {
+          "osis_ref": "PRO.15.28",
+          "rationale": "The heart of the righteous ponders how to answer—deliberate reflection before responding, not impulsive reaction."
         }
       ]
     },
