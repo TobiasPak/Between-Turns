@@ -27,6 +27,31 @@
         "osis_ref": "JAS.1.2-4",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
+      },
+      {
+        "osis_ref": "JOB.14.7-9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1CO.15.58",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "MIC.7.8",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PHP.3.13-14",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "HEB.12.1",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
       }
     ],
     "verified_references": [
@@ -74,6 +99,21 @@
         "gloo_search_certainty": 0.5311610698699951,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The parable explicitly illustrates persistence in the face of repeated rejection, as the widow kept coming back despite being refused, ultimately succeeding through her continued effort."
+      },
+      {
+        "osis_ref": "MIC.7.8",
+        "reference_display": "Micah 7:8",
+        "translation": "NIV",
+        "verse_text": "Do not gloat over me, my enemy! Though I have fallen, I will rise. Though I sit in darkness, the Lord will be my light.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:58:23.476Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MIC.7.8",
+          "checksum": "sha256:11bfb7b0e10e83353c7b3c9047296ecbf1808874c55668c269c186266e3cc9c5"
+        },
+        "fit_score": 0.5904862880706787,
+        "gloo_search_certainty": 0.5904862880706787,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly describes falling and rising again, which directly captures the spirit of persevering despite repeated failure."
       }
     ],
     "rejected_at_build": [
@@ -90,12 +130,40 @@
         "reason": "gloo_yesno_no",
         "value": 0.6508524417877197,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "JOB.14.7-9",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6335655450820923,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "1CO.15.58",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6008826494216919,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PHP.3.13-14",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6165072917938232,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "HEB.12.1",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6297174692153931,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.034Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 3
+      "generated_at": "2026-07-20T21:06:04.687Z",
+      "total_candidates_proposed": 10,
+      "total_verified": 4
     }
   },
   {
@@ -126,6 +194,46 @@
         "osis_ref": "PSA.37.7",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.9.10",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PROV.21.5",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "PROV.13.4",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "NEH.6.3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1COR.15.58",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "ECC.11.6",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PROV.24.27",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "2THI.2.15",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
       }
     ],
     "verified_references": [
@@ -188,21 +296,83 @@
         "gloo_search_certainty": 0.6098477840423584,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse's central call to \"run with perseverance\" directly supports the theme of staying steady through a difficult, prolonged task without immediate resolution."
+      },
+      {
+        "osis_ref": "NEH.6.3",
+        "reference_display": "Nehemiah 6:3",
+        "translation": "NIV",
+        "verse_text": "so I sent messengers to them with this reply: “I am carrying on a great project and cannot go down. Why should the work stop while I leave it and go down to you?”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:47:24.928Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.6.3",
+          "checksum": "sha256:a246b6a668249a97963cad1a4edc7fc45e42846cbfcb7cae7bab8be2f37854de"
+        },
+        "fit_score": 0.6739898920059204,
+        "gloo_search_certainty": 0.6739898920059204,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse illustrates maintaining focus on important work despite distractions or pressure to abandon it, which parallels staying committed to debugging even when the solution isn't immediate."
+      },
+      {
+        "osis_ref": "ECC.11.6",
+        "reference_display": "Ecclesiastes 11:6",
+        "translation": "NIV",
+        "verse_text": "Sow your seed in the morning, and at evening let your hands not be idle, for you do not know which will succeed, whether this or that, or whether both will do equally well.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:47:25.511Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.11.6",
+          "checksum": "sha256:7f92f8aff43c7c1c14b775c28939034b39b4eaf194cbf2baa4cc03e3d4083f63"
+        },
+        "fit_score": 0.6112393140792847,
+        "gloo_search_certainty": 0.6112393140792847,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse supports the theme by encouraging persistent effort throughout the day despite uncertainty about outcomes, which parallels maintaining steady work during debugging when the solution is unknown."
       }
     ],
     "rejected_at_build": [
+      {
+        "osis_ref": "PROV.21.5",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PROV.13.4",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "1COR.15.58",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PROV.24.27",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "2THI.2.15",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
       {
         "osis_ref": "PSA.37.7",
         "stage": "fit_check",
         "reason": "gloo_yesno_no",
         "value": 0.6538081765174866,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "ECC.9.10",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6020524501800537,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 4
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 13,
+      "total_verified": 6
     }
   },
   {
@@ -231,6 +401,46 @@
       },
       {
         "osis_ref": "2CO.4.8-9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JER.29.11",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PHP.3.13-14",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ISA.43.18-19",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.11.6",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1KI.19.4-8",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JON.3.1",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "LUK.5.4-6",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "GAL.6.9",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -310,13 +520,126 @@
         "gloo_search_certainty": 0.6267346143722534,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse explicitly contrasts present hardship with God's sustaining presence, showing that current adversity (hard-pressed, struck down) is not the final outcome (not crushed, not destroyed), which directly supports the theme that today's failure isn't the final word."
+      },
+      {
+        "osis_ref": "JER.29.11",
+        "reference_display": "Jeremiah 29:11",
+        "translation": "NIV",
+        "verse_text": "For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:22.301Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/JER.29.11",
+          "checksum": "sha256:145d6dc8c8da771a2932ecf492df23e1b582ae33af1cce7578b93e170c8b60bb"
+        },
+        "fit_score": 0.6404330134391785,
+        "gloo_search_certainty": 0.6404330134391785,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly promises that God has plans for a hopeful future despite present circumstances, which genuinely supports the idea that current failure is not final."
+      },
+      {
+        "osis_ref": "PHP.3.13-14",
+        "reference_display": "Philippians 3:13-14",
+        "translation": "NIV",
+        "verse_text": "Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead, I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:22.811Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.3.13-14",
+          "checksum": "sha256:5448ad5f311b6081a0e82ee0728b5dd0da168b01bb8323576b56af293de46c10"
+        },
+        "fit_score": 0.6510435342788696,
+        "gloo_search_certainty": 0.6510435342788696,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses letting go of past failures (\"forgetting what is behind\") and moving forward with purpose, clearly supporting that today's failure is not final."
+      },
+      {
+        "osis_ref": "ISA.43.18-19",
+        "reference_display": "Isaiah 43:18-19",
+        "translation": "NIV",
+        "verse_text": "“Forget the former things; do not dwell on the past. See, I am doing a new thing! Now it springs up; do you not perceive it? I am making a way in the wilderness and streams in the wasteland.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:23.172Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ISA.43.18-19",
+          "checksum": "sha256:c96a4ea59b4fd97e04ad134ee0683e855e8b21410e218dd6aac274e6bf49cb85"
+        },
+        "fit_score": 0.6471093893051147,
+        "gloo_search_certainty": 0.6471093893051147,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly encourages not dwelling on past failures and promises God is doing something new, which strongly supports the idea that today's failure isn't final."
+      },
+      {
+        "osis_ref": "ECC.11.6",
+        "reference_display": "Ecclesiastes 11:6",
+        "translation": "NIV",
+        "verse_text": "Sow your seed in the morning, and at evening let your hands not be idle, for you do not know which will succeed, whether this or that, or whether both will do equally well.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:23.524Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.11.6",
+          "checksum": "sha256:7f92f8aff43c7c1c14b775c28939034b39b4eaf194cbf2baa4cc03e3d4083f63"
+        },
+        "fit_score": 0.635658860206604,
+        "gloo_search_certainty": 0.635658860206604,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly encourages persistent effort despite uncertainty about outcomes, implying that a morning failure doesn't prevent evening success—you keep working because you don't know which attempt will succeed."
+      },
+      {
+        "osis_ref": "1KI.19.4-8",
+        "reference_display": "1 Kings 19:4-8",
+        "translation": "NIV",
+        "verse_text": "while he himself went a day’s journey into the wilderness. He came to a broom bush, sat down under it and prayed that he might die. “I have had enough, Lord,” he said. “Take my life; I am no better than my ancestors.” Then he lay down under the bush and fell asleep. All at once an angel touched him and said, “Get up and eat.” He looked around, and there by his head was some bread baked over hot coals, and a jar of water. He ate and drank and then lay down again. The angel of the Lord came back a second time and touched him and said, “Get up and eat, for the journey is too much for you.” So he got up and ate and drank. Strengthened by that food, he traveled forty days and forty nights until he reached Horeb, the mountain of God.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:24.007Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.19.4-8",
+          "checksum": "sha256:8d0fe1b010df043edc39822727ecf51ce41a2c1e0e8f03fc971c2b7ef6809fcc"
+        },
+        "fit_score": 0.5733291506767273,
+        "gloo_search_certainty": 0.5733291506767273,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "Elijah experiences deep despair and asks to die after perceiving failure, yet God provides care, sustenance, and strength for him to continue his journey, demonstrating that his moment of defeat was not the end of his story."
+      },
+      {
+        "osis_ref": "LUK.5.4-6",
+        "reference_display": "Luke 5:4-6",
+        "translation": "NIV",
+        "verse_text": "When he had finished speaking, he said to Simon, “Put out into deep water, and let down the nets for a catch.” Simon answered, “Master, we’ve worked hard all night and haven’t caught anything. But because you say so, I will let down the nets.” When they had done so, they caught such a large number of fish that their nets began to break.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:24.762Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.5.4-6",
+          "checksum": "sha256:d524e62e8f5ee44e1335a8d2b6fc1e9ab6ad6435c979291347e24e992434a8a9"
+        },
+        "fit_score": 0.6108092069625854,
+        "gloo_search_certainty": 0.6108092069625854,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The passage directly illustrates the theme as Peter's night-long failure to catch fish is reversed when he obeys Jesus, demonstrating that past failure was not final."
+      },
+      {
+        "osis_ref": "GAL.6.9",
+        "reference_display": "Galatians 6:9",
+        "translation": "NIV",
+        "verse_text": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:37:25.070Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/GAL.6.9",
+          "checksum": "sha256:559665aae925ba26c775e0117c9c8229959f77cbe6251acff53fc899f7e4558d"
+        },
+        "fit_score": 0.6405690908432007,
+        "gloo_search_certainty": 0.6405690908432007,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly encourages perseverance through difficulty by promising future reward (\"reap a harvest\") to those who don't give up, affirming that present struggles are not final."
       }
     ],
-    "rejected_at_build": [],
+    "rejected_at_build": [
+      {
+        "osis_ref": "JON.3.1",
+        "stage": "fit_check",
+        "reason": "certainty_below_threshold",
+        "value": 0,
+        "threshold": 0.35
+      }
+    ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 5
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 13,
+      "total_verified": 12
     }
   },
   {
@@ -428,7 +751,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -459,6 +782,46 @@
       },
       {
         "osis_ref": "1PE.3.8-9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRV.14.29",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "PRV.19.11",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "JAS.1.19-20",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRV.16.32",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "ECC.7.8-9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRV.12.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "PRV.17.27",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "rejected_at_build"
+      },
+      {
+        "osis_ref": "PHP.4.5",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -523,6 +886,51 @@
         "gloo_search_certainty": 0.6631577610969543,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse directly addresses not retaliating when insulted and maintaining compassion and humility, which aligns well with staying kind and clear-headed when irritated by others."
+      },
+      {
+        "osis_ref": "JAS.1.19-20",
+        "reference_display": "James 1:19-20",
+        "translation": "NIV",
+        "verse_text": "My dear brothers and sisters, take note of this: Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:46:06.872Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/JAS.1.19-20",
+          "checksum": "sha256:60a05128d9b7c7c4df565adce2b57027d80979bd3c4c032ada263bc5c2de49c3"
+        },
+        "fit_score": 0.6930173635482788,
+        "gloo_search_certainty": 0.6930173635482788,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses controlling anger and maintaining patience (being \"slow to become angry\" and \"quick to listen\"), which aligns perfectly with staying kind and clear-headed when irritated."
+      },
+      {
+        "osis_ref": "ECC.7.8-9",
+        "reference_display": "Ecclesiastes 7:8-9",
+        "translation": "NIV",
+        "verse_text": "The end of a matter is better than its beginning, and patience is better than pride. Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:46:07.615Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.7.8-9",
+          "checksum": "sha256:f9c7a59ba761646529b86de8bc29b3e6398c75cb577560b557ab172f49139e62"
+        },
+        "fit_score": 0.6398954391479492,
+        "gloo_search_certainty": 0.6398954391479492,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly advises against being quickly provoked and warns that anger is foolish, which clearly supports staying calm and patient when irritated."
+      },
+      {
+        "osis_ref": "PHP.4.5",
+        "reference_display": "Philippians 4:5",
+        "translation": "NIV",
+        "verse_text": "Let your gentleness be evident to all. The Lord is near.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:46:08.573Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.4.5",
+          "checksum": "sha256:a5e6090258e4726a648a5a05ab5eec58a42d26020c18782633ab9a26804da04b"
+        },
+        "fit_score": 0.6233749389648438,
+        "gloo_search_certainty": 0.6233749389648438,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly instructs believers to demonstrate gentleness to everyone, which aligns well with staying kind and clear-headed when irritated, and the reminder that \"the Lord is near\" provides motivation for maintaining that composure."
       }
     ],
     "rejected_at_build": [
@@ -530,12 +938,37 @@
         "osis_ref": "JAM.1.19-20",
         "stage": "verification",
         "reason": "HTTP 404: {\"message\":\"Bible passage JAM.1.19-20 for version 111 not found\"}"
+      },
+      {
+        "osis_ref": "PRV.14.29",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PRV.19.11",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PRV.16.32",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PRV.12.16",
+        "stage": "verification",
+        "reason": "HTTP 404"
+      },
+      {
+        "osis_ref": "PRV.17.27",
+        "stage": "verification",
+        "reason": "HTTP 404"
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 4
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 13,
+      "total_verified": 7
     }
   },
   {
@@ -564,6 +997,41 @@
       },
       {
         "osis_ref": "DEU.29.29",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.30.2-4",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.26.12",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.18.13",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ACT.17.11",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.8.16-17",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ROM.12.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.12.15",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -628,6 +1096,81 @@
         "gloo_search_certainty": 0.5493869781494141,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse explicitly distinguishes between what is knowable (revealed things) and what remains God's domain (secret things), teaching humility about the limits of human knowledge rather than pretending to know what is hidden."
+      },
+      {
+        "osis_ref": "PRO.30.2-4",
+        "reference_display": "Proverbs 30:2-4",
+        "translation": "NIV",
+        "verse_text": "Surely I am only a brute, not a man; I do not have human understanding. I have not learned wisdom, nor have I attained to the knowledge of the Holy One. Who has gone up to heaven and come down? Whose hands have gathered up the wind? Who has wrapped up the waters in a cloak? Who has established all the ends of the earth? What is his name, and what is the name of his son? Surely you know!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:35.963Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.30.2-4",
+          "checksum": "sha256:5f41610f6b2e6338716d38847eb035176d3ce4a326c76b4e220b6b6c09452047"
+        },
+        "fit_score": 0.5962696075439453,
+        "gloo_search_certainty": 0.5962696075439453,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The speaker explicitly confesses his lack of understanding and wisdom, contrasting human ignorance with God's incomprehensible knowledge, which directly models admitting uncertainty rather than claiming confident knowledge."
+      },
+      {
+        "osis_ref": "PRO.3.5-7",
+        "reference_display": "Proverbs 3:5-7",
+        "translation": "NIV",
+        "verse_text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. Do not be wise in your own eyes; fear the Lord and shun evil.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:36.324Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.3.5-7",
+          "checksum": "sha256:f04ce7abdd18914ebf2a985dc9146118356648a817d806b170063d00a5333c1b"
+        },
+        "fit_score": 0.6474127769470215,
+        "gloo_search_certainty": 0.6474127769470215,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly warns against leaning on one's own understanding and being \"wise in your own eyes,\" which directly supports humility about human knowledge and admitting the limits of one's certainty."
+      },
+      {
+        "osis_ref": "PRO.26.12",
+        "reference_display": "Proverbs 26:12",
+        "translation": "NIV",
+        "verse_text": "Do you see a person wise in their own eyes? There is more hope for a fool than for them.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:36.699Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.26.12",
+          "checksum": "sha256:86578dd1fa6565d0d41c64882d1f9280bb824144825d6926b176d06093f94ac6"
+        },
+        "fit_score": 0.6352943778038025,
+        "gloo_search_certainty": 0.6352943778038025,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse warns against self-assured overconfidence (\"wise in their own eyes\"), which directly supports valuing humility and uncertainty over arrogant certainty."
+      },
+      {
+        "osis_ref": "PRO.18.13",
+        "reference_display": "Proverbs 18:13",
+        "translation": "NIV",
+        "verse_text": "To answer before listening— that is folly and shame.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:37.058Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.18.13",
+          "checksum": "sha256:fd78ec5abf55f63ca655193e7ac7ebcc66ec30f8e52490e84321eadad6a7ea9f"
+        },
+        "fit_score": 0.6383659839630127,
+        "gloo_search_certainty": 0.6383659839630127,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly warns against responding before fully understanding the situation, which aligns well with the theme of avoiding premature confident answers when one should instead listen or admit uncertainty."
+      },
+      {
+        "osis_ref": "ECC.8.16-17",
+        "reference_display": "Ecclesiastes 8:16-17",
+        "translation": "NIV",
+        "verse_text": "When I applied my mind to know wisdom and to observe the labor that is done on earth—people getting no sleep day or night— then I saw all that God has done. No one can comprehend what goes on under the sun. Despite all their efforts to search it out, no one can discover its meaning. Even if the wise claim they know, they cannot really comprehend it.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:37.871Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.8.16-17",
+          "checksum": "sha256:65b24eb5fa0713d6531f5b438895be173cacaa4215d7c95a041b475015f61ca8"
+        },
+        "fit_score": 0.6079444885253906,
+        "gloo_search_certainty": 0.6079444885253906,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly states that despite human efforts to understand, no one can fully comprehend God's work, and even those who claim to know cannot truly grasp it—directly supporting intellectual humility over false confidence."
       }
     ],
     "rejected_at_build": [
@@ -637,12 +1180,33 @@
         "reason": "gloo_yesno_no",
         "value": 0.6474127769470215,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "ACT.17.11",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5610402822494507,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "ROM.12.16",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6158266663551331,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PRO.12.15",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6439927816390991,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 4
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 12,
+      "total_verified": 9
     }
   },
   {
@@ -979,7 +1543,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 25,
       "total_verified": 3
     }
@@ -1010,6 +1574,41 @@
       },
       {
         "osis_ref": "EZK.36.26",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "NEH.4.1-3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JOB.14.7-9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "HAG.2.3-5",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.3.3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JER.1.10",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1CO.3.10-12",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "LUK.14.28-30",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -1089,13 +1688,71 @@
         "gloo_search_certainty": 0.6025583744049072,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse explicitly describes God replacing the old heart with a completely new one rather than repairing the existing heart of stone, directly illustrating a rewrite-over-patch approach."
+      },
+      {
+        "osis_ref": "ECC.3.3",
+        "reference_display": "Ecclesiastes 3:3",
+        "translation": "NIV",
+        "verse_text": "a time to kill and a time to heal, a time to tear down and a time to build,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:04:33.224Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.3.3",
+          "checksum": "sha256:a42e6e1c4b4e1678c6fde2ecf63c635ba3bf694e9fd8a04449b4bb5c69aa874c"
+        },
+        "fit_score": 0.6192776560783386,
+        "gloo_search_certainty": 0.6192776560783386,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The phrase \"a time to tear down and a time to build\" directly supports the idea of demolishing something completely and starting fresh rather than continually patching it."
       }
     ],
-    "rejected_at_build": [],
+    "rejected_at_build": [
+      {
+        "osis_ref": "NEH.4.1-3",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6017876863479614,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "JOB.14.7-9",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6106148362159729,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "HAG.2.3-5",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5721395611763,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "JER.1.10",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6026803851127625,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "1CO.3.10-12",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6003542542457581,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "LUK.14.28-30",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.598630428314209,
+        "threshold": 0.35
+      }
+    ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 5
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 12,
+      "total_verified": 6
     }
   },
   {
@@ -1159,6 +1816,41 @@
       },
       {
         "osis_ref": "ACT.15.6-29",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.14.12",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.7.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1CO.14.19",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.26.12",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "MAT.18.3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ISA.28.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.3.5-7",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -1253,6 +1945,36 @@
         "gloo_search_certainty": 0.5440424680709839,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The passage directly supports the theme as the apostles explicitly reject the complicated requirement of full Mosaic law observance (the \"clever\" legalistic solution) in favor of the simpler solution of faith and grace with minimal requirements for Gentile believers."
+      },
+      {
+        "osis_ref": "1CO.14.19",
+        "reference_display": "1 Corinthians 14:19",
+        "translation": "NIV",
+        "verse_text": "But in the church I would rather speak five intelligible words to instruct others than ten thousand words in a tongue.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:01:32.540Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.14.19",
+          "checksum": "sha256:064d2f409d88103a5396cf889fc7331ccb821a02a651b1fbe3628e59ba006ef1"
+        },
+        "fit_score": 0.6250255703926086,
+        "gloo_search_certainty": 0.6250255703926086,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "Paul explicitly prioritizes clear, simple communication (five intelligible words) over impressive but unintelligible speech (ten thousand words in a tongue), directly supporting the theme of choosing simplicity over cleverness."
+      },
+      {
+        "osis_ref": "MAT.18.3",
+        "reference_display": "Matthew 18:3",
+        "translation": "NIV",
+        "verse_text": "And he said: “Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:01:33.504Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.18.3",
+          "checksum": "sha256:7e8c468014ef747481ea5a8a1ab135ab6ea6b082b1c20039f1c43b1cace5599c"
+        },
+        "fit_score": 0.5705812573432922,
+        "gloo_search_certainty": 0.5705812573432922,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse advocates for childlike simplicity and humility over sophisticated adult complexity, which directly aligns with choosing simpler approaches over clever ones."
       }
     ],
     "rejected_at_build": [
@@ -1295,12 +2017,47 @@
         "reason": "gloo_yesno_no",
         "value": 0.5495882034301758,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "PRO.14.12",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5720220804214478,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "ECC.7.16",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5999654531478882,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PRO.26.12",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6276859641075134,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "ISA.28.16",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5930336713790894,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PRO.3.5-7",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6117060780525208,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 12,
-      "total_verified": 6
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 19,
+      "total_verified": 8
     }
   },
   {
@@ -1412,7 +2169,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -1478,6 +2235,36 @@
       },
       {
         "osis_ref": "1KI.19.5-8",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "EXO.40.33",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1KI.8.54",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "NEH.6.15",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "LUK.5.4-5",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JHN.4.34",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "GEN.29.28",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -1557,6 +2344,36 @@
         "gloo_search_certainty": 0.6532177925109863,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse directly commands ceasing work on the seventh day after six days of labor, which clearly supports the theme of permission to stop once real work is done."
+      },
+      {
+        "osis_ref": "1KI.8.54",
+        "reference_display": "1 Kings 8:54",
+        "translation": "NIV",
+        "verse_text": "When Solomon had finished all these prayers and supplications to the Lord, he rose from before the altar of the Lord, where he had been kneeling with his hands spread out toward heaven.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:51:54.790Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.8.54",
+          "checksum": "sha256:334367d02946473928ab20d4143dc93480d35fbb6d80fae1518cb87b7ab5fc69"
+        },
+        "fit_score": 0.5884380340576172,
+        "gloo_search_certainty": 0.5884380340576172,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly shows Solomon rising and stopping his prayer posture after he had \"finished\" his prayers, directly illustrating the completion of meaningful work followed by cessation of that activity."
+      },
+      {
+        "osis_ref": "NEH.6.15",
+        "reference_display": "Nehemiah 6:15",
+        "translation": "NIV",
+        "verse_text": "So the wall was completed on the twenty-fifth of Elul, in fifty-two days.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:51:55.214Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.6.15",
+          "checksum": "sha256:09272e1ec573ebc0d21c6072a926f2420f89ca14a2546bd4c39839d3f3d7801a"
+        },
+        "fit_score": 0.6053133010864258,
+        "gloo_search_certainty": 0.6053133010864258,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly marks the completion of the wall project, naturally implying that the work stopped because it was finished, which directly supports the theme of permission to stop once real work is done."
       }
     ],
     "rejected_at_build": [
@@ -1608,12 +2425,40 @@
         "reason": "gloo_yesno_no",
         "value": 0.5170266628265381,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "EXO.40.33",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.600541353225708,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "LUK.5.4-5",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6453272104263306,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "JHN.4.34",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6437392234802246,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "GEN.29.28",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5682879686355591,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 12,
-      "total_verified": 5
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 18,
+      "total_verified": 7
     }
   },
   {
@@ -1725,7 +2570,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -1756,6 +2601,41 @@
       },
       {
         "osis_ref": "2CO.5.17",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.24.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JOB.8.7",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "GEN.6.14",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "EXO.36.2-3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "NEH.4.2",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "MIC.7.8",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PSA.51.10",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -1820,6 +2700,66 @@
         "gloo_search_certainty": 0.5518246293067932,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse explicitly describes the potter discarding a marred pot and reshaping the clay into a new one, which directly illustrates starting over after a failed attempt."
+      },
+      {
+        "osis_ref": "PRO.24.16",
+        "reference_display": "Proverbs 24:16",
+        "translation": "NIV",
+        "verse_text": "for though the righteous fall seven times, they rise again, but the wicked stumble when calamity strikes.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:53:28.803Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.24.16",
+          "checksum": "sha256:79b7b34930e16c891793892c26220a60d481b5daaa45e6b7b5c67e1e2539cc80"
+        },
+        "fit_score": 0.6104958057403564,
+        "gloo_search_certainty": 0.6104958057403564,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly affirms the pattern of falling and rising again repeatedly, which genuinely supports the theme of beginning again after failure."
+      },
+      {
+        "osis_ref": "GEN.6.14",
+        "reference_display": "Genesis 6:14",
+        "translation": "NIV",
+        "verse_text": "So make yourself an ark of cypress wood; make rooms in it and coat it with pitch inside and out.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:53:29.804Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/GEN.6.14",
+          "checksum": "sha256:e7efad9782a19da1e6f020ae8f399973cf7bd0f0c559a21154066f8707880b55"
+        },
+        "fit_score": 0.5521937608718872,
+        "gloo_search_certainty": 0.5521937608718872,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "This verse comes from the narrative where God instructs Noah to build the ark after deciding to start over with creation due to human wickedness, representing a literal new beginning after the previous approach (humanity's direction) had failed."
+      },
+      {
+        "osis_ref": "MIC.7.8",
+        "reference_display": "Micah 7:8",
+        "translation": "NIV",
+        "verse_text": "Do not gloat over me, my enemy! Though I have fallen, I will rise. Though I sit in darkness, the Lord will be my light.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:53:31.098Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MIC.7.8",
+          "checksum": "sha256:11bfb7b0e10e83353c7b3c9047296ecbf1808874c55668c269c186266e3cc9c5"
+        },
+        "fit_score": 0.5566763877868652,
+        "gloo_search_certainty": 0.5566763877868652,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly describes falling and rising again with divine help, which directly supports the theme of beginning again after failure."
+      },
+      {
+        "osis_ref": "PSA.51.10",
+        "reference_display": "Psalms 51:10",
+        "translation": "NIV",
+        "verse_text": "Create in me a pure heart, O God, and renew a steadfast spirit within me.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:53:31.376Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.51.10",
+          "checksum": "sha256:97a17731b754e50d1985b713d95b6cb0d52bff29622fef0a5f914fd3eb205a62"
+        },
+        "fit_score": 0.5722922086715698,
+        "gloo_search_certainty": 0.5722922086715698,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly asks God for spiritual renewal and recreation, which directly aligns with the theme of starting over after recognizing the need for a fresh approach."
       }
     ],
     "rejected_at_build": [
@@ -1829,12 +2769,33 @@
         "reason": "gloo_yesno_no",
         "value": 0.578535258769989,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "JOB.8.7",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5923895835876465,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "EXO.36.2-3",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5550594329833984,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "NEH.4.2",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5840910077095032,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 4
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 12,
+      "total_verified": 8
     }
   },
   {
@@ -1946,7 +2907,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -2017,6 +2978,26 @@
       },
       {
         "osis_ref": "2KI.5.13-14",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.20.5",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.15.23",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.8.1",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PSA.19.8",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -2156,6 +3137,51 @@
         "gloo_search_certainty": 0.5569640398025513,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse depicts the moment when Naaman finally understands and acts on simple instructions he initially resisted, resulting in his healing—a clear \"aha moment\" where everything clicks into place."
+      },
+      {
+        "osis_ref": "PRO.20.5",
+        "reference_display": "Proverbs 20:5",
+        "translation": "NIV",
+        "verse_text": "The purposes of a person’s heart are deep waters, but one who has insight draws them out.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:59:54.316Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.20.5",
+          "checksum": "sha256:1e5b3cf5ae4522708deb6897d53b805425e0143034ed6da4006bd88bdc366669"
+        },
+        "fit_score": 0.5781643390655518,
+        "gloo_search_certainty": 0.5781643390655518,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse describes the moment when insight successfully draws out deep understanding, which aligns well with the delight of something finally clicking into place."
+      },
+      {
+        "osis_ref": "PRO.15.23",
+        "reference_display": "Proverbs 15:23",
+        "translation": "NIV",
+        "verse_text": "A person finds joy in giving an apt reply— and how good is a timely word!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:59:56.581Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.15.23",
+          "checksum": "sha256:be63a11c5d05f9fc407f5706379f28310502537f5159aa1616f35e20855f4d96"
+        },
+        "fit_score": 0.6511213183403015,
+        "gloo_search_certainty": 0.6511213183403015,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse captures the joy of finding the right words at the right moment, which parallels the delight of something suddenly making sense or fitting together perfectly."
+      },
+      {
+        "osis_ref": "PRO.25.2",
+        "reference_display": "Proverbs 25:2",
+        "translation": "NIV",
+        "verse_text": "It is the glory of God to conceal a matter; to search out a matter is the glory of kings.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:59:57.989Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.25.2",
+          "checksum": "sha256:31fcb8f0d0bc68e04a001d43ea754944281c79c5e5bea60cbc2e61f5bb889ef9"
+        },
+        "fit_score": 0.5831165313720703,
+        "gloo_search_certainty": 0.5831165313720703,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse celebrates the honor and glory that comes from searching out and discovering concealed matters, which aligns with the satisfaction of understanding when something finally clicks into place."
       }
     ],
     "rejected_at_build": [
@@ -2186,12 +3212,26 @@
         "reason": "gloo_yesno_no",
         "value": 0.5824804306030273,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "ECC.8.1",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.5628493428230286,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PSA.19.8",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6006032228469849,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 13,
-      "total_verified": 9
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 17,
+      "total_verified": 12
     }
   },
   {
@@ -2296,7 +3336,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -2395,7 +3435,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -2509,7 +3549,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -2704,7 +3744,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 13,
       "total_verified": 3
     }
@@ -2811,7 +3851,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -2925,7 +3965,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3039,7 +4079,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3153,7 +4193,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3267,7 +4307,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3381,7 +4421,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3488,7 +4528,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -3602,7 +4642,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3701,7 +4741,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -3815,7 +4855,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -3922,7 +4962,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -4036,7 +5076,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -4143,7 +5183,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -4242,7 +5282,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -4273,6 +5313,36 @@
       },
       {
         "osis_ref": "ECC.7.16",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.16.3",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PHP.1.6",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1CO.3.6-7",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "EXO.4.10-12",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JHN.21.18",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1KI.19.11-12",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -4352,13 +5422,87 @@
         "gloo_search_certainty": 0.6376920938491821,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse directly warns against excessive striving for perfection in righteousness and wisdom, aligning well with the theme of releasing the need for flawlessness."
+      },
+      {
+        "osis_ref": "PRO.16.3",
+        "reference_display": "Proverbs 16:3",
+        "translation": "NIV",
+        "verse_text": "Commit to the Lord whatever you do, and he will establish your plans.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:56:50.923Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.16.3",
+          "checksum": "sha256:0fe0cb213387e7b15a34376561653e28a2724d8d78031f32d38c3887288d6b34"
+        },
+        "fit_score": 0.5986194610595703,
+        "gloo_search_certainty": 0.5986194610595703,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse supports the theme by shifting responsibility for outcomes to God rather than one's own perfect effort, implying trust in divine establishment rather than personal flawlessness."
+      },
+      {
+        "osis_ref": "PHP.1.6",
+        "reference_display": "Philippians 1:6",
+        "translation": "NIV",
+        "verse_text": "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:56:51.742Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.1.6",
+          "checksum": "sha256:873f5cb3c01e7cfe81774c6427e8f06965e3455dcc7ad4ab1c0206e27c2c7262"
+        },
+        "fit_score": 0.6040446162223816,
+        "gloo_search_certainty": 0.6040446162223816,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse supports the theme by emphasizing that God is responsible for completing the work in us, which relieves the pressure to achieve perfection on our own."
+      },
+      {
+        "osis_ref": "EXO.4.10-12",
+        "reference_display": "Exodus 4:10-12",
+        "translation": "NIV",
+        "verse_text": "Moses said to the Lord, “Pardon your servant, Lord. I have never been eloquent, neither in the past nor since you have spoken to your servant. I am slow of speech and tongue.” The Lord said to him, “Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I, the Lord? Now go; I will help you speak and will teach you what to say.”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:56:52.576Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.4.10-12",
+          "checksum": "sha256:1ce8342920160fff19b673a6784c92fd90374cca8ad3fea373757f955554f055"
+        },
+        "fit_score": 0.5660216212272644,
+        "gloo_search_certainty": 0.5660216212272644,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly shows God commissioning Moses despite his self-perceived inadequacy in speech, emphasizing that God will work through Moses's imperfection rather than requiring flawless eloquence."
       }
     ],
-    "rejected_at_build": [],
+    "rejected_at_build": [
+      {
+        "osis_ref": "ECC.11.4",
+        "stage": "fit_check",
+        "reason": "certainty_below_threshold",
+        "value": 0,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "1CO.3.6-7",
+        "stage": "fit_check",
+        "reason": "certainty_below_threshold",
+        "value": 0,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "JHN.21.18",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.576255202293396,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "1KI.19.11-12",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.581913948059082,
+        "threshold": 0.35
+      }
+    ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 5
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 11,
+      "total_verified": 8
     }
   },
   {
@@ -4470,7 +5614,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -4569,7 +5713,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -4683,7 +5827,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -4797,7 +5941,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -4896,7 +6040,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -5003,7 +6147,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 4
     }
@@ -5117,7 +6261,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -5231,7 +6375,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -5345,7 +6489,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -5590,7 +6734,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 18,
       "total_verified": 2
     }
@@ -5703,6 +6847,31 @@
         "osis_ref": "PRO.15.28",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.14.15",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.21.5",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.19.2",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.7.9",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PSA.77.6",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
       }
     ],
     "verified_references": [
@@ -5795,6 +6964,66 @@
         "gloo_search_certainty": 0.580406904220581,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "The verse contrasts thoughtful deliberation (\"weighs its answers\") with impulsive speech (\"gushes\"), directly supporting the theme of stillness and careful reasoning before responding."
+      },
+      {
+        "osis_ref": "PRO.14.15",
+        "reference_display": "Proverbs 14:15",
+        "translation": "NIV",
+        "verse_text": "The simple believe anything, but the prudent give thought to their steps.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:03.965Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.15",
+          "checksum": "sha256:7201aac0f6ca903847e2170d9c6c2da2e487e64d0aa32ac43872b3d0b4249971"
+        },
+        "fit_score": 0.623881459236145,
+        "gloo_search_certainty": 0.623881459236145,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse contrasts impulsive belief with prudent thoughtfulness, directly supporting the need for deliberate mental effort when facing difficult decisions."
+      },
+      {
+        "osis_ref": "PRO.21.5",
+        "reference_display": "Proverbs 21:5",
+        "translation": "NIV",
+        "verse_text": "The plans of the diligent lead to profit as surely as haste leads to poverty.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:04.406Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.21.5",
+          "checksum": "sha256:03eb1a74cf2f5a0c576d332c1010102af51eefdd010ea4cab391866aa696111b"
+        },
+        "fit_score": 0.6019291877746582,
+        "gloo_search_certainty": 0.6019291877746582,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse contrasts diligent planning with haste, implying that thoughtful, careful reasoning (the opposite of haste) leads to better outcomes—directly supporting the need for stillness when working through difficult matters."
+      },
+      {
+        "osis_ref": "PRO.19.2",
+        "reference_display": "Proverbs 19:2",
+        "translation": "NIV",
+        "verse_text": "Desire without knowledge is not good— how much more will hasty feet miss the way!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:04.828Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.19.2",
+          "checksum": "sha256:cc10030ca3e1cbb4f267da3d7c8e64e56c224c34573834c3691659b107eb5abb"
+        },
+        "fit_score": 0.5913313031196594,
+        "gloo_search_certainty": 0.5913313031196594,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly warns against hasty action and implies the need for knowledge and deliberation before proceeding, which aligns well with the theme of needing stillness to reason through difficult matters."
+      },
+      {
+        "osis_ref": "PSA.77.6",
+        "reference_display": "Psalms 77:6",
+        "translation": "NIV",
+        "verse_text": "I remembered my songs in the night. My heart meditated and my spirit asked:",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:06.337Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.77.6",
+          "checksum": "sha256:8acfd8f98f7b003ee2a92b9030f2c13281224212f9c77b4033ce98f40fb760f6"
+        },
+        "fit_score": 0.5977224707603455,
+        "gloo_search_certainty": 0.5977224707603455,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse describes the psalmist taking time in the quiet of night to meditate and question, which directly reflects the stillness needed to work through a difficult matter."
       }
     ],
     "rejected_at_build": [
@@ -5900,12 +7129,19 @@
         "reason": "gloo_yesno_no",
         "value": 0.6697981357574463,
         "threshold": 0.35
+      },
+      {
+        "osis_ref": "ECC.7.9",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.625704288482666,
+        "threshold": 0.35
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 21,
-      "total_verified": 6
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 26,
+      "total_verified": 10
     }
   },
   {
@@ -6017,7 +7253,7 @@
     ],
     "rejected_at_build": [],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 5
     }
@@ -6116,7 +7352,7 @@
       }
     ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
+      "generated_at": "2026-07-20T21:06:04.688Z",
       "total_candidates_proposed": 5,
       "total_verified": 3
     }
@@ -6147,6 +7383,36 @@
       },
       {
         "osis_ref": "1KI.8.54-55",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "JHN.19.30",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ACT.20.24",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "ECC.3.22",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PSA.90.17",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "1CO.3.14",
+        "proposed_by": "gloo-candidate-gen",
+        "status": "verified"
+      },
+      {
+        "osis_ref": "PRO.16.3",
         "proposed_by": "gloo-candidate-gen",
         "status": "verified"
       }
@@ -6226,13 +7492,64 @@
         "gloo_search_certainty": 0.6178442239761353,
         "gloo_yesno_verdict": "yes",
         "gloo_yesno_rationale": "Solomon rises after completing his prayers and immediately blesses the assembly in a loud voice, showing genuine gladness and celebratory action upon finishing a significant spiritual task."
+      },
+      {
+        "osis_ref": "ECC.3.22",
+        "reference_display": "Ecclesiastes 3:22",
+        "translation": "NIV",
+        "verse_text": "So I saw that there is nothing better for a person than to enjoy their work, because that is their lot. For who can bring them to see what will happen after them?",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T20:55:07.535Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.3.22",
+          "checksum": "sha256:98207511b360f2882e120da31fffe7fd6305ce7f4c4ebf55995f7f06ec4905da"
+        },
+        "fit_score": 0.6618310809135437,
+        "gloo_search_certainty": 0.6618310809135437,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly affirms enjoying one's work as the best course, which aligns with finding gladness in completed tasks, though it emphasizes the process of working rather than specifically the moment of completion."
       }
     ],
-    "rejected_at_build": [],
+    "rejected_at_build": [
+      {
+        "osis_ref": "JHN.19.30",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6608742475509644,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "ACT.20.24",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6267027854919434,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PSA.90.17",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6222573518753052,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "1CO.3.14",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.6523572206497192,
+        "threshold": 0.35
+      },
+      {
+        "osis_ref": "PRO.16.3",
+        "stage": "fit_check",
+        "reason": "gloo_yesno_no",
+        "value": 0.614983856678009,
+        "threshold": 0.35
+      }
+    ],
     "build_metadata": {
-      "generated_at": "2026-07-12T22:53:38.036Z",
-      "total_candidates_proposed": 5,
-      "total_verified": 5
+      "generated_at": "2026-07-20T21:06:04.688Z",
+      "total_candidates_proposed": 11,
+      "total_verified": 6
     }
   }
 ]

@@ -11,10 +11,13 @@ export interface AmbientState {
   stuck_loop_signature: string | null;
   cooldown_strikes: number;
   false_positive_backoff_until_turn: number | null;
+  /** Set on any Edit/Write/MultiEdit/NotebookEdit tool call, cleared each time a qualifying (heterogeneous) failure is recorded. */
+  edit_since_last_failure: boolean;
 }
 
 export interface VisibleState {
-  session_debrief_delivered: boolean;
+  /** Turn of the last *successful* debrief -- a suppressed/failed attempt never sets this, so it never costs a session its next real chance. */
+  last_debrief_turn: number | null;
   pr_comment_delivered_for: string[];
 }
 
@@ -40,9 +43,10 @@ export function newSessionState(sessionId: string): SessionState {
       stuck_loop_signature: null,
       cooldown_strikes: 0,
       false_positive_backoff_until_turn: null,
+      edit_since_last_failure: false,
     },
     visible: {
-      session_debrief_delivered: false,
+      last_debrief_turn: null,
       pr_comment_delivered_for: [],
     },
     recent_tool_failures: [],

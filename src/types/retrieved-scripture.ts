@@ -32,5 +32,7 @@ export interface RetrievedScripture {
     delivered: boolean;
     delivery_hook: string;
     suppressed_reason: string | null;
+    /** Real caught error message, when suppressed_reason came from an actual exception -- for diagnosing, never shown to Claude. */
+    debug_detail?: string;
   };
 }

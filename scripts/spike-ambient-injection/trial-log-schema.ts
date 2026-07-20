@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export const TRIAL_LOG_PATH = join(__dirname, "trials.jsonl");
 
 export type InjectionPoint = "post-tool-use" | "user-prompt-submit";
-export type PhrasingId = "A-weave-anywhere" | "B-fixed-closing-line";
+export type PhrasingId = "A-weave-anywhere" | "B-fixed-closing-line" | "C-consent-explicit";
 
 /**
  * One row per trial. Fill `criteria` in by hand after reading the real

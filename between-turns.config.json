@@ -6,7 +6,7 @@
     "visible": true
   },
   "pacing": {
-    "ambient_min_turns_between_deliveries": 4,
+    "ambient_min_turns_between_deliveries": 8,
     "ambient_stuck_loop_failure_threshold": 3,
     "ambient_backoff_base_turns": 10,
     "repetition_window": 5

@@ -2,7 +2,7 @@
   "generated_at": "2026-07-11T06:08:36.240Z",
   "model": "gloo-anthropic-claude-sonnet-4.5",
   "total_themes": 48,
-  "total_proposed": 328,
+  "total_proposed": 432,
   "failed_themes": 0,
   "results": [
     {
@@ -27,6 +27,38 @@
         {
           "osis_ref": "JAS.1.2-4",
           "rationale": "Views repeated trials as opportunities for developing perseverance and maturity through the testing process."
+        },
+        {
+          "osis_ref": "PRO.24.16",
+          "rationale": "States that the righteous fall seven times but rise again—a direct, plain statement about repeated failure and getting back up."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Brief encouragement not to grow weary in doing good, promising a harvest if we do not give up—perfect for repeated attempts."
+        },
+        {
+          "osis_ref": "JOB.14.7-9",
+          "rationale": "A tree cut down that sprouts again at the scent of water—concrete imagery of renewal after repeated setbacks."
+        },
+        {
+          "osis_ref": "1CO.15.58",
+          "rationale": "Paul's direct instruction to stand firm and always give yourselves fully to the work, knowing labor is not in vain—plain encouragement for persistent effort."
+        },
+        {
+          "osis_ref": "2CO.4.8-9",
+          "rationale": "Short list contrasting being hard pressed, perplexed, struck down, but not crushed, despairing, or destroyed—resilience through repeated difficulties."
+        },
+        {
+          "osis_ref": "MIC.7.8",
+          "rationale": "Brief statement about falling but rising again, sitting in darkness but the Lord being a light—simple perseverance message."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul forgetting what is behind and straining toward what is ahead, pressing on toward the goal—active imagery of continuing despite past attempts."
+        },
+        {
+          "osis_ref": "HEB.12.1",
+          "rationale": "Encouragement to throw off what hinders and run with perseverance the race marked out—brief, action-oriented perseverance verse."
         }
       ]
     },
@@ -52,6 +84,38 @@
         {
           "osis_ref": "PSA.37.7",
           "rationale": "Advises being still before the Lord and waiting patiently, which parallels the discipline of staying calm and methodical when no quick answer emerges."
+        },
+        {
+          "osis_ref": "ECC.9.10",
+          "rationale": "Whatever your hand finds to do, do it with all your might—direct encouragement to give full effort to the task at hand, however mundane."
+        },
+        {
+          "osis_ref": "PROV.21.5",
+          "rationale": "The plans of the diligent lead surely to abundance—affirms that careful, methodical work (like systematic debugging) pays off."
+        },
+        {
+          "osis_ref": "PROV.13.4",
+          "rationale": "The soul of the diligent is richly supplied—rewards steady effort and persistence in everyday work."
+        },
+        {
+          "osis_ref": "NEH.6.3",
+          "rationale": "Nehemiah refuses distraction: 'I am doing a great work and cannot come down'—staying focused on tedious wall-rebuilding despite interruptions."
+        },
+        {
+          "osis_ref": "1COR.15.58",
+          "rationale": "Always give yourselves fully to the work of the Lord, knowing your labor is not in vain—encouragement that persistent effort matters."
+        },
+        {
+          "osis_ref": "ECC.11.6",
+          "rationale": "Sow your seed in the morning and at evening let not your hands be idle—keep working steadily because you don't know which effort will succeed."
+        },
+        {
+          "osis_ref": "PROV.24.27",
+          "rationale": "Finish your outdoor work and get your fields ready—emphasizes completing preparatory, unglamorous work before moving forward."
+        },
+        {
+          "osis_ref": "2THI.2.15",
+          "rationale": "Do your best to present yourself approved, a worker who does not need to be ashamed—being a careful, thorough workman in everyday tasks."
         }
       ]
     },
@@ -77,6 +141,38 @@
         {
           "osis_ref": "2CO.4.8-9",
           "rationale": "Paul describes being hard pressed but not crushed, struck down but not destroyed—acknowledging setbacks without accepting defeat as final."
+        },
+        {
+          "osis_ref": "JER.29.11",
+          "rationale": "God's plans for future and hope, not disaster—calm reassurance that this setback isn't the end of the story."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul forgetting what is behind and pressing forward—active choice to leave a failure behind and keep going toward the goal."
+        },
+        {
+          "osis_ref": "ISA.43.18-19",
+          "rationale": "Forget the former things, God is doing a new thing—explicit permission to not dwell on the past attempt and look ahead."
+        },
+        {
+          "osis_ref": "ECC.11.6",
+          "rationale": "Sow seed morning and evening, you don't know which will succeed—practical wisdom about multiple attempts and persistence."
+        },
+        {
+          "osis_ref": "1KI.19.4-8",
+          "rationale": "Elijah discouraged, fed by angel, told to continue the journey—narrative of being strengthened after feeling like giving up, gentle tone."
+        },
+        {
+          "osis_ref": "JON.3.1",
+          "rationale": "God gives Jonah a second chance after his first attempt failed—straightforward narrative of getting to try again."
+        },
+        {
+          "osis_ref": "LUK.5.4-6",
+          "rationale": "Fishermen try again at Jesus' word after failing all night, succeed—concrete story of second attempt working after initial failure."
+        },
+        {
+          "osis_ref": "GAL.6.9",
+          "rationale": "Let us not become weary in doing good, we will reap if we do not give up—direct encouragement about persistence and eventual harvest."
         }
       ]
     },
@@ -127,6 +223,38 @@
         {
           "osis_ref": "1PE.3.8-9",
           "rationale": "Urges believers not to repay insult with insult but to respond with blessing, maintaining composure."
+        },
+        {
+          "osis_ref": "PRV.14.29",
+          "rationale": "Direct statement contrasting patience with quick temper—'whoever is patient has great understanding, but one who is quick-tempered displays folly.'"
+        },
+        {
+          "osis_ref": "PRV.19.11",
+          "rationale": "Practical wisdom about slowing down anger and overlooking minor offenses—'A person's wisdom yields patience; it is to one's glory to overlook an offense.'"
+        },
+        {
+          "osis_ref": "JAS.1.19-20",
+          "rationale": "Everyday advice to be quick to listen, slow to speak, slow to anger—human anger doesn't produce the righteousness God desires."
+        },
+        {
+          "osis_ref": "PRV.16.32",
+          "rationale": "Calm comparison: better to be patient than a warrior, better to control your temper than to take a city—reframes self-control as strength."
+        },
+        {
+          "osis_ref": "ECC.7.8-9",
+          "rationale": "Gentle counsel that patience is better than pride, and not to be quickly provoked—'anger resides in the lap of fools.'"
+        },
+        {
+          "osis_ref": "PRV.12.16",
+          "rationale": "Practical contrast: fools show annoyance at once, but the prudent overlook an insult—light everyday register."
+        },
+        {
+          "osis_ref": "PRV.17.27",
+          "rationale": "Simple statement about restraint and keeping a cool spirit—'whoever has understanding is even-tempered.'"
+        },
+        {
+          "osis_ref": "PHP.4.5",
+          "rationale": "Brief, gentle exhortation to let your gentleness be evident to all—the Lord is near, so stay calm."
         }
       ]
     },
@@ -152,6 +280,38 @@
         {
           "osis_ref": "DEU.29.29",
           "rationale": "Distinguishes between secret things that belong to God and revealed things, acknowledging the limits of human knowledge."
+        },
+        {
+          "osis_ref": "PRO.30.2-4",
+          "rationale": "Agur openly confesses his own lack of wisdom and understanding in a matter-of-fact tone, modeling everyday intellectual humility without drama."
+        },
+        {
+          "osis_ref": "PRO.3.5-7",
+          "rationale": "Classic calm counsel to not lean on your own understanding and to avoid being wise in your own eyes—directly about knowing your limits."
+        },
+        {
+          "osis_ref": "PRO.26.12",
+          "rationale": "Short, direct warning against someone who is wise in their own eyes, affirming the value of recognizing what you don't know."
+        },
+        {
+          "osis_ref": "PRO.18.13",
+          "rationale": "Straightforward proverb: answering before listening/understanding is folly—validates pausing to say 'I don't know yet.'"
+        },
+        {
+          "osis_ref": "ACT.17.11",
+          "rationale": "The Bereans are commended for examining claims carefully rather than accepting confident assertions—models humble, investigative learning."
+        },
+        {
+          "osis_ref": "ECC.8.16-17",
+          "rationale": "Qoheleth observes that despite effort, one cannot fully comprehend God's work—calm acceptance of intellectual limits in everyday observation."
+        },
+        {
+          "osis_ref": "ROM.12.16",
+          "rationale": "Paul's instruction to not be wise in your own estimation, embedded in practical relational counsel—everyday humility register."
+        },
+        {
+          "osis_ref": "PRO.12.15",
+          "rationale": "The way of a fool seems right to him, but the wise listen to advice—affirms seeking input when uncertain rather than guessing confidently."
         }
       ]
     },
@@ -298,6 +458,38 @@
         {
           "osis_ref": "EZK.36.26",
           "rationale": "God promises to remove the heart of stone and give a new heart of flesh, representing complete replacement rather than incremental repair."
+        },
+        {
+          "osis_ref": "NEH.4.1-3",
+          "rationale": "Nehemiah faced mockery about rebuilding Jerusalem's walls from scratch rather than patching ruins; reflects courage to undertake a complete rebuild despite skeptics."
+        },
+        {
+          "osis_ref": "JOB.14.7-9",
+          "rationale": "Job describes a tree cut down that sprouts fresh shoots from its roots; captures the hope and renewal that comes from starting over."
+        },
+        {
+          "osis_ref": "HAG.2.3-5",
+          "rationale": "Haggai acknowledges the old temple's glory but encourages rebuilding a new one with courage and God's presence; directly about choosing to rebuild rather than preserve something past its time."
+        },
+        {
+          "osis_ref": "MAT.9.16-17",
+          "rationale": "Jesus warns against patching old cloth with new or putting new wine in old wineskins; a direct metaphor for when something needs full replacement rather than incremental fixes."
+        },
+        {
+          "osis_ref": "ECC.3.3",
+          "rationale": "A time to tear down and a time to build; acknowledges that sometimes destruction is the necessary first step to creating something better."
+        },
+        {
+          "osis_ref": "JER.1.10",
+          "rationale": "God commissions Jeremiah to uproot and tear down, then to build and plant; explicitly names both demolition and reconstruction as part of the same mission."
+        },
+        {
+          "osis_ref": "1CO.3.10-12",
+          "rationale": "Paul discusses laying a foundation and building on it with care, warning that shoddy work will be tested; emphasizes intentional, quality construction over quick fixes."
+        },
+        {
+          "osis_ref": "LUK.14.28-30",
+          "rationale": "Jesus advises counting the cost before building a tower, lest you lay a foundation but can't finish; encourages thoughtful planning and commitment to a full rebuild rather than half-measures."
         }
       ]
     },
@@ -355,6 +547,38 @@
         {
           "osis_ref": "ACT.15.6-29",
           "rationale": "The Jerusalem Council chooses a minimal set of requirements for Gentile believers instead of imposing the full complexity of Mosaic law—preferring a simpler solution."
+        },
+        {
+          "osis_ref": "PRO.14.12",
+          "rationale": "Direct statement contrasting a way that seems right (clever) versus the way of death—warns against trusting what appears wise."
+        },
+        {
+          "osis_ref": "ECC.7.16",
+          "rationale": "Short wisdom saying warning against being overly wise or destroying oneself with cleverness."
+        },
+        {
+          "osis_ref": "1CO.14.19",
+          "rationale": "Paul prefers five understandable words over ten thousand in a tongue—direct statement valuing clarity over impressive technique."
+        },
+        {
+          "osis_ref": "PRO.26.12",
+          "rationale": "One-sentence proverb about a person wise in their own eyes having less hope than a fool—warns against self-perceived cleverness."
+        },
+        {
+          "osis_ref": "MAT.18.3",
+          "rationale": "Jesus says to become like children to enter the kingdom—direct call to simplicity over sophisticated approaches."
+        },
+        {
+          "osis_ref": "ISA.28.16",
+          "rationale": "God lays a tested cornerstone; whoever believes will not panic—trusting the simple foundation rather than rushing to clever solutions."
+        },
+        {
+          "osis_ref": "1CO.1.27",
+          "rationale": "God chose the foolish things to shame the wise—direct statement affirming simple choices over worldly cleverness."
+        },
+        {
+          "osis_ref": "PRO.3.5-7",
+          "rationale": "Trust God rather than leaning on your own understanding; don't be wise in your own eyes—brief instruction favoring humble simplicity."
         }
       ]
     },
@@ -437,6 +661,38 @@
         {
           "osis_ref": "1KI.19.5-8",
           "rationale": "Elijah collapses exhausted after his work; an angel tells him to eat, sleep, and rest before the next journey—divine permission to stop and recover."
+        },
+        {
+          "osis_ref": "GEN.2.2-3",
+          "rationale": "God rests on the seventh day after completing creation work—the original permission to stop when the work is done."
+        },
+        {
+          "osis_ref": "EXO.40.33",
+          "rationale": "Moses finishes the tabernacle work with 'So Moses finished the work'—a simple declaration of completion and stopping."
+        },
+        {
+          "osis_ref": "JHN.19.30",
+          "rationale": "Jesus says 'It is finished' and releases his spirit—brief, definitive statement that the work is complete and can be set down."
+        },
+        {
+          "osis_ref": "1KI.8.54",
+          "rationale": "Solomon rises from his knees after completing a long dedication prayer—concrete image of standing up after intense focused work."
+        },
+        {
+          "osis_ref": "NEH.6.15",
+          "rationale": "The wall is completed in fifty-two days—a plain statement that a difficult project reached its end point."
+        },
+        {
+          "osis_ref": "LUK.5.4-5",
+          "rationale": "Jesus tells Peter to let down nets after a fruitless night; Peter says 'we toiled all night'—acknowledgment of exhausting work before the next step."
+        },
+        {
+          "osis_ref": "JHN.4.34",
+          "rationale": "Jesus describes his purpose as completing the work given to him—brief statement about finishing what you came to do."
+        },
+        {
+          "osis_ref": "GEN.29.28",
+          "rationale": "Jacob completes the wedding week, then receives what was promised—fulfilling the time commitment before moving on."
         }
       ]
     },
@@ -487,6 +743,38 @@
         {
           "osis_ref": "2CO.5.17",
           "rationale": "In Christ, the old has passed away and the new has come—a declaration of transformation and the possibility of beginning again with a renewed perspective."
+        },
+        {
+          "osis_ref": "PRO.24.16",
+          "rationale": "Short, direct statement: the righteous fall seven times and rise again—perfect for repeated attempts after failure."
+        },
+        {
+          "osis_ref": "PHP.3.13-14",
+          "rationale": "Paul's explicit statement about forgetting what's behind and pressing forward toward the goal—matches scrapping old work."
+        },
+        {
+          "osis_ref": "JOB.8.7",
+          "rationale": "Brief promise that though your beginning was small, your latter days will be very great—fits starting fresh."
+        },
+        {
+          "osis_ref": "GEN.6.14",
+          "rationale": "God gives Noah specific instructions to build the ark—a concrete new start with clear direction after previous chaos."
+        },
+        {
+          "osis_ref": "EXO.36.2-3",
+          "rationale": "Craftsmen receive materials and begin the actual tabernacle work—a practical restart with resources in hand."
+        },
+        {
+          "osis_ref": "NEH.4.2",
+          "rationale": "Question asked about rebuilding: 'Will they revive the stones from the heaps of rubbish, burned ones at that?'—reclaiming after destruction."
+        },
+        {
+          "osis_ref": "MIC.7.8",
+          "rationale": "Short, personal statement: when I fall I will rise—resilience and recovery after setback."
+        },
+        {
+          "osis_ref": "PSA.51.10",
+          "rationale": "David's direct request to God: create in me a clean heart, renew a right spirit—a plea for internal fresh start."
         }
       ]
     },
@@ -569,6 +857,38 @@
         {
           "osis_ref": "2KI.5.13-14",
           "rationale": "Naaman's servants present a simple solution to his complex problem ('if the prophet had told you to do something great... how much more this simple thing?'), he tries it, and it works—elegant simplicity resolving what seemed complicated."
+        },
+        {
+          "osis_ref": "PRO.20.5",
+          "rationale": "Counsel in the heart is like deep water, but a person of understanding draws it out—the click of surfacing hidden insight."
+        },
+        {
+          "osis_ref": "PSA.119.130",
+          "rationale": "The unfolding of your words gives light; it gives understanding to the simple—clarity suddenly illuminating what was obscure."
+        },
+        {
+          "osis_ref": "1CO.13.12",
+          "rationale": "Now we see dimly, then face to face; now I know in part, then I shall know fully—the contrast between confusion and clarity."
+        },
+        {
+          "osis_ref": "JOB.32.8",
+          "rationale": "But it is the spirit in a person, the breath of the Almighty, that gives them understanding—the moment insight arrives."
+        },
+        {
+          "osis_ref": "PRO.15.23",
+          "rationale": "A person finds joy in giving an apt reply—and how good is a timely word—the delight of the right answer at the right time."
+        },
+        {
+          "osis_ref": "ECC.8.1",
+          "rationale": "Who is like the wise? Who knows the explanation of things? Wisdom brightens a face—understanding transforming perspective."
+        },
+        {
+          "osis_ref": "PSA.19.8",
+          "rationale": "The precepts of the Lord are right, giving joy to the heart; the commands are radiant, giving light to the eyes—clarity bringing delight."
+        },
+        {
+          "osis_ref": "PRO.25.2",
+          "rationale": "It is the glory of God to conceal a matter; to search out a matter is the glory of kings—the satisfaction of discovery and solving."
         }
       ]
     },
@@ -1076,6 +1396,38 @@
         {
           "osis_ref": "ECC.7.16",
           "rationale": "Cautions against being overly righteous or wise, suggesting that perfectionism can be self-destructive."
+        },
+        {
+          "osis_ref": "ECC.11.4",
+          "rationale": "Ecclesiastes warns that waiting for perfect conditions means nothing gets done—directly addresses hesitation to ship."
+        },
+        {
+          "osis_ref": "PRO.16.3",
+          "rationale": "Proverbs encourages committing your work to the Lord and it will be established—release control, trust the outcome."
+        },
+        {
+          "osis_ref": "ECC.7.16",
+          "rationale": "Ecclesiastes explicitly warns against being 'overly righteous' or over-wise—cautions against excessive perfectionism."
+        },
+        {
+          "osis_ref": "PHP.1.6",
+          "rationale": "Paul expresses confidence that God who began a good work will complete it—work in progress is acceptable."
+        },
+        {
+          "osis_ref": "1CO.3.6-7",
+          "rationale": "Paul planted, Apollos watered, God gave growth—each person contributes their part without needing to do everything."
+        },
+        {
+          "osis_ref": "EXO.4.10-12",
+          "rationale": "Moses protests his inadequacy as a speaker, but God tells him to go anyway—inadequacy doesn't disqualify contribution."
+        },
+        {
+          "osis_ref": "JHN.21.18",
+          "rationale": "Jesus tells Peter he'll be led where he doesn't want to go—surrender control of outcomes beyond your part."
+        },
+        {
+          "osis_ref": "1KI.19.11-12",
+          "rationale": "Elijah finds God not in dramatic displays but in a gentle whisper—sometimes enough is quieter and smaller than expected."
         }
       ]
     },
@@ -1479,6 +1831,38 @@
         {
           "osis_ref": "PRO.15.28",
           "rationale": "The heart of the righteous ponders how to answer—deliberate reflection before responding, not impulsive reaction."
+        },
+        {
+          "osis_ref": "PSA.46.10",
+          "rationale": "Direct command to 'Be still, and know that I am God'—the classic verse on pausing for clarity and understanding."
+        },
+        {
+          "osis_ref": "PRO.14.15",
+          "rationale": "Proverbs contrasts the simple who believe everything with the prudent who 'giveth thought to his steps'—careful deliberation before acting."
+        },
+        {
+          "osis_ref": "PRO.21.5",
+          "rationale": "Directly contrasts hasty action with 'the thoughts of the diligent' leading to advantage—slow, careful planning wins."
+        },
+        {
+          "osis_ref": "PRO.19.2",
+          "rationale": "Warns against acting without knowledge and being hasty—straightforward wisdom on slowing down to understand first."
+        },
+        {
+          "osis_ref": "PSA.4.4",
+          "rationale": "Counsel to 'commune with your own heart upon your bed, and be still'—solitary, quiet self-examination and thought."
+        },
+        {
+          "osis_ref": "ECC.7.9",
+          "rationale": "Warns against being 'hasty in thy spirit'—deliberate, measured thinking rather than reactive speed."
+        },
+        {
+          "osis_ref": "PRO.15.28",
+          "rationale": "The righteous heart 'studieth to answer'—explicit language of thinking through before responding, mental preparation."
+        },
+        {
+          "osis_ref": "PSA.77.6",
+          "rationale": "Psalmist remembers his song in the night, meditates, and 'my spirit made diligent search'—active, focused mental work in solitude."
         }
       ]
     },
@@ -1554,6 +1938,38 @@
         {
           "osis_ref": "1KI.8.54-55",
           "rationale": "Solomon finishes his prayer of dedication for the newly completed temple and stands to bless the assembly with joy over the finished house of God."
+        },
+        {
+          "osis_ref": "JHN.17.4",
+          "rationale": "Jesus declares 'I have finished the work you gave me to do' — a direct one-sentence statement of completion and accomplishment."
+        },
+        {
+          "osis_ref": "JHN.19.30",
+          "rationale": "The single word 'It is finished' captures the moment of final completion after sustained effort."
+        },
+        {
+          "osis_ref": "2TI.4.7",
+          "rationale": "Paul's plain declaration 'I have finished the race' expresses satisfaction at completing what he set out to do."
+        },
+        {
+          "osis_ref": "ACT.20.24",
+          "rationale": "Paul speaks of finishing his course and the ministry he received — straightforward language about completing assigned work."
+        },
+        {
+          "osis_ref": "ECC.3.22",
+          "rationale": "Simple affirmation that there is nothing better than for people to be happy in their work — finding gladness in what you've done."
+        },
+        {
+          "osis_ref": "PSA.90.17",
+          "rationale": "A brief prayer asking God to 'establish the work of our hands' — recognition and affirmation of completed labor."
+        },
+        {
+          "osis_ref": "1CO.3.14",
+          "rationale": "Direct statement that if the work someone has built survives, they will receive a reward — satisfaction when work stands."
+        },
+        {
+          "osis_ref": "PRO.16.3",
+          "rationale": "One-sentence instruction that when you commit your work to the Lord, your plans will succeed — simple confidence in finished work."
         }
       ]
     }

@@ -38,7 +38,12 @@ async function main(): Promise<void> {
 
   const fragment = fragments[Math.floor(Math.random() * fragments.length)];
   const trialId = randomUUID();
-  const phrasing = process.env.BT_SPIKE_PHRASING === "B" ? "B-fixed-closing-line" : "A-weave-anywhere";
+  const phrasing =
+    process.env.BT_SPIKE_PHRASING === "B"
+      ? "B-fixed-closing-line"
+      : process.env.BT_SPIKE_PHRASING === "C"
+        ? "C-consent-explicit"
+        : "A-weave-anywhere";
 
   appendFileSync(
     join(process.cwd(), "spike-offers.jsonl"),

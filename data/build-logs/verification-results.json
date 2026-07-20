@@ -3,35 +3,32 @@
   "translation": "NIV",
   "youversion_version_id": 111,
   "total_unique_refs": 185,
-  "total_verified": 254,
-  "total_rejected": 4,
+  "total_verified": 299,
+  "total_rejected": 14,
   "verified": {
     "PRO.24.16": {
-      "osis_ref": "PRO.24.16",
       "reference_display": "Proverbs 24:16",
       "verse_text": "for though the righteous fall seven times, they rise again, but the wicked stumble when calamity strikes.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:26.351Z",
+        "fetched_at": "2026-07-20T20:58:21.966Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.24.16",
         "checksum": "sha256:79b7b34930e16c891793892c26220a60d481b5daaa45e6b7b5c67e1e2539cc80"
       }
     },
     "GAL.6.9": {
-      "osis_ref": "GAL.6.9",
       "reference_display": "Galatians 6:9",
       "verse_text": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:26.770Z",
+        "fetched_at": "2026-07-20T20:58:22.120Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/GAL.6.9",
         "checksum": "sha256:559665aae925ba26c775e0117c9c8229959f77cbe6251acff53fc899f7e4558d"
       }
     },
     "2CO.4.8-9": {
-      "osis_ref": "2CO.4.8-9",
       "reference_display": "2 Corinthians 4:8-9",
       "verse_text": "We are hard pressed on every side, but not crushed; perplexed, but not in despair; persecuted, but not abandoned; struck down, but not destroyed.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:27.309Z",
+        "fetched_at": "2026-07-20T20:58:23.318Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/2CO.4.8-9",
         "checksum": "sha256:57bd5a71a1f36ac26c3bd41f912d00496aaf7d6c7363c0df0816bc45eb1c8877"
       }
@@ -67,11 +64,10 @@
       }
     },
     "HEB.12.1": {
-      "osis_ref": "HEB.12.1",
       "reference_display": "Hebrews 12:1",
       "verse_text": "Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us,",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:28.921Z",
+        "fetched_at": "2026-07-20T20:58:23.919Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/HEB.12.1",
         "checksum": "sha256:3f99c5756d66366e7eda9651e8af974df24365fa007a21e5ab307d0f9291d606"
       }
@@ -107,21 +103,19 @@
       }
     },
     "MIC.7.8": {
-      "osis_ref": "MIC.7.8",
       "reference_display": "Micah 7:8",
       "verse_text": "Do not gloat over me, my enemy! Though I have fallen, I will rise. Though I sit in darkness, the Lord will be my light.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:30.451Z",
+        "fetched_at": "2026-07-20T20:58:23.476Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/MIC.7.8",
         "checksum": "sha256:11bfb7b0e10e83353c7b3c9047296ecbf1808874c55668c269c186266e3cc9c5"
       }
     },
     "PRO.12.15": {
-      "osis_ref": "PRO.12.15",
       "reference_display": "Proverbs 12:15",
       "verse_text": "The way of fools seems right to them, but the wise listen to advice.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:30.980Z",
+        "fetched_at": "2026-07-19T02:48:38.543Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.12.15",
         "checksum": "sha256:f422ef9eb35713239ce6e826e7f42c11773cfc717194fb69ba5320d27a3b3c27"
       }
@@ -207,11 +201,10 @@
       }
     },
     "PRO.3.5-7": {
-      "osis_ref": "PRO.3.5-7",
       "reference_display": "Proverbs 3:5-7",
       "verse_text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. Do not be wise in your own eyes; fear the Lord and shun evil.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:35.167Z",
+        "fetched_at": "2026-07-20T21:01:34.697Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.3.5-7",
         "checksum": "sha256:f04ce7abdd18914ebf2a985dc9146118356648a817d806b170063d00a5333c1b"
       }
@@ -260,7 +253,7 @@
       "reference_display": "Ecclesiastes 11:4",
       "verse_text": "Whoever watches the wind will not plant; whoever looks at the clouds will not reap.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:42:47.605Z",
+        "fetched_at": "2026-07-20T20:56:50.773Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.11.4",
         "checksum": "sha256:a5cb64bd3e31aede135a231a5387c0be15645ed84e4487c42fc0338b2deb7dd9"
       }
@@ -279,7 +272,7 @@
       "reference_display": "Luke 14:28-30",
       "verse_text": "“Suppose one of you wants to build a tower. Won’t you first sit down and estimate the cost to see if you have enough money to complete it? For if you lay the foundation and are not able to finish it, everyone who sees it will ridicule you, saying, ‘This person began to build and wasn’t able to finish.’",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:52:21.469Z",
+        "fetched_at": "2026-07-20T21:04:34.583Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.14.28-30",
         "checksum": "sha256:e447128eedbf70e097c68c363d85ebc761c8100a43824f1b3045ace5a05c9e55"
       }
@@ -314,11 +307,10 @@
       }
     },
     "MAT.9.16-17": {
-      "osis_ref": "MAT.9.16-17",
       "reference_display": "Matthew 9:16-17",
       "verse_text": "“No one sews a patch of unshrunk cloth on an old garment, for the patch will pull away from the garment, making the tear worse. Neither do people pour new wine into old wineskins. If they do, the skins will burst; the wine will run out and the wineskins will be ruined. No, they pour new wine into new wineskins, and both are preserved.”",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:42.412Z",
+        "fetched_at": "2026-07-20T21:04:32.249Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.9.16-17",
         "checksum": "sha256:a6029057100a4544a5ccb8fef65d00b80ef9ad47f7d93c258474a1991d1ba521"
       }
@@ -391,11 +383,10 @@
       }
     },
     "1CO.1.27": {
-      "osis_ref": "1CO.1.27",
       "reference_display": "1 Corinthians 1:27",
       "verse_text": "But God chose the foolish things of the world to shame the wise; God chose the weak things of the world to shame the strong.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:46.479Z",
+        "fetched_at": "2026-07-20T21:01:34.332Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.1.27",
         "checksum": "sha256:e79e65a21297a70a4073512806975fcf4a1332ffa3c97a144a771ad4aba96823"
       }
@@ -434,37 +425,34 @@
       "reference_display": "Genesis 2:2-3",
       "verse_text": "By the seventh day God had finished the work he had been doing; so on the seventh day he rested from all his work. Then God blessed the seventh day and made it holy, because on it he rested from all the work of creating that he had done.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:57:17.166Z",
+        "fetched_at": "2026-07-20T20:51:53.501Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/GEN.2.2-3",
         "checksum": "sha256:e6c3a4afefa94de2e5341a2272a2eb9df0ea53e3c75fdf84735fa313c79a59e5"
       }
     },
     "JHN.19.30": {
-      "osis_ref": "JHN.19.30",
       "reference_display": "John 19:30",
       "verse_text": "When he had received the drink, Jesus said, “It is finished.” With that, he bowed his head and gave up his spirit.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:48.890Z",
+        "fetched_at": "2026-07-20T20:55:06.412Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/JHN.19.30",
         "checksum": "sha256:5bd003a4ee71cc6f623d4435e9daef081b35fbe9c7802832ffd3813308977062"
       }
     },
     "JHN.17.4": {
-      "osis_ref": "JHN.17.4",
       "reference_display": "John 17:4",
       "verse_text": "I have brought you glory on earth by finishing the work you gave me to do.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:49.425Z",
+        "fetched_at": "2026-07-20T20:55:06.258Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/JHN.17.4",
         "checksum": "sha256:b2654e24b65087b5757e991d3097c8aa5fd646c33983780964a2614abd6eb79d"
       }
     },
     "2TI.4.7": {
-      "osis_ref": "2TI.4.7",
       "reference_display": "2 Timothy 4:7",
       "verse_text": "I have fought the good fight, I have finished the race, I have kept the faith.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:49.756Z",
+        "fetched_at": "2026-07-20T20:55:06.700Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/2TI.4.7",
         "checksum": "sha256:1b2f94eb1714bd6918f98558e52c77ee8ff4b45e8c5c2e00a0da17cd29d84940"
       }
@@ -523,7 +511,7 @@
       "reference_display": "Philippians 3:13-14",
       "verse_text": "Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead, I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:49:04.726Z",
+        "fetched_at": "2026-07-20T20:58:23.636Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.3.13-14",
         "checksum": "sha256:5448ad5f311b6081a0e82ee0728b5dd0da168b01bb8323576b56af293de46c10"
       }
@@ -539,11 +527,10 @@
       }
     },
     "ISA.43.18-19": {
-      "osis_ref": "ISA.43.18-19",
       "reference_display": "Isaiah 43:18-19",
       "verse_text": "“Forget the former things; do not dwell on the past. See, I am doing a new thing! Now it springs up; do you not perceive it? I am making a way in the wilderness and streams in the wasteland.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:54.046Z",
+        "fetched_at": "2026-07-20T20:37:23.172Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ISA.43.18-19",
         "checksum": "sha256:c96a4ea59b4fd97e04ad134ee0683e855e8b21410e218dd6aac274e6bf49cb85"
       }
@@ -599,21 +586,19 @@
       }
     },
     "PRO.25.2": {
-      "osis_ref": "PRO.25.2",
       "reference_display": "Proverbs 25:2",
       "verse_text": "It is the glory of God to conceal a matter; to search out a matter is the glory of kings.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:57.069Z",
+        "fetched_at": "2026-07-20T20:59:57.989Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.25.2",
         "checksum": "sha256:31fcb8f0d0bc68e04a001d43ea754944281c79c5e5bea60cbc2e61f5bb889ef9"
       }
     },
     "JOB.32.8": {
-      "osis_ref": "JOB.32.8",
       "reference_display": "Job 32:8",
       "verse_text": "But it is the spirit in a person, the breath of the Almighty, that gives them understanding.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:57.619Z",
+        "fetched_at": "2026-07-20T20:59:56.199Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/JOB.32.8",
         "checksum": "sha256:0d0e05471e24e8f62f34729901d91afcba1001183537a5863fd8018d3d36b822"
       }
@@ -629,21 +614,19 @@
       }
     },
     "PSA.119.130": {
-      "osis_ref": "PSA.119.130",
       "reference_display": "Psalms 119:130",
       "verse_text": "The unfolding of your words gives light; it gives understanding to the simple.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:58.807Z",
+        "fetched_at": "2026-07-20T20:59:54.699Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.119.130",
         "checksum": "sha256:48f943ed9d90912cf5a0418cab3b00864bba2d71de8688da1cd1f2bcf8af3205"
       }
     },
     "1CO.13.12": {
-      "osis_ref": "1CO.13.12",
       "reference_display": "1 Corinthians 13:12",
       "verse_text": "For now we see only a reflection as in a mirror; then we shall see face to face. Now I know in part; then I shall know fully, even as I am fully known.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:00:59.505Z",
+        "fetched_at": "2026-07-20T20:59:55.676Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.13.12",
         "checksum": "sha256:9cd15480b051d1b5696af07b7079f1bb0de49d7ebfbc6a9f1f0441c2b606d572"
       }
@@ -819,21 +802,19 @@
       }
     },
     "PRO.18.13": {
-      "osis_ref": "PRO.18.13",
       "reference_display": "Proverbs 18:13",
       "verse_text": "To answer before listening— that is folly and shame.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:08.113Z",
+        "fetched_at": "2026-07-19T02:48:37.058Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.18.13",
         "checksum": "sha256:fd78ec5abf55f63ca655193e7ac7ebcc66ec30f8e52490e84321eadad6a7ea9f"
       }
     },
     "PRO.21.5": {
-      "osis_ref": "PRO.21.5",
       "reference_display": "Proverbs 21:5",
       "verse_text": "The plans of the diligent lead to profit as surely as haste leads to poverty.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:08.534Z",
+        "fetched_at": "2026-07-20T21:03:04.406Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.21.5",
         "checksum": "sha256:03eb1a74cf2f5a0c576d332c1010102af51eefdd010ea4cab391866aa696111b"
       }
@@ -849,11 +830,10 @@
       }
     },
     "PSA.46.10": {
-      "osis_ref": "PSA.46.10",
       "reference_display": "Psalms 46:10",
       "verse_text": "He says, “Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth.”",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:09.268Z",
+        "fetched_at": "2026-07-20T21:03:03.513Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.46.10",
         "checksum": "sha256:059b3856db9753c8d8a208e3b767e7719f6f094af09b7718dce143e259b48fc6"
       }
@@ -869,11 +849,10 @@
       }
     },
     "ISA.28.16": {
-      "osis_ref": "ISA.28.16",
       "reference_display": "Isaiah 28:16",
       "verse_text": "So this is what the Sovereign Lord says: “See, I lay a stone in Zion, a tested stone, a precious cornerstone for a sure foundation; the one who relies on it will never be stricken with panic.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:10.096Z",
+        "fetched_at": "2026-07-20T21:01:34.013Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ISA.28.16",
         "checksum": "sha256:cd4173126c1f013aef733d63dba4ba60c05c6295b4390fcab02aad090b6af431"
       }
@@ -929,11 +908,10 @@
       }
     },
     "JER.29.11": {
-      "osis_ref": "JER.29.11",
       "reference_display": "Jeremiah 29:11",
       "verse_text": "For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:12.731Z",
+        "fetched_at": "2026-07-20T20:37:22.301Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/JER.29.11",
         "checksum": "sha256:145d6dc8c8da771a2932ecf492df23e1b582ae33af1cce7578b93e170c8b60bb"
       }
@@ -1257,11 +1235,10 @@
       }
     },
     "PHP.1.6": {
-      "osis_ref": "PHP.1.6",
       "reference_display": "Philippians 1:6",
       "verse_text": "being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:29.708Z",
+        "fetched_at": "2026-07-20T20:56:51.742Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.1.6",
         "checksum": "sha256:873f5cb3c01e7cfe81774c6427e8f06965e3455dcc7ad4ab1c0206e27c2c7262"
       }
@@ -1326,11 +1303,10 @@
       }
     },
     "ECC.7.16": {
-      "osis_ref": "ECC.7.16",
       "reference_display": "Ecclesiastes 7:16",
       "verse_text": "Do not be overrighteous, neither be overwise— why destroy yourself?",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:34.002Z",
+        "fetched_at": "2026-07-20T21:01:32.137Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.7.16",
         "checksum": "sha256:e82ee1ae1e43ceee59633334bc51f4ffe034d225d242cb3dac6b5f7eb26b4fc0"
       }
@@ -1406,11 +1382,10 @@
       }
     },
     "1CO.15.58": {
-      "osis_ref": "1CO.15.58",
       "reference_display": "1 Corinthians 15:58",
       "verse_text": "Therefore, my dear brothers and sisters, stand firm. Let nothing move you. Always give yourselves fully to the work of the Lord, because you know that your labor in the Lord is not in vain.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:37.668Z",
+        "fetched_at": "2026-07-20T20:58:22.861Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.15.58",
         "checksum": "sha256:ee5b6d94eb8ab329f5a7e1a883fc303615d9f10fa1df8c962d0b9db126267392"
       }
@@ -1696,21 +1671,19 @@
       }
     },
     "1KI.19.11-12": {
-      "osis_ref": "1KI.19.11-12",
       "reference_display": "1 Kings 19:11-12",
       "verse_text": "The Lord said, “Go out and stand on the mountain in the presence of the Lord, for the Lord is about to pass by.” Then a great and powerful wind tore the mountains apart and shattered the rocks before the Lord, but the Lord was not in the wind. After the wind there was an earthquake, but the Lord was not in the earthquake. After the earthquake came a fire, but the Lord was not in the fire. And after the fire came a gentle whisper.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:50.785Z",
+        "fetched_at": "2026-07-20T20:56:53.285Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.19.11-12",
         "checksum": "sha256:445dec42716cdaafd8b9e8adf3d9d776c56bb1e6d8aecd24c6f2c3e781c0f408"
       }
     },
     "PSA.4.4": {
-      "osis_ref": "PSA.4.4",
       "reference_display": "Psalms 4:4",
       "verse_text": "Tremble and do not sin; when you are on your beds, search your hearts and be silent.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T02:01:51.166Z",
+        "fetched_at": "2026-07-20T21:03:05.201Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.4.4",
         "checksum": "sha256:99c435b9f2da778aaada781464dc33566c0b959b4de2c8e30db5b1f0a7ce6ed0"
       }
@@ -2010,7 +1983,7 @@
       "reference_display": "Proverbs 20:5",
       "verse_text": "The purposes of a person’s heart are deep waters, but one who has insight draws them out.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T03:00:03.104Z",
+        "fetched_at": "2026-07-20T20:59:54.316Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.20.5",
         "checksum": "sha256:1e5b3cf5ae4522708deb6897d53b805425e0143034ed6da4006bd88bdc366669"
       }
@@ -2118,7 +2091,7 @@
       "reference_display": "1 Corinthians 3:10-12",
       "verse_text": "By the grace God has given me, I laid a foundation as a wise builder, and someone else is building on it. But each one should build with care. For no one can lay any foundation other than the one already laid, which is Jesus Christ. If anyone builds on this foundation using gold, silver, costly stones, wood, hay or straw,",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:42:48.396Z",
+        "fetched_at": "2026-07-20T21:04:34.173Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.3.10-12",
         "checksum": "sha256:286f9e57b6b1bd90ca7161f73a5ff30b337cb58e460c4d240b95f535ccb29c92"
       }
@@ -2280,7 +2253,7 @@
       "reference_display": "Acts 17:11",
       "verse_text": "Now the Berean Jews were of more noble character than those in Thessalonica, for they received the message with great eagerness and examined the Scriptures every day to see if what Paul said was true.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:47:26.860Z",
+        "fetched_at": "2026-07-19T02:48:37.451Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.17.11",
         "checksum": "sha256:e8bcad00fd923c2b52b199d2dce281d9cc7047b5763a587699c44ac2793c734d"
       }
@@ -2307,7 +2280,7 @@
       "reference_display": "Proverbs 15:28",
       "verse_text": "The heart of the righteous weighs its answers, but the mouth of the wicked gushes evil.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:47:27.972Z",
+        "fetched_at": "2026-07-20T21:03:05.933Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.15.28",
         "checksum": "sha256:f33596ea48d53b2cc95dbe156f6db9ad6ef6fd4ffcac98ea7138c37fe128f108"
       }
@@ -2424,7 +2397,7 @@
       "reference_display": "Luke 5:4-6",
       "verse_text": "When he had finished speaking, he said to Simon, “Put out into deep water, and let down the nets for a catch.” Simon answered, “Master, we’ve worked hard all night and haven’t caught anything. But because you say so, I will let down the nets.” When they had done so, they caught such a large number of fish that their nets began to break.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:50:36.724Z",
+        "fetched_at": "2026-07-20T20:37:24.762Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.5.4-6",
         "checksum": "sha256:d524e62e8f5ee44e1335a8d2b6fc1e9ab6ad6435c979291347e24e992434a8a9"
       }
@@ -2433,7 +2406,7 @@
       "reference_display": "Ecclesiastes 11:6",
       "verse_text": "Sow your seed in the morning, and at evening let your hands not be idle, for you do not know which will succeed, whether this or that, or whether both will do equally well.",
       "youversion_fetch": {
-        "fetched_at": "2026-07-12T22:52:20.365Z",
+        "fetched_at": "2026-07-20T20:37:23.524Z",
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.11.6",
         "checksum": "sha256:7f92f8aff43c7c1c14b775c28939034b39b4eaf194cbf2baa4cc03e3d4083f63"
       }
@@ -2464,6 +2437,411 @@
         "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.35.30-35",
         "checksum": "sha256:f2357c0843f1846aa554006c8079842762c78a4c9d31e4ec9d77942f00f89837"
       }
+    },
+    "JAS.1.19-20": {
+      "reference_display": "James 1:19-20",
+      "verse_text": "My dear brothers and sisters, take note of this: Everyone should be quick to listen, slow to speak and slow to become angry, because human anger does not produce the righteousness that God desires.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:46:06.872Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JAS.1.19-20",
+        "checksum": "sha256:60a05128d9b7c7c4df565adce2b57027d80979bd3c4c032ada263bc5c2de49c3"
+      }
+    },
+    "ECC.7.8-9": {
+      "reference_display": "Ecclesiastes 7:8-9",
+      "verse_text": "The end of a matter is better than its beginning, and patience is better than pride. Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:46:07.615Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.7.8-9",
+        "checksum": "sha256:f9c7a59ba761646529b86de8bc29b3e6398c75cb577560b557ab172f49139e62"
+      }
+    },
+    "PHP.4.5": {
+      "reference_display": "Philippians 4:5",
+      "verse_text": "Let your gentleness be evident to all. The Lord is near.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:46:08.573Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PHP.4.5",
+        "checksum": "sha256:a5e6090258e4726a648a5a05ab5eec58a42d26020c18782633ab9a26804da04b"
+      }
+    },
+    "ECC.9.10": {
+      "reference_display": "Ecclesiastes 9:10",
+      "verse_text": "Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:47:23.855Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.9.10",
+        "checksum": "sha256:32310857568c7aab5cb6a4470d26b9cde8260c1f1c3ddb1ed1be6b3fcea9f2a1"
+      }
+    },
+    "NEH.6.3": {
+      "reference_display": "Nehemiah 6:3",
+      "verse_text": "so I sent messengers to them with this reply: “I am carrying on a great project and cannot go down. Why should the work stop while I leave it and go down to you?”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:47:24.928Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.6.3",
+        "checksum": "sha256:a246b6a668249a97963cad1a4edc7fc45e42846cbfcb7cae7bab8be2f37854de"
+      }
+    },
+    "PRO.30.2-4": {
+      "reference_display": "Proverbs 30:2-4",
+      "verse_text": "Surely I am only a brute, not a man; I do not have human understanding. I have not learned wisdom, nor have I attained to the knowledge of the Holy One. Who has gone up to heaven and come down? Whose hands have gathered up the wind? Who has wrapped up the waters in a cloak? Who has established all the ends of the earth? What is his name, and what is the name of his son? Surely you know!",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:48:35.963Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.30.2-4",
+        "checksum": "sha256:5f41610f6b2e6338716d38847eb035176d3ce4a326c76b4e220b6b6c09452047"
+      }
+    },
+    "PRO.26.12": {
+      "reference_display": "Proverbs 26:12",
+      "verse_text": "Do you see a person wise in their own eyes? There is more hope for a fool than for them.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:01:33.102Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.26.12",
+        "checksum": "sha256:86578dd1fa6565d0d41c64882d1f9280bb824144825d6926b176d06093f94ac6"
+      }
+    },
+    "ECC.8.16-17": {
+      "reference_display": "Ecclesiastes 8:16-17",
+      "verse_text": "When I applied my mind to know wisdom and to observe the labor that is done on earth—people getting no sleep day or night— then I saw all that God has done. No one can comprehend what goes on under the sun. Despite all their efforts to search it out, no one can discover its meaning. Even if the wise claim they know, they cannot really comprehend it.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:48:37.871Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.8.16-17",
+        "checksum": "sha256:65b24eb5fa0713d6531f5b438895be173cacaa4215d7c95a041b475015f61ca8"
+      }
+    },
+    "ROM.12.16": {
+      "reference_display": "Romans 12:16",
+      "verse_text": "Live in harmony with one another. Do not be proud, but be willing to associate with people of low position. Do not be conceited.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-19T02:48:38.166Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ROM.12.16",
+        "checksum": "sha256:582eaf1a3f2d48bda207f669d763b84fa831c16c09568043236a3c4b0d25985a"
+      }
+    },
+    "1KI.19.4-8": {
+      "reference_display": "1 Kings 19:4-8",
+      "verse_text": "while he himself went a day’s journey into the wilderness. He came to a broom bush, sat down under it and prayed that he might die. “I have had enough, Lord,” he said. “Take my life; I am no better than my ancestors.” Then he lay down under the bush and fell asleep. All at once an angel touched him and said, “Get up and eat.” He looked around, and there by his head was some bread baked over hot coals, and a jar of water. He ate and drank and then lay down again. The angel of the Lord came back a second time and touched him and said, “Get up and eat, for the journey is too much for you.” So he got up and ate and drank. Strengthened by that food, he traveled forty days and forty nights until he reached Horeb, the mountain of God.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:37:24.007Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.19.4-8",
+        "checksum": "sha256:8d0fe1b010df043edc39822727ecf51ce41a2c1e0e8f03fc971c2b7ef6809fcc"
+      }
+    },
+    "JON.3.1": {
+      "reference_display": "Jonah 3:1",
+      "verse_text": "Then the word of the Lord came to Jonah a second time:",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:37:24.299Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JON.3.1",
+        "checksum": "sha256:571d5343f7d77a6000f38db5d06f7af960d33a396c91ad41b81799af30cec4b2"
+      }
+    },
+    "EXO.40.33": {
+      "reference_display": "Exodus 40:33",
+      "verse_text": "Then Moses set up the courtyard around the tabernacle and altar and put up the curtain at the entrance to the courtyard. And so Moses finished the work.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:53.974Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.40.33",
+        "checksum": "sha256:f93b517132344b9b2cb69af844ffe27ea6934264116599693816d953bf5df6ac"
+      }
+    },
+    "1KI.8.54": {
+      "reference_display": "1 Kings 8:54",
+      "verse_text": "When Solomon had finished all these prayers and supplications to the Lord, he rose from before the altar of the Lord, where he had been kneeling with his hands spread out toward heaven.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:54.790Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.8.54",
+        "checksum": "sha256:334367d02946473928ab20d4143dc93480d35fbb6d80fae1518cb87b7ab5fc69"
+      }
+    },
+    "NEH.6.15": {
+      "reference_display": "Nehemiah 6:15",
+      "verse_text": "So the wall was completed on the twenty-fifth of Elul, in fifty-two days.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:55.214Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.6.15",
+        "checksum": "sha256:09272e1ec573ebc0d21c6072a926f2420f89ca14a2546bd4c39839d3f3d7801a"
+      }
+    },
+    "LUK.5.4-5": {
+      "reference_display": "Luke 5:4-5",
+      "verse_text": "When he had finished speaking, he said to Simon, “Put out into deep water, and let down the nets for a catch.” Simon answered, “Master, we’ve worked hard all night and haven’t caught anything. But because you say so, I will let down the nets.”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:55.565Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.5.4-5",
+        "checksum": "sha256:f7c4b4894ef3dd6a34d301515c3d5aae0c70b8d600d565cd4917dfb82ea2b787"
+      }
+    },
+    "JHN.4.34": {
+      "reference_display": "John 4:34",
+      "verse_text": "“My food,” said Jesus, “is to do the will of him who sent me and to finish his work.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:55.973Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JHN.4.34",
+        "checksum": "sha256:82d75e870535b0a6ab414d849f1a08bf6f91cac143c0e3359db0bf68287f8625"
+      }
+    },
+    "GEN.29.28": {
+      "reference_display": "Genesis 29:28",
+      "verse_text": "And Jacob did so. He finished the week with Leah, and then Laban gave him his daughter Rachel to be his wife.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:51:56.375Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/GEN.29.28",
+        "checksum": "sha256:e13b04062a63b999028a736e762f63c6770b72681758078e189416c474dfeee0"
+      }
+    },
+    "JOB.8.7": {
+      "reference_display": "Job 8:7",
+      "verse_text": "Your beginnings will seem humble, so prosperous will your future be.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:53:29.411Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JOB.8.7",
+        "checksum": "sha256:aa45432b409e2e5688f533041822fb4b9c289e5a254e908faa51049e70467bac"
+      }
+    },
+    "GEN.6.14": {
+      "reference_display": "Genesis 6:14",
+      "verse_text": "So make yourself an ark of cypress wood; make rooms in it and coat it with pitch inside and out.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:53:29.804Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/GEN.6.14",
+        "checksum": "sha256:e7efad9782a19da1e6f020ae8f399973cf7bd0f0c559a21154066f8707880b55"
+      }
+    },
+    "EXO.36.2-3": {
+      "reference_display": "Exodus 36:2-3",
+      "verse_text": "Then Moses summoned Bezalel and Oholiab and every skilled person to whom the Lord had given ability and who was willing to come and do the work. They received from Moses all the offerings the Israelites had brought to carry out the work of constructing the sanctuary. And the people continued to bring freewill offerings morning after morning.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:53:30.226Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.36.2-3",
+        "checksum": "sha256:045a7d3d96181e3f7d4796a858ae05f03999aa1bc48e2a66ea7214aea2e8563b"
+      }
+    },
+    "NEH.4.2": {
+      "reference_display": "Nehemiah 4:2",
+      "verse_text": "and in the presence of his associates and the army of Samaria, he said, “What are those feeble Jews doing? Will they restore their wall? Will they offer sacrifices? Will they finish in a day? Can they bring the stones back to life from those heaps of rubble—burned as they are?”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:53:30.632Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.4.2",
+        "checksum": "sha256:d7c36e2b3d4d7f0a22a373179789b066a854f1a78cfe09e2ca07e09afbe0be52"
+      }
+    },
+    "PSA.51.10": {
+      "reference_display": "Psalms 51:10",
+      "verse_text": "Create in me a pure heart, O God, and renew a steadfast spirit within me.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:53:31.376Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.51.10",
+        "checksum": "sha256:97a17731b754e50d1985b713d95b6cb0d52bff29622fef0a5f914fd3eb205a62"
+      }
+    },
+    "ACT.20.24": {
+      "reference_display": "Acts 20:24",
+      "verse_text": "However, I consider my life worth nothing to me; my only aim is to finish the race and complete the task the Lord Jesus has given me—the task of testifying to the good news of God’s grace.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:55:07.137Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.20.24",
+        "checksum": "sha256:7e01c09067fd5fa8988c681887ea6e04ae48f4ee2b86fc4ee49516e08f592a31"
+      }
+    },
+    "ECC.3.22": {
+      "reference_display": "Ecclesiastes 3:22",
+      "verse_text": "So I saw that there is nothing better for a person than to enjoy their work, because that is their lot. For who can bring them to see what will happen after them?",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:55:07.535Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.3.22",
+        "checksum": "sha256:98207511b360f2882e120da31fffe7fd6305ce7f4c4ebf55995f7f06ec4905da"
+      }
+    },
+    "PSA.90.17": {
+      "reference_display": "Psalms 90:17",
+      "verse_text": "May the favor of the Lord our God rest on us; establish the work of our hands for us— yes, establish the work of our hands.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:55:07.822Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.90.17",
+        "checksum": "sha256:41997b09528a858fbacd1e3ebc0e64a083ae2034f0134f60a7476b38c64dbeae"
+      }
+    },
+    "1CO.3.14": {
+      "reference_display": "1 Corinthians 3:14",
+      "verse_text": "If what has been built survives, the builder will receive a reward.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:55:08.224Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.3.14",
+        "checksum": "sha256:1e93c4d159a9ee626672fec82909cb64c929c3a956b794b13789dd71c227bed3"
+      }
+    },
+    "PRO.16.3": {
+      "reference_display": "Proverbs 16:3",
+      "verse_text": "Commit to the Lord whatever you do, and he will establish your plans.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:56:50.923Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.16.3",
+        "checksum": "sha256:0fe0cb213387e7b15a34376561653e28a2724d8d78031f32d38c3887288d6b34"
+      }
+    },
+    "1CO.3.6-7": {
+      "reference_display": "1 Corinthians 3:6-7",
+      "verse_text": "I planted the seed, Apollos watered it, but God has been making it grow. So neither the one who plants nor the one who waters is anything, but only God, who makes things grow.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:56:52.163Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.3.6-7",
+        "checksum": "sha256:846819b9190513cf838a2cd871ed4f93dba0b15ea04f51fd7b1811bf5f729207"
+      }
+    },
+    "EXO.4.10-12": {
+      "reference_display": "Exodus 4:10-12",
+      "verse_text": "Moses said to the Lord, “Pardon your servant, Lord. I have never been eloquent, neither in the past nor since you have spoken to your servant. I am slow of speech and tongue.” The Lord said to him, “Who gave human beings their mouths? Who makes them deaf or mute? Who gives them sight or makes them blind? Is it not I, the Lord? Now go; I will help you speak and will teach you what to say.”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:56:52.576Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.4.10-12",
+        "checksum": "sha256:1ce8342920160fff19b673a6784c92fd90374cca8ad3fea373757f955554f055"
+      }
+    },
+    "JHN.21.18": {
+      "reference_display": "John 21:18",
+      "verse_text": "Very truly I tell you, when you were younger you dressed yourself and went where you wanted; but when you are old you will stretch out your hands, and someone else will dress you and lead you where you do not want to go.”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:56:52.954Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JHN.21.18",
+        "checksum": "sha256:3d650ffbf57b33489acd0b31a880ce4be866b7e38573e0f4c34c82b80322e4f2"
+      }
+    },
+    "JOB.14.7-9": {
+      "reference_display": "Job 14:7-9",
+      "verse_text": "“At least there is hope for a tree: If it is cut down, it will sprout again, and its new shoots will not fail. Its roots may grow old in the ground and its stump die in the soil, yet at the scent of water it will bud and put forth shoots like a plant.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:04:31.314Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JOB.14.7-9",
+        "checksum": "sha256:d0dd18a680e5648411d00819e2f38a61273e5fc2dae7af24c2d9536e920ea5ff"
+      }
+    },
+    "PRO.15.23": {
+      "reference_display": "Proverbs 15:23",
+      "verse_text": "A person finds joy in giving an apt reply— and how good is a timely word!",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:59:56.581Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.15.23",
+        "checksum": "sha256:be63a11c5d05f9fc407f5706379f28310502537f5159aa1616f35e20855f4d96"
+      }
+    },
+    "ECC.8.1": {
+      "reference_display": "Ecclesiastes 8:1",
+      "verse_text": "Who is like the wise? Who knows the explanation of things? A person’s wisdom brightens their face and changes its hard appearance.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:59:57.031Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.8.1",
+        "checksum": "sha256:d90dee900d5b61faf46ffe6b049dcdd2bf3e06c9afe1812b12d3bbb03739de8c"
+      }
+    },
+    "PSA.19.8": {
+      "reference_display": "Psalms 19:8",
+      "verse_text": "The precepts of the Lord are right, giving joy to the heart. The commands of the Lord are radiant, giving light to the eyes.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T20:59:57.563Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.19.8",
+        "checksum": "sha256:b1a15a1b06979ca6005d360a28fcc23882ccc6244afd0b208ba5bad0a3c0ee54"
+      }
+    },
+    "PRO.14.12": {
+      "reference_display": "Proverbs 14:12",
+      "verse_text": "There is a way that appears to be right, but in the end it leads to death.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:01:31.979Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.12",
+        "checksum": "sha256:f899ba25a530205ab4ea90fda25f11c4459331663a1f66382c566d981c6d0d0e"
+      }
+    },
+    "1CO.14.19": {
+      "reference_display": "1 Corinthians 14:19",
+      "verse_text": "But in the church I would rather speak five intelligible words to instruct others than ten thousand words in a tongue.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:01:32.540Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.14.19",
+        "checksum": "sha256:064d2f409d88103a5396cf889fc7331ccb821a02a651b1fbe3628e59ba006ef1"
+      }
+    },
+    "MAT.18.3": {
+      "reference_display": "Matthew 18:3",
+      "verse_text": "And he said: “Truly I tell you, unless you change and become like little children, you will never enter the kingdom of heaven.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:01:33.504Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.18.3",
+        "checksum": "sha256:7e8c468014ef747481ea5a8a1ab135ab6ea6b082b1c20039f1c43b1cace5599c"
+      }
+    },
+    "PRO.14.15": {
+      "reference_display": "Proverbs 14:15",
+      "verse_text": "The simple believe anything, but the prudent give thought to their steps.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:03:03.965Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.15",
+        "checksum": "sha256:7201aac0f6ca903847e2170d9c6c2da2e487e64d0aa32ac43872b3d0b4249971"
+      }
+    },
+    "PRO.19.2": {
+      "reference_display": "Proverbs 19:2",
+      "verse_text": "Desire without knowledge is not good— how much more will hasty feet miss the way!",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:03:04.828Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.19.2",
+        "checksum": "sha256:cc10030ca3e1cbb4f267da3d7c8e64e56c224c34573834c3691659b107eb5abb"
+      }
+    },
+    "ECC.7.9": {
+      "reference_display": "Ecclesiastes 7:9",
+      "verse_text": "Do not be quickly provoked in your spirit, for anger resides in the lap of fools.",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:03:05.629Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.7.9",
+        "checksum": "sha256:2cb363204afbb43fe8ce550565c6d6b7938b92a016df8a6f307acc8c549423af"
+      }
+    },
+    "PSA.77.6": {
+      "reference_display": "Psalms 77:6",
+      "verse_text": "I remembered my songs in the night. My heart meditated and my spirit asked:",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:03:06.337Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.77.6",
+        "checksum": "sha256:8acfd8f98f7b003ee2a92b9030f2c13281224212f9c77b4033ce98f40fb760f6"
+      }
+    },
+    "NEH.4.1-3": {
+      "reference_display": "Nehemiah 4:1-3",
+      "verse_text": "When Sanballat heard that we were rebuilding the wall, he became angry and was greatly incensed. He ridiculed the Jews, and in the presence of his associates and the army of Samaria, he said, “What are those feeble Jews doing? Will they restore their wall? Will they offer sacrifices? Will they finish in a day? Can they bring the stones back to life from those heaps of rubble—burned as they are?” Tobiah the Ammonite, who was at his side, said, “What they are building—even a fox climbing up on it would break down their wall of stones!”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:04:31.170Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.4.1-3",
+        "checksum": "sha256:ce53ebb19b7aed42dfc3c230346895af16de21648cd1c2ffea41d428507065cc"
+      }
+    },
+    "HAG.2.3-5": {
+      "reference_display": "Haggai 2:3-5",
+      "verse_text": "‘Who of you is left who saw this house in its former glory? How does it look to you now? Does it not seem to you like nothing? But now be strong, Zerubbabel,’ declares the Lord. ‘Be strong, Joshua son of Jozadak, the high priest. Be strong, all you people of the land,’ declares the Lord, ‘and work. For I am with you,’ declares the Lord Almighty. ‘This is what I covenanted with you when you came out of Egypt. And my Spirit remains among you. Do not fear.’",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:04:31.778Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/HAG.2.3-5",
+        "checksum": "sha256:8b30ac675fab27c1c16362a6e026cc81d59cb65e68b554ddd828507ede089eb2"
+      }
+    },
+    "ECC.3.3": {
+      "reference_display": "Ecclesiastes 3:3",
+      "verse_text": "a time to kill and a time to heal, a time to tear down and a time to build,",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:04:33.224Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/ECC.3.3",
+        "checksum": "sha256:a42e6e1c4b4e1678c6fde2ecf63c635ba3bf694e9fd8a04449b4bb5c69aa874c"
+      }
+    },
+    "JER.1.10": {
+      "reference_display": "Jeremiah 1:10",
+      "verse_text": "See, today I appoint you over nations and kingdoms to uproot and tear down, to destroy and overthrow, to build and to plant.”",
+      "youversion_fetch": {
+        "fetched_at": "2026-07-20T21:04:33.673Z",
+        "source_url": "https://api.youversion.com/v1/bibles/111/passages/JER.1.10",
+        "checksum": "sha256:36394d78bae8b76413b570c0ae190815f89821aaaa3869d99ef42de509f108d1"
+      }
     }
   },
   "rejected": {
@@ -2479,6 +2857,36 @@
       "reason": "HTTP 404"
     },
     "MAR.12.28-34": {
+      "reason": "HTTP 404"
+    },
+    "PRV.14.29": {
+      "reason": "HTTP 404"
+    },
+    "PRV.19.11": {
+      "reason": "HTTP 404"
+    },
+    "PRV.16.32": {
+      "reason": "HTTP 404"
+    },
+    "PRV.12.16": {
+      "reason": "HTTP 404"
+    },
+    "PRV.17.27": {
+      "reason": "HTTP 404"
+    },
+    "PROV.21.5": {
+      "reason": "HTTP 404"
+    },
+    "PROV.13.4": {
+      "reason": "HTTP 404"
+    },
+    "1COR.15.58": {
+      "reason": "HTTP 404"
+    },
+    "PROV.24.27": {
+      "reason": "HTTP 404"
+    },
+    "2THI.2.15": {
       "reason": "HTTP 404"
     }
   }
