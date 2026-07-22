@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 import { fileURLToPath } from "node:url";
+import { disable, enable, status } from "./toggle.js";
+import { printScriptureContext } from "./scripture-context.js";
+import { init } from "./init.js";
 
 const HOOK_MODULES: Record<string, string> = {
   "post-tool-use": "../hooks/post-tool-use.js",
@@ -21,13 +24,39 @@ async function main(): Promise<void> {
     return;
   }
 
-  if (command === "enable" || command === "disable" || command === "status") {
-    // TODO(week 3): flip/report between-turns.config.json's "enabled" flag.
-    console.error(`\`between-turns ${command}\` is not implemented yet.`);
-    process.exit(1);
+  if (command === "init") {
+    try {
+      init(process.cwd());
+    } catch (err) {
+      console.error((err as Error).message);
+      process.exit(1);
+    }
+    return;
   }
 
-  console.error("usage: between-turns <hook <name>|enable|disable|status>");
+  if (command === "enable" || command === "disable" || command === "status") {
+    try {
+      if (command === "enable") enable(process.cwd());
+      else if (command === "disable") disable(process.cwd());
+      else status(process.cwd());
+    } catch (err) {
+      console.error((err as Error).message);
+      process.exit(1);
+    }
+    return;
+  }
+
+  if (command === "scripture-context") {
+    try {
+      printScriptureContext(process.cwd(), sub);
+    } catch (err) {
+      console.error((err as Error).message);
+      process.exit(1);
+    }
+    return;
+  }
+
+  console.error("usage: between-turns <init|hook <name>|enable|disable|status|scripture-context [n]>");
   process.exit(1);
 }
 

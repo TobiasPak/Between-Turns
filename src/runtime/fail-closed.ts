@@ -28,11 +28,7 @@ async function retrieveAndSelect(
   contextDescription: string
 ): Promise<
   | { ok: true; candidates: RetrievalCandidate[]; selection: SelectionResult }
-  | {
-      ok: false;
-      reason: "gloo_search_unavailable" | "no_candidates_above_threshold" | "selection_failed_no_fallback";
-      debugDetail?: string;
-    }
+  | { ok: false; reason: "gloo_search_unavailable" | "no_candidates_above_threshold"; debugDetail?: string }
 > {
   let candidates: RetrievalCandidate[];
   try {
@@ -46,10 +42,6 @@ async function retrieveAndSelect(
   }
 
   const selection = await selectCandidate(config, contextDescription, candidates);
-  if (!selection) {
-    return { ok: false, reason: "selection_failed_no_fallback" };
-  }
-
   return { ok: true, candidates, selection };
 }
 

@@ -73,6 +73,7 @@ async function main(): Promise<void> {
       "[between-turns:visible-candidate] The developer sounds frustrated right now. You are permitted -- not obligated -- to reference this real, verified verse explicitly, in your own words, only if it's honest given what's actually happening:",
       `${outcome.source.reference_display}, ${outcome.source.translation}: "${outcome.source.verse_text}"`,
       `(Why this one was selected: ${outcome.source.selection_rationale})`,
+      `(Why this looked like a genuine moment, judged independently before you saw this: ${detection.detail})`,
     ].join("\n");
     emitAdditionalContext("UserPromptSubmit", context);
     return;

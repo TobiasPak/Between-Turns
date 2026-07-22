@@ -18,16 +18,16 @@ export interface SelectionResult {
  * + an enum of candidate IDs. That test showed the constraint holds even
  * under an adversarial prompt -- but the validation below stays in place
  * regardless, as defense in depth (plan §7 step 8), not as the only guard.
+ *
+ * Callers must only invoke this with a non-empty candidate list -- the
+ * "zero candidates" case is fail-closed.ts's own, earlier suppression stage
+ * (`no_candidates_above_threshold`), not this function's concern.
  */
 export async function selectCandidate(
   config: BetweenTurnsConfig,
   contextDescription: string,
   candidates: RetrievalCandidate[]
-): Promise<SelectionResult | null> {
-  if (candidates.length === 0) {
-    return null;
-  }
-
+): Promise<SelectionResult> {
   const ids = candidates.map((_, i) => `cand_${i}`);
   const parametersSchema = {
     type: "object",

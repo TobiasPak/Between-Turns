@@ -9,8 +9,12 @@ import type { RetrievedScripture } from "../types/retrieved-scripture.js";
  * sessions can't corrupt each other's writes, and the log stays trivially
  * greppable/diffable for /scripture-context and for judges (plan §7).
  */
-export function logRetrievedScripture(cwd: string, config: BetweenTurnsConfig, event: Omit<RetrievedScripture, "event_id">): RetrievedScripture {
-  const full: RetrievedScripture = { event_id: randomUUID(), ...event };
+export function logRetrievedScripture(
+  cwd: string,
+  config: BetweenTurnsConfig,
+  event: Omit<RetrievedScripture, "event_id" | "timestamp">
+): RetrievedScripture {
+  const full: RetrievedScripture = { event_id: randomUUID(), timestamp: new Date().toISOString(), ...event };
 
   const date = new Date().toISOString().slice(0, 10);
   const dir = join(cwd, config.log_dir, date);

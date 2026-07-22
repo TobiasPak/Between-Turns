@@ -9,6 +9,7 @@ export interface CandidateOffered {
 
 export interface RetrievedScripture {
   event_id: string;
+  timestamp: string;
   session_id: string;
   mode: Mode;
   trigger: {

@@ -7,6 +7,10 @@
   "bin": {
     "between-turns": "dist/cli/index.js"
   },
+  "files": [
+    "dist",
+    "data/themes.json"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsc -p tsconfig.json --watch",
