@@ -2,8 +2,8 @@
   "checked_at": "2026-07-12T02:53:30.527Z",
   "model": "gloo-anthropic-claude-sonnet-4.5",
   "certainty_keep_threshold": 0.35,
-  "total_kept": 267,
-  "total_rejected": 151,
+  "total_kept": 294,
+  "total_rejected": 177,
   "per_theme": {
     "perseverance-under-repeated-failure": [
       {
@@ -6787,6 +6787,866 @@
         "gloo_yesno_rationale": "The verse is about committing work to God and trusting Him to establish plans, but it doesn't directly address the emotion of gladness or the moment of completion when something is finished.",
         "kept": false,
         "reject_reason": "gloo_yesno_no"
+      }
+    ],
+    "discernment-in-trusting-suggestions": [
+      {
+        "osis_ref": "PRO.14.15",
+        "reference_display": "Proverbs 14:15",
+        "verse_text": "The simple believe anything, but the prudent give thought to their steps.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:03.965Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.15",
+          "checksum": "sha256:7201aac0f6ca903847e2170d9c6c2da2e487e64d0aa32ac43872b3d0b4249971"
+        },
+        "fit_score": 0.6083843111991882,
+        "gloo_search_certainty": 0.6083843111991882,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly contrasts uncritical acceptance (\"the simple believe anything\") with careful evaluation (\"the prudent give thought\"), which perfectly captures the theme of weighing whether to accept unverified suggestions.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1TH.5.21",
+        "reference_display": "1 Thessalonians 5:21",
+        "verse_text": "but test them all; hold on to what is good,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:01:03.541Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1TH.5.21",
+          "checksum": "sha256:4cf6f74533e41ca4c52f9a714fabfe775d92ff8b56b62e56c96d3c82cccf0fc2"
+        },
+        "fit_score": 0.5839769244194031,
+        "gloo_search_certainty": 0.5839769244194031,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly instructs believers to test all things before accepting them, which is the essence of weighing whether to accept a suggestion you can't fully verify yourself.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "ACT.17.11",
+        "reference_display": "Acts 17:11",
+        "verse_text": "Now the Berean Jews were of more noble character than those in Thessalonica, for they received the message with great eagerness and examined the Scriptures every day to see if what Paul said was true.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:37.451Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.17.11",
+          "checksum": "sha256:e8bcad00fd923c2b52b199d2dce281d9cc7047b5763a587699c44ac2793c734d"
+        },
+        "fit_score": 0.5786582231521606,
+        "gloo_search_certainty": 0.5786582231521606,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly describes people weighing whether to accept Paul's teaching by verifying it against Scripture, which is exactly the theme of evaluating a suggestion you cannot fully verify on your own.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "PRO.3.5-6",
+        "reference_display": "Proverbs 3:5-6",
+        "verse_text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:01:11.315Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.3.5-6",
+          "checksum": "sha256:bda6e2dc6e5f480f27d43d774bde3b3153751f4e46ca93b1a6e146e39928e29d"
+        },
+        "fit_score": 0.610658586025238,
+        "gloo_search_certainty": 0.610658586025238,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses trusting guidance beyond one's own ability to verify or understand, which is the essence of accepting a suggestion you can't fully verify yourself.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1JN.4.1",
+        "reference_display": "1 John 4:1",
+        "verse_text": "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:28:18.993Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1JN.4.1",
+          "checksum": "sha256:536f7a0960147fc8c4d57ef867f374014792060818a090b0fcfe4a7eeb04a95f"
+        },
+        "fit_score": 0.6276214122772217,
+        "gloo_search_certainty": 0.6276214122772217,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses the need to test and evaluate claims (from \"spirits\" or prophets) rather than accepting them at face value, which aligns well with the theme of carefully weighing suggestions you cannot fully verify yourself.",
+        "kept": true,
+        "reject_reason": null
+      }
+    ],
+    "vigilance-over-plausible-looking-code": [
+      {
+        "osis_ref": "PRO.14.12",
+        "reference_display": "Proverbs 14:12",
+        "verse_text": "There is a way that appears to be right, but in the end it leads to death.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:01:31.979Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.12",
+          "checksum": "sha256:f899ba25a530205ab4ea90fda25f11c4459331663a1f66382c566d981c6d0d0e"
+        },
+        "fit_score": 0.5803672075271606,
+        "gloo_search_certainty": 0.5803672075271606,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse addresses moral/spiritual discernment about life paths leading to death, not technical vigilance about code errors, making the connection a superficial stretch rather than genuine support.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1TH.5.21",
+        "reference_display": "1 Thessalonians 5:21",
+        "verse_text": "but test them all; hold on to what is good,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:01:03.541Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1TH.5.21",
+          "checksum": "sha256:4cf6f74533e41ca4c52f9a714fabfe775d92ff8b56b62e56c96d3c82cccf0fc2"
+        },
+        "fit_score": 0.6309705972671509,
+        "gloo_search_certainty": 0.6309705972671509,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly instructs readers to test/examine things carefully before accepting them, which aligns well with the practice of scrutinizing code for subtle errors rather than assuming correctness at first glance.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "ACT.17.11",
+        "reference_display": "Acts 17:11",
+        "verse_text": "Now the Berean Jews were of more noble character than those in Thessalonica, for they received the message with great eagerness and examined the Scriptures every day to see if what Paul said was true.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-19T02:48:37.451Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.17.11",
+          "checksum": "sha256:e8bcad00fd923c2b52b199d2dce281d9cc7047b5763a587699c44ac2793c734d"
+        },
+        "fit_score": 0.5573720335960388,
+        "gloo_search_certainty": 0.5573720335960388,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about testing spiritual teaching against Scripture, not about debugging code or spotting technical errors—the connection is only superficial analogy, not genuine thematic support.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "PRO.18.17",
+        "reference_display": "Proverbs 18:17",
+        "verse_text": "In a lawsuit the first to speak seems right, until someone comes forward and cross-examines.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:30:09.128Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.18.17",
+          "checksum": "sha256:b81446ca3761330bc4963af87dab7a261aa675cf726e1bef60530dc773117c2c"
+        },
+        "fit_score": 0.6324390769004822,
+        "gloo_search_certainty": 0.6324390769004822,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly warns that what appears correct at first examination may prove flawed upon closer scrutiny, which parallels the need to carefully review code that seems right initially.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1JN.4.1",
+        "reference_display": "1 John 4:1",
+        "verse_text": "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:28:18.993Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1JN.4.1",
+          "checksum": "sha256:536f7a0960147fc8c4d57ef867f374014792060818a090b0fcfe4a7eeb04a95f"
+        },
+        "fit_score": 0.5907816886901855,
+        "gloo_search_certainty": 0.5907816886901855,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about discerning spiritual truth and false teaching, not about scrutinizing code or technical details—the connection to programming mistakes is metaphorical at best and stretches the verse's intended meaning.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "ACT.17.11",
+        "reference_display": "Acts 17:11",
+        "verse_text": "Now the Berean Jews were of more noble character than those in Thessalonica, for they received the message with great eagerness and examined the Scriptures every day to see if what Paul said was true.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:14.845Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.17.11",
+          "checksum": "sha256:e8bcad00fd923c2b52b199d2dce281d9cc7047b5763a587699c44ac2793c734d"
+        },
+        "fit_score": 0.5573720335960388,
+        "gloo_search_certainty": 0.5573720335960388,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about examining spiritual teaching against Scripture, not about reviewing code for errors—the connection is only metaphorical and requires significant interpretive leap from the text's actual subject matter.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1JN.4.1",
+        "reference_display": "1 John 4:1",
+        "verse_text": "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:15.003Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1JN.4.1",
+          "checksum": "sha256:536f7a0960147fc8c4d57ef867f374014792060818a090b0fcfe4a7eeb04a95f"
+        },
+        "fit_score": 0.5907816886901855,
+        "gloo_search_certainty": 0.5907816886901855,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about testing spiritual teachings and discerning false prophets, not about scrutinizing code for errors; the connection is only a superficial analogy about \"testing\" things.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "PRO.14.15",
+        "reference_display": "Proverbs 14:15",
+        "verse_text": "The simple believe anything, but the prudent give thought to their steps.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:15.427Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.15",
+          "checksum": "sha256:7201aac0f6ca903847e2170d9c6c2da2e487e64d0aa32ac43872b3d0b4249971"
+        },
+        "fit_score": 0.6538896560668945,
+        "gloo_search_certainty": 0.6538896560668945,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly supports the theme by contrasting naive acceptance with careful, thoughtful examination—which applies well to scrutinizing code that appears correct but may contain subtle errors.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "MAT.7.15",
+        "reference_display": "Matthew 7:15",
+        "verse_text": "“Watch out for false prophets. They come to you in sheep’s clothing, but inwardly they are ferocious wolves.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:15.884Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.7.15",
+          "checksum": "sha256:9e1789857482c980d1c216c21505266fcd8c8c674279fc3f9144815614c57c22"
+        },
+        "fit_score": 0.6245861053466797,
+        "gloo_search_certainty": 0.6245861053466797,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse warns about deceptive people with harmful intent, not about identifying subtle errors in code; the connection is only metaphorical and stretches the original spiritual context beyond its genuine meaning.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1CO.10.12",
+        "reference_display": "1 Corinthians 10:12",
+        "verse_text": "So, if you think you are standing firm, be careful that you don’t fall!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:16.279Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.10.12",
+          "checksum": "sha256:5553fde7d16ac4d81025baa5fd56d4eb29440b437033be86fdae5460dfd2bd75"
+        },
+        "fit_score": 0.6575570106506348,
+        "gloo_search_certainty": 0.6575570106506348,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse's warning against overconfidence when you think you're secure directly parallels the need to stay vigilant when code appears correct but may contain hidden errors.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "PRO.14.12",
+        "reference_display": "Proverbs 14:12",
+        "verse_text": "There is a way that appears to be right, but in the end it leads to death.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:16.441Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.12",
+          "checksum": "sha256:f899ba25a530205ab4ea90fda25f11c4459331663a1f66382c566d981c6d0d0e"
+        },
+        "fit_score": 0.5803672075271606,
+        "gloo_search_certainty": 0.5803672075271606,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly warns about things that appear correct but lead to destructive outcomes, which closely parallels the danger of code that looks right but contains subtle, harmful errors.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "JER.17.9",
+        "reference_display": "Jeremiah 17:9",
+        "verse_text": "The heart is deceitful above all things and beyond cure. Who can understand it?",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:16.938Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/JER.17.9",
+          "checksum": "sha256:caeeb96667b0c2ccaa840dd3f93a9267c92b9178d279b9d8d85cc959499d2c75"
+        },
+        "fit_score": 0.5943002700805664,
+        "gloo_search_certainty": 0.5943002700805664,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse addresses the deceitfulness of the human heart in a moral/spiritual sense, not the technical challenge of identifying coding errors or subtle mistakes in logic.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "2CO.11.14",
+        "reference_display": "2 Corinthians 11:14",
+        "verse_text": "And no wonder, for Satan himself masquerades as an angel of light.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:44:17.383Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/2CO.11.14",
+          "checksum": "sha256:074d6a1b6d9e2595d0def21de49d23642e7b8170b9f3e8caf979d2ac0c587103"
+        },
+        "fit_score": 0.5679363012313843,
+        "gloo_search_certainty": 0.5679363012313843,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse addresses spiritual deception and false teachers, not code review or technical vigilance—the connection is only metaphorical and superficial.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      }
+    ],
+    "companionship-in-solitary-work": [
+      {
+        "osis_ref": "PSA.139.7-10",
+        "reference_display": "Psalms 139:7-10",
+        "verse_text": "Where can I go from your Spirit? Where can I flee from your presence? If I go up to the heavens, you are there; if I make my bed in the depths, you are there. If I rise on the wings of the dawn, if I settle on the far side of the sea, even there your hand will guide me, your right hand will hold me fast.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:31:07.748Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.139.7-10",
+          "checksum": "sha256:f7c202480d9822a0ed5757119aff8c4920ce3e3b273e47d335a112d13826cc71"
+        },
+        "fit_score": 0.6067779064178467,
+        "gloo_search_certainty": 0.6067779064178467,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly affirms God's omnipresent guidance and sustaining hand in every location and circumstance, which genuinely supports the theme of real presence and help during solitary work.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "MAT.28.20",
+        "reference_display": "Matthew 28:20",
+        "verse_text": "and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:31:08.110Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.28.20",
+          "checksum": "sha256:aeee4aeaf09cdc165d2e30c5ac6fb650a0525b1ff09b4139dfbd7f3cbc71a2f8"
+        },
+        "fit_score": 0.6536400318145752,
+        "gloo_search_certainty": 0.6536400318145752,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly promises Christ's constant presence (\"I am with you always\"), which genuinely supports the theme of real presence during solitary hours, regardless of the specific activity.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "PSA.121.3-4",
+        "reference_display": "Psalms 121:3-4",
+        "verse_text": "He will not let your foot slip— he who watches over you will not slumber; indeed, he who watches over Israel will neither slumber nor sleep.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:00:52.008Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PSA.121.3-4",
+          "checksum": "sha256:b588ad4e4fdd985ed9fab0772b6be111b803dcc92f6580bf98952e808c7fc780"
+        },
+        "fit_score": 0.6106311082839966,
+        "gloo_search_certainty": 0.6106311082839966,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly affirms God's constant, wakeful presence and protective care at all times, which genuinely supports the theme of real presence and help during long, solitary hours.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "ISA.41.10",
+        "reference_display": "Isaiah 41:10",
+        "verse_text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:01:14.534Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ISA.41.10",
+          "checksum": "sha256:79339d6f253b102ff0f20a2682fdfb42d7d3cd3c9033b96bcd9115c18ee74186"
+        },
+        "fit_score": 0.6490626931190491,
+        "gloo_search_certainty": 0.6490626931190491,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly promises God's presence (\"I am with you\"), strengthening, and help during difficult times, which genuinely applies to the solitary, often discouraging experience of long hours working alone.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "HEB.13.5-6",
+        "reference_display": "Hebrews 13:5-6",
+        "verse_text": "Keep your lives free from the love of money and be content with what you have, because God has said, “Never will I leave you; never will I forsake you.” So we say with confidence, “The Lord is my helper; I will not be afraid. What can mere mortals do to me?”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:31:08.613Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/HEB.13.5-6",
+          "checksum": "sha256:8e5642c3dcad552be739f62b7f7b87692f0acd336dceed1bb1a026b9418e6bbd"
+        },
+        "fit_score": 0.6356707215309143,
+        "gloo_search_certainty": 0.6356707215309143,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly promises God's constant presence (\"Never will I leave you; never will I forsake you\") and identifies Him as a helper, which genuinely supports the theme of real presence and help during solitary work hours, even though the original context addresses contentment and money.",
+        "kept": true,
+        "reject_reason": null
+      }
+    ],
+    "independent-judgment-over-deference": [
+      {
+        "osis_ref": "ACT.5.29",
+        "reference_display": "Acts 5:29",
+        "verse_text": "Peter and the other apostles replied: “We must obey God rather than human beings!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:32:07.391Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.5.29",
+          "checksum": "sha256:503fab465c68526656995e9fd3cab003793cf506834e95420512fe5d8d559379"
+        },
+        "fit_score": 0,
+        "gloo_search_certainty": 0,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about obeying God over human authority, not about trusting personal judgment—it distinguishes between divine command and human opinion, whereas the theme concerns individual discernment between competing human suggestions.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "GAL.1.10-12",
+        "reference_display": "Galatians 1:10-12",
+        "verse_text": "Am I now trying to win the approval of human beings, or of God? Or am I trying to please people? If I were still trying to please people, I would not be a servant of Christ. I want you to know, brothers and sisters, that the gospel I preached is not of human origin. I did not receive it from any man, nor was I taught it; rather, I received it by revelation from Jesus Christ.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:32:07.985Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/GAL.1.10-12",
+          "checksum": "sha256:5cc9edbc73114cfc90d7eccf0f33f7ac934d54eeadf099faedb246bdb8c22df9"
+        },
+        "fit_score": 0.6355271935462952,
+        "gloo_search_certainty": 0.6355271935462952,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about prioritizing God's revelation over human approval, not about trusting one's own judgment—Paul explicitly says his message came from divine revelation, not his own reasoning or instinct.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1KI.13.15-22",
+        "reference_display": "1 Kings 13:15-22",
+        "verse_text": "So the prophet said to him, “Come home with me and eat.” The man of God said, “I cannot turn back and go with you, nor can I eat bread or drink water with you in this place. I have been told by the word of the Lord: ‘You must not eat bread or drink water there or return by the way you came.’ ” The old prophet answered, “I too am a prophet, as you are. And an angel said to me by the word of the Lord: ‘Bring him back with you to your house so that he may eat bread and drink water.’ ” (But he was lying to him.) So the man of God returned with him and ate and drank in his house. While they were sitting at the table, the word of the Lord came to the old prophet who had brought him back. He cried out to the man of God who had come from Judah, “This is what the Lord says: ‘You have defied the word of the Lord and have not kept the command the Lord your God gave you. You came back and ate bread and drank water in the place where he told you not to eat or drink. Therefore your body will not be buried in the tomb of your ancestors.’ ”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:32:08.486Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.13.15-22",
+          "checksum": "sha256:66d16403a6b6a2a559250f80d0a17d0d73bf240bc9ce8b10aab646d19ced9485"
+        },
+        "fit_score": 0.626365602016449,
+        "gloo_search_certainty": 0.626365602016449,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The passage directly illustrates the consequences of abandoning one's clear directive (God's word) in favor of a confident but false claim from another prophet, making it a strong match for the theme of trusting your own judgment over persuasive outside voices.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "PRO.14.15",
+        "reference_display": "Proverbs 14:15",
+        "verse_text": "The simple believe anything, but the prudent give thought to their steps.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:03:03.965Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.15",
+          "checksum": "sha256:7201aac0f6ca903847e2170d9c6c2da2e487e64d0aa32ac43872b3d0b4249971"
+        },
+        "fit_score": 0.6884734034538269,
+        "gloo_search_certainty": 0.6884734034538269,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly supports the theme by contrasting gullible acceptance of claims with careful, independent evaluation of one's own actions.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "PRO.3.5-7",
+        "reference_display": "Proverbs 3:5-7",
+        "verse_text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. Do not be wise in your own eyes; fear the Lord and shun evil.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:07.035Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.3.5-7",
+          "checksum": "sha256:f04ce7abdd18914ebf2a985dc9146118356648a817d806b170063d00a5333c1b"
+        },
+        "fit_score": 0.7099294066429138,
+        "gloo_search_certainty": 0.7099294066429138,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "This verse explicitly teaches the opposite—it instructs readers to distrust their own judgment and lean on God's understanding instead of their own wisdom.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1CO.2.15",
+        "reference_display": "1 Corinthians 2:15",
+        "verse_text": "The person with the Spirit makes judgments about all things, but such a person is not subject to merely human judgments,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:07.431Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.2.15",
+          "checksum": "sha256:8831d287ad8045eb76f0ba12863dbc40c0f9b19dbac8087301738be9365d4441"
+        },
+        "fit_score": 0.6818127632141113,
+        "gloo_search_certainty": 0.6818127632141113,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about spiritual discernment guided by the Holy Spirit versus merely human wisdom, not about trusting one's own independent judgment against others' advice.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "GAL.1.10",
+        "reference_display": "Galatians 1:10",
+        "verse_text": "Am I now trying to win the approval of human beings, or of God? Or am I trying to please people? If I were still trying to please people, I would not be a servant of Christ.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:07.908Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/GAL.1.10",
+          "checksum": "sha256:de8630f9b08f65692d004b5f334bab04f4716307363570019e8934b31ca51d81"
+        },
+        "fit_score": 0.6228011846542358,
+        "gloo_search_certainty": 0.6228011846542358,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about prioritizing God's approval over human approval in the context of Christian service, not about trusting one's own judgment against confident suggestions—it replaces human opinion with divine authority rather than affirming personal discernment.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "ROM.14.5",
+        "reference_display": "Romans 14:5",
+        "verse_text": "One person considers one day more sacred than another; another considers every day alike. Each of them should be fully convinced in their own mind.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:08.434Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ROM.14.5",
+          "checksum": "sha256:2f1754b04be9144f3d9b1e39054ebf4b2bfd1a5c59bea73afd51de4f11a693dc"
+        },
+        "fit_score": 0.6359214782714844,
+        "gloo_search_certainty": 0.6359214782714844,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly instructs each person to be \"fully convinced in their own mind\" about disputable matters, which supports trusting one's own judgment even when others hold different convictions.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1TH.5.21",
+        "reference_display": "1 Thessalonians 5:21",
+        "verse_text": "but test them all; hold on to what is good,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:08.925Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1TH.5.21",
+          "checksum": "sha256:4cf6f74533e41ca4c52f9a714fabfe775d92ff8b56b62e56c96d3c82cccf0fc2"
+        },
+        "fit_score": 0,
+        "gloo_search_certainty": 0,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly instructs believers to test or evaluate things for themselves and retain only what is good, which directly supports the theme of exercising personal judgment rather than accepting suggestions uncritically.",
+        "kept": false,
+        "reject_reason": "certainty_below_threshold"
+      },
+      {
+        "osis_ref": "ACT.5.29",
+        "reference_display": "Acts 5:29",
+        "verse_text": "Peter and the other apostles replied: “We must obey God rather than human beings!",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:09.082Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ACT.5.29",
+          "checksum": "sha256:503fab465c68526656995e9fd3cab003793cf506834e95420512fe5d8d559379"
+        },
+        "fit_score": 0,
+        "gloo_search_certainty": 0,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about obeying God over human authority, not about trusting personal judgment—the apostles are submitting to divine authority rather than asserting their own autonomous discernment.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "PRO.14.12",
+        "reference_display": "Proverbs 14:12",
+        "verse_text": "There is a way that appears to be right, but in the end it leads to death.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:09.560Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.14.12",
+          "checksum": "sha256:f899ba25a530205ab4ea90fda25f11c4459331663a1f66382c566d981c6d0d0e"
+        },
+        "fit_score": 0,
+        "gloo_search_certainty": 0,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse warns against trusting your own judgment when something appears right to you, which is the opposite of the theme—it cautions that what seems right to us can be deadly wrong.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1JN.4.1",
+        "reference_display": "1 John 4:1",
+        "verse_text": "Dear friends, do not believe every spirit, but test the spirits to see whether they are from God, because many false prophets have gone out into the world.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:42:09.713Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1JN.4.1",
+          "checksum": "sha256:536f7a0960147fc8c4d57ef867f374014792060818a090b0fcfe4a7eeb04a95f"
+        },
+        "fit_score": 0.6375059485435486,
+        "gloo_search_certainty": 0.6375059485435486,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse explicitly instructs believers to test and discern teachings rather than accepting them at face value, even from confident sources claiming spiritual authority, which directly supports exercising careful judgment over trusting others' confident claims.",
+        "kept": true,
+        "reject_reason": null
+      }
+    ],
+    "humility-about-a-tools-limits": [
+      {
+        "osis_ref": "1CO.1.25",
+        "reference_display": "1 Corinthians 1:25",
+        "verse_text": "For the foolishness of God is wiser than human wisdom, and the weakness of God is stronger than human strength.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:33:01.324Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.1.25",
+          "checksum": "sha256:2e3aa7c2401724b149a08c8299ee31451d7804f069e424a85b764ae71abebf79"
+        },
+        "fit_score": 0.6359037160873413,
+        "gloo_search_certainty": 0.6359037160873413,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse contrasts God's wisdom with human wisdom to show God's superiority, not to highlight the limits or blind spots of a powerful tool—it's about divine versus human capacity, not about recognizing limitations within something powerful.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "PRO.3.5-7",
+        "reference_display": "Proverbs 3:5-7",
+        "verse_text": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight. Do not be wise in your own eyes; fear the Lord and shun evil.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-20T21:01:34.697Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/PRO.3.5-7",
+          "checksum": "sha256:f04ce7abdd18914ebf2a985dc9146118356648a817d806b170063d00a5333c1b"
+        },
+        "fit_score": 0.6598714590072632,
+        "gloo_search_certainty": 0.6598714590072632,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses the limits of human understanding and warns against overconfidence in one's own wisdom, which aligns closely with recognizing that even powerful tools (including our own reasoning) have real limits and blind spots.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "JOB.38.1-4",
+        "reference_display": "Job 38:1-4",
+        "verse_text": "Then the Lord spoke to Job out of the storm. He said: “Who is this that obscures my plans with words without knowledge? Brace yourself like a man; I will question you, and you shall answer me. “Where were you when I laid the earth’s foundation? Tell me, if you understand.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:33:01.775Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/JOB.38.1-4",
+          "checksum": "sha256:4d6e0c81b7a987bee41c4b3363b29fe2dbe3601549ac31b0261799e7e75e62e3"
+        },
+        "fit_score": 0.5919053554534912,
+        "gloo_search_certainty": 0.5919053554534912,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "God directly confronts Job's presumption by highlighting the vast limits of human understanding compared to divine knowledge, emphasizing that even Job's wisdom and reasoning are insufficient tools with real blind spots when grasping ultimate truth.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1CO.13.9",
+        "reference_display": "1 Corinthians 13:9",
+        "verse_text": "For we know in part and we prophesy in part,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:33:02.189Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.13.9",
+          "checksum": "sha256:27ac43355261ee46a81f15c9ca1a4bd0f46b277076204e7258d763904467e444"
+        },
+        "fit_score": 0.5891172885894775,
+        "gloo_search_certainty": 0.5891172885894775,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly states that human knowledge and prophetic ability (powerful tools) are inherently partial and incomplete, which clearly aligns with the theme of recognizing limits and blind spots.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "ISA.55.8-9",
+        "reference_display": "Isaiah 55:8-9",
+        "verse_text": "“For my thoughts are not your thoughts, neither are your ways my ways,” declares the Lord. “As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-12T02:01:46.284Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/ISA.55.8-9",
+          "checksum": "sha256:6633313393a107f1c6ec00f767b5110502ad85b775ae52e550526b6ad9dafcf3"
+        },
+        "fit_score": 0.5842795372009277,
+        "gloo_search_certainty": 0.5842795372009277,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse is about the incomprehensible greatness of God's wisdom compared to human understanding, not about the limitations of tools or instruments.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      }
+    ],
+    "stewardship-of-delegated-work": [
+      {
+        "osis_ref": "NEH.5.14-19",
+        "reference_display": "Nehemiah 5:14-19",
+        "verse_text": "Moreover, from the twentieth year of King Artaxerxes, when I was appointed to be their governor in the land of Judah, until his thirty-second year—twelve years—neither I nor my brothers ate the food allotted to the governor. But the earlier governors—those preceding me—placed a heavy burden on the people and took forty shekels of silver from them in addition to food and wine. Their assistants also lorded it over the people. But out of reverence for God I did not act like that. Instead, I devoted myself to the work on this wall. All my men were assembled there for the work; we did not acquire any land. Furthermore, a hundred and fifty Jews and officials ate at my table, as well as those who came to us from the surrounding nations. Each day one ox, six choice sheep and some poultry were prepared for me, and every ten days an abundant supply of wine of all kinds. In spite of all this, I never demanded the food allotted to the governor, because the demands were heavy on these people. Remember me with favor, my God, for all I have done for these people.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:34:03.956Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/NEH.5.14-19",
+          "checksum": "sha256:5d7a1eed86893f3d67b92c0a62b181e65a77dce7bc4c979bfa390d096d655e4c"
+        },
+        "fit_score": 0.5794202089309692,
+        "gloo_search_certainty": 0.5794202089309692,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "This passage is about Nehemiah's personal financial sacrifice and ethical governance—refusing entitled benefits to avoid burdening the people—not about taking responsibility for work delegated to others.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "1KI.21.1-16",
+        "reference_display": "1 Kings 21:1-16",
+        "verse_text": "Some time later there was an incident involving a vineyard belonging to Naboth the Jezreelite. The vineyard was in Jezreel, close to the palace of Ahab king of Samaria. Ahab said to Naboth, “Let me have your vineyard to use for a vegetable garden, since it is close to my palace. In exchange I will give you a better vineyard or, if you prefer, I will pay you whatever it is worth.” But Naboth replied, “The Lord forbid that I should give you the inheritance of my ancestors.” So Ahab went home, sullen and angry because Naboth the Jezreelite had said, “I will not give you the inheritance of my ancestors.” He lay on his bed sulking and refused to eat. His wife Jezebel came in and asked him, “Why are you so sullen? Why won’t you eat?” He answered her, “Because I said to Naboth the Jezreelite, ‘Sell me your vineyard; or if you prefer, I will give you another vineyard in its place.’ But he said, ‘I will not give you my vineyard.’ ” Jezebel his wife said, “Is this how you act as king over Israel? Get up and eat! Cheer up. I’ll get you the vineyard of Naboth the Jezreelite.” So she wrote letters in Ahab’s name, placed his seal on them, and sent them to the elders and nobles who lived in Naboth’s city with him. In those letters she wrote: “Proclaim a day of fasting and seat Naboth in a prominent place among the people. But seat two scoundrels opposite him and have them bring charges that he has cursed both God and the king. Then take him out and stone him to death.” So the elders and nobles who lived in Naboth’s city did as Jezebel directed in the letters she had written to them. They proclaimed a fast and seated Naboth in a prominent place among the people. Then two scoundrels came and sat opposite him and brought charges against Naboth before the people, saying, “Naboth has cursed both God and the king.” So they took him outside the city and stoned him to death. Then they sent word to Jezebel: “Naboth has been stoned to death.” As soon as Jezebel heard that Naboth had been stoned to death, she said to Ahab, “Get up and take possession of the vineyard of Naboth the Jezreelite that he refused to sell you. He is no longer alive, but dead.” When Ahab heard that Naboth was dead, he got up and went down to take possession of Naboth’s vineyard.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:34:04.443Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1KI.21.1-16",
+          "checksum": "sha256:ed66291fb6c9115ef7f73d33b87b1cd9f024e21cffbe5accdfba3183fa44bfe9"
+        },
+        "fit_score": 0.5703813433647156,
+        "gloo_search_certainty": 0.5703813433647156,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "While Jezebel orchestrated the murder in Ahab's name and he benefited from it, the passage itself doesn't show Ahab taking responsibility—in fact, he simply accepts the outcome without acknowledgment of wrongdoing, which is the opposite of the theme.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "2SA.11.14-17",
+        "reference_display": "2 Samuel 11:14-17",
+        "verse_text": "In the morning David wrote a letter to Joab and sent it with Uriah. In it he wrote, “Put Uriah out in front where the fighting is fiercest. Then withdraw from him so he will be struck down and die.” So while Joab had the city under siege, he put Uriah at a place where he knew the strongest defenders were. When the men of the city came out and fought against Joab, some of the men in David’s army fell; moreover, Uriah the Hittite died.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:34:04.921Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/2SA.11.14-17",
+          "checksum": "sha256:09060bad621cb81193a989933892fb837c363427f3dc208552c043e5b547b5c8"
+        },
+        "fit_score": 0.587505042552948,
+        "gloo_search_certainty": 0.587505042552948,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "David is held fully responsible for Uriah's death throughout Scripture despite not personally killing him, because he directed Joab to orchestrate it—this is a clear biblical example of culpability for actions one commands rather than executes.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "EXO.32.21-24",
+        "reference_display": "Exodus 32:21-24",
+        "verse_text": "He said to Aaron, “What did these people do to you, that you led them into such great sin?” “Do not be angry, my lord,” Aaron answered. “You know how prone these people are to evil. They said to me, ‘Make us gods who will go before us. As for this fellow Moses who brought us up out of Egypt, we don’t know what has happened to him.’ So I told them, ‘Whoever has any gold jewelry, take it off.’ Then they gave me the gold, and I threw it into the fire, and out came this calf!”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:34:05.418Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/EXO.32.21-24",
+          "checksum": "sha256:7c3ba7ef03e75f49d5e3e80e3a19ea45d4e49c8c69b03074fc41e6ccc924da38"
+        },
+        "fit_score": 0.5769327878952026,
+        "gloo_search_certainty": 0.5769327878952026,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "This passage actually illustrates the opposite—Aaron deflecting responsibility and making excuses for work he directed (\"I threw it into the fire, and out came this calf!\"), rather than taking real responsibility for it.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "MAT.27.24-25",
+        "reference_display": "Matthew 27:24-25",
+        "verse_text": "When Pilate saw that he was getting nowhere, but that instead an uproar was starting, he took water and washed his hands in front of the crowd. “I am innocent of this man’s blood,” he said. “It is your responsibility!” All the people answered, “His blood is on us and on our children!”",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:34:05.901Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.27.24-25",
+          "checksum": "sha256:67cdd2ca01816e6a2f9680ae6e6f2f84993a2797c47236376aa1607975a342e2"
+        },
+        "fit_score": 0.660224974155426,
+        "gloo_search_certainty": 0.660224974155426,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "This verse shows Pilate refusing to take responsibility for a decision he authorized, which is the opposite of the theme about genuinely owning responsibility for work you directed.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "MAT.25.14-19",
+        "reference_display": "Matthew 25:14-19",
+        "verse_text": "“Again, it will be like a man going on a journey, who called his servants and entrusted his wealth to them. To one he gave five bags of gold, to another two bags, and to another one bag, each according to his ability. Then he went on his journey. The man who had received five bags of gold went at once and put his money to work and gained five bags more. So also, the one with two bags of gold gained two more. But the man who had received one bag went off, dug a hole in the ground and hid his master’s money. “After a long time the master of those servants returned and settled accounts with them.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:11.242Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.25.14-19",
+          "checksum": "sha256:374901100d3a62e9750d38eb1078c40eab3c179557da4f98a41beecb7ccd8588"
+        },
+        "fit_score": 0.5704238414764404,
+        "gloo_search_certainty": 0.5704238414764404,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The master entrusted his wealth to servants who worked independently, then returned to hold them accountable for results he didn't personally produce—directly illustrating responsibility for work delegated to others.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1CO.4.2",
+        "reference_display": "1 Corinthians 4:2",
+        "verse_text": "Now it is required that those who have been given a trust must prove faithful.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:11.719Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1CO.4.2",
+          "checksum": "sha256:e88be6edf282f31aca6960bbcec3b058b2e0c4444e6e4bdcd1b36b930f4e6b21"
+        },
+        "fit_score": 0.5846222639083862,
+        "gloo_search_certainty": 0.5846222639083862,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The verse directly addresses faithfulness in stewarding responsibilities entrusted to someone, which applies to being accountable for work one has directed or overseen even if not personally executed.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "LUK.12.42-48",
+        "reference_display": "Luke 12:42-48",
+        "verse_text": "The Lord answered, “Who then is the faithful and wise manager, whom the master puts in charge of his servants to give them their food allowance at the proper time? It will be good for that servant whom the master finds doing so when he returns. Truly I tell you, he will put him in charge of all his possessions. But suppose the servant says to himself, ‘My master is taking a long time in coming,’ and he then begins to beat the other servants, both men and women, and to eat and drink and get drunk. The master of that servant will come on a day when he does not expect him and at an hour he is not aware of. He will cut him to pieces and assign him a place with the unbelievers. “The servant who knows the master’s will and does not get ready or does not do what the master wants will be beaten with many blows. But the one who does not know and does things deserving punishment will be beaten with few blows. From everyone who has been given much, much will be demanded; and from the one who has been entrusted with much, much more will be asked.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:12.214Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.12.42-48",
+          "checksum": "sha256:c32fdf5b62086f33c9b1b0576d1994339f6e3f4e952260f9a7a9cf070137890a"
+        },
+        "fit_score": 0.5857491493225098,
+        "gloo_search_certainty": 0.5857491493225098,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The passage directly addresses managerial accountability—the manager is held fully responsible for how he oversees others' work and conduct, even though he doesn't personally perform every task, with greater knowledge bringing greater responsibility.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "LUK.16.10-12",
+        "reference_display": "Luke 16:10-12",
+        "verse_text": "“Whoever can be trusted with very little can also be trusted with much, and whoever is dishonest with very little will also be dishonest with much. So if you have not been trustworthy in handling worldly wealth, who will trust you with true riches? And if you have not been trustworthy with someone else’s property, who will give you property of your own?",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:12.644Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/LUK.16.10-12",
+          "checksum": "sha256:dc63573fdd04bbd65bea0eeb9786101474af15980511491e42bd09d6dc9cd977"
+        },
+        "fit_score": 0.5984119176864624,
+        "gloo_search_certainty": 0.5984119176864624,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse addresses faithfulness in handling resources and property entrusted to you, but does not specifically speak to accountability for work directed by others or delegation of tasks—it's about personal trustworthiness with what's under your care, not responsibility for output you supervised but didn't execute yourself.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "MAT.25.21",
+        "reference_display": "Matthew 25:21",
+        "verse_text": "“His master replied, ‘Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!’",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:12.959Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/MAT.25.21",
+          "checksum": "sha256:c225a01dc21f223c28b285326a1f3a018dfa9f6cf8c0d923bc6555dc0e38662e"
+        },
+        "fit_score": 0.6129543781280518,
+        "gloo_search_certainty": 0.6129543781280518,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The master praises the servant for faithfully managing resources entrusted to him (the talents parable context), which directly illustrates being held responsible and receiving credit for work managed/directed rather than personally executed.",
+        "kept": true,
+        "reject_reason": null
+      },
+      {
+        "osis_ref": "1PE.4.10",
+        "reference_display": "1 Peter 4:10",
+        "verse_text": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in its various forms.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:13.297Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/1PE.4.10",
+          "checksum": "sha256:e712e66cd8919eb479222dba202871112d32ed81154b828af3569c3ee7f0595c"
+        },
+        "fit_score": 0.5808992385864258,
+        "gloo_search_certainty": 0.5808992385864258,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse speaks about using personal gifts to serve others as stewards, but does not address delegating work, directing others' efforts, or taking responsibility for outcomes you didn't personally execute.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "TIT.1.7",
+        "reference_display": "Titus 1:7",
+        "verse_text": "Since an overseer manages God’s household, he must be blameless—not overbearing, not quick-tempered, not given to drunkenness, not violent, not pursuing dishonest gain.",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:13.754Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/TIT.1.7",
+          "checksum": "sha256:13468ad53fc29e2443a3f74d8fe38c0337c9132825a21ca2752f9e65712b2246"
+        },
+        "fit_score": 0.6075738668441772,
+        "gloo_search_certainty": 0.6075738668441772,
+        "gloo_yesno_verdict": "no",
+        "gloo_yesno_rationale": "The verse addresses the character qualifications of church overseers but does not speak to the specific issue of taking responsibility for delegated work or output produced by others under one's direction.",
+        "kept": false,
+        "reject_reason": "gloo_yesno_no"
+      },
+      {
+        "osis_ref": "GEN.39.4-6",
+        "reference_display": "Genesis 39:4-6",
+        "verse_text": "Joseph found favor in his eyes and became his attendant. Potiphar put him in charge of his household, and he entrusted to his care everything he owned. From the time he put him in charge of his household and of all that he owned, the Lord blessed the household of the Egyptian because of Joseph. The blessing of the Lord was on everything Potiphar had, both in the house and in the field. So Potiphar left everything he had in Joseph’s care; with Joseph in charge, he did not concern himself with anything except the food he ate. Now Joseph was well-built and handsome,",
+        "youversion_fetch": {
+          "fetched_at": "2026-07-23T23:40:14.180Z",
+          "source_url": "https://api.youversion.com/v1/bibles/111/passages/GEN.39.4-6",
+          "checksum": "sha256:5a3abd0aad481a6c1745631abda3fb5969be51f51f9f6beb720d7fc0ba12bd1b"
+        },
+        "fit_score": 0,
+        "gloo_search_certainty": 0,
+        "gloo_yesno_verdict": "yes",
+        "gloo_yesno_rationale": "The passage shows Joseph taking full responsibility for managing Potiphar's entire household and possessions—work he directed and oversaw but didn't personally execute alone—resulting in blessing and demonstrating accountable stewardship.",
+        "kept": false,
+        "reject_reason": "certainty_below_threshold"
       }
     ]
   }

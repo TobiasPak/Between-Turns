@@ -2,7 +2,7 @@
   "generated_at": "2026-07-11T06:08:36.240Z",
   "model": "gloo-anthropic-claude-sonnet-4.5",
   "total_themes": 48,
-  "total_proposed": 432,
+  "total_proposed": 486,
   "failed_themes": 0,
   "results": [
     {
@@ -1970,6 +1970,252 @@
         {
           "osis_ref": "PRO.16.3",
           "rationale": "One-sentence instruction that when you commit your work to the Lord, your plans will succeed — simple confidence in finished work."
+        }
+      ]
+    },
+    {
+      "theme_id": "discernment-in-trusting-suggestions",
+      "candidates": [
+        {
+          "osis_ref": "PRO.14.15",
+          "rationale": "The simple believe anything, but the prudent give thought to their steps—directly addresses the need for discernment when accepting information at face value."
+        },
+        {
+          "osis_ref": "1TH.5.21",
+          "rationale": "Test everything; hold fast what is good—Paul instructs believers to verify and evaluate before accepting, even from seemingly authoritative sources."
+        },
+        {
+          "osis_ref": "ACT.17.11",
+          "rationale": "The Bereans examined the Scriptures daily to verify Paul's teaching, modeling how to responsibly evaluate claims you cannot immediately verify yourself."
+        },
+        {
+          "osis_ref": "PRO.3.5-6",
+          "rationale": "Trust in the Lord with all your heart and lean not on your own understanding—speaks to the tension between our limited ability to verify and the need to trust wisely."
+        },
+        {
+          "osis_ref": "1JN.4.1",
+          "rationale": "Do not believe every spirit, but test the spirits to see whether they are from God—warns against uncritical acceptance of advice or information without discernment."
+        }
+      ]
+    },
+    {
+      "theme_id": "vigilance-over-plausible-looking-code",
+      "candidates": [
+        {
+          "osis_ref": "PRO.14.12",
+          "rationale": "Warns that there is a way that appears right to a person but its end is the way of death—capturing the danger of something that looks correct on the surface but leads to failure."
+        },
+        {
+          "osis_ref": "1TH.5.21",
+          "rationale": "Instructs believers to test everything and hold fast to what is good, emphasizing careful examination rather than accepting things at face value."
+        },
+        {
+          "osis_ref": "ACT.17.11",
+          "rationale": "Commends the Bereans for examining the Scriptures daily to verify what they were taught, modeling thorough verification rather than accepting confident claims without scrutiny."
+        },
+        {
+          "osis_ref": "PRO.18.17",
+          "rationale": "Notes that the first to present a case seems right until another comes and examines them, illustrating how initial appearances can be misleading without deeper investigation."
+        },
+        {
+          "osis_ref": "1JN.4.1",
+          "rationale": "Commands believers not to believe every spirit but to test them, warning that false prophets have gone out—emphasizing vigilance against plausible but deceptive claims."
+        },
+        {
+          "osis_ref": "ACT.17.11",
+          "rationale": "The Bereans examined the Scriptures daily to verify even Paul's teaching, modeling careful verification of claims that sound authoritative."
+        },
+        {
+          "osis_ref": "1JN.4.1",
+          "rationale": "Direct command to test every spirit and not believe every claim, because many false prophets (plausible-sounding errors) have gone out into the world."
+        },
+        {
+          "osis_ref": "PRO.14.15",
+          "rationale": "Contrasts the simple who believe everything with the prudent who give thought to their steps—exactly the vigilance needed for subtle bugs."
+        },
+        {
+          "osis_ref": "MAT.7.15",
+          "rationale": "Warning about false prophets who come in sheep's clothing—things that look correct on the surface but are destructive inside."
+        },
+        {
+          "osis_ref": "1CO.10.12",
+          "rationale": "Warning that those who think they stand firm should be careful not to fall—cautions against overconfidence when things seem correct."
+        },
+        {
+          "osis_ref": "PRO.14.12",
+          "rationale": "A way that seems right to a person can end in death—perfectly captures code that looks correct but harbors fatal flaws."
+        },
+        {
+          "osis_ref": "JER.17.9",
+          "rationale": "The heart is deceitful and beyond understanding—speaks to how easily we can be fooled by things that seem right to us."
+        },
+        {
+          "osis_ref": "2CO.11.14",
+          "rationale": "Satan masquerades as an angel of light—a vivid image of dangerous errors disguised as correct, trustworthy solutions."
+        }
+      ]
+    },
+    {
+      "theme_id": "companionship-in-solitary-work",
+      "candidates": [
+        {
+          "osis_ref": "PSA.139.7-10",
+          "rationale": "David's affirmation that God's presence surrounds him everywhere—even in the farthest reaches—speaks to the reality that no place, including a late-night workspace, is beyond divine companionship."
+        },
+        {
+          "osis_ref": "MAT.28.20",
+          "rationale": "Jesus' promise 'I am with you always, to the very end of the age' offers assurance of constant presence through every solitary hour and task."
+        },
+        {
+          "osis_ref": "PSA.121.3-4",
+          "rationale": "The psalmist's declaration that God neither slumbers nor sleeps provides comfort that divine watchfulness continues through long, quiet nights of work."
+        },
+        {
+          "osis_ref": "ISA.41.10",
+          "rationale": "God's promise 'I am with you... I will strengthen you and help you' directly addresses the need for real presence and assistance during challenging, solitary efforts."
+        },
+        {
+          "osis_ref": "HEB.13.5-6",
+          "rationale": "The assurance 'Never will I leave you; never will I forsake you' speaks to reliable, steady companionship that remains constant through long stretches of work."
+        }
+      ]
+    },
+    {
+      "theme_id": "independent-judgment-over-deference",
+      "candidates": [
+        {
+          "osis_ref": "ACT.5.29",
+          "rationale": "Peter and the apostles declare they must obey God rather than human authorities, choosing their own conviction over the confident demands of the religious council."
+        },
+        {
+          "osis_ref": "GAL.1.10-12",
+          "rationale": "Paul defends his gospel against critics, asserting he received it by revelation from Christ and not from human teaching, trusting his own divine commission over others' confident objections."
+        },
+        {
+          "osis_ref": "1KI.13.15-22",
+          "rationale": "The man of God is deceived when he abandons God's clear instruction to him because an older prophet confidently claims an angel gave contrary direction—a warning about overriding personal conviction."
+        },
+        {
+          "osis_ref": "JER.42.1-43.7",
+          "rationale": "The remnant asks Jeremiah for God's guidance, but when his answer doesn't match their preference, they confidently reject it and follow their own plan—illustrating the danger of ignoring sound judgment."
+        },
+        {
+          "osis_ref": "PRO.14.15",
+          "rationale": "The simple believe every word, but the prudent give thought to their steps—wisdom literature affirming the need to weigh advice carefully rather than accept confident claims uncritically."
+        },
+        {
+          "osis_ref": "PRO.3.5-7",
+          "rationale": "Direct command to trust your own understanding carefully and not lean solely on what seems wise, avoiding self-conceit."
+        },
+        {
+          "osis_ref": "1CO.2.15",
+          "rationale": "The spiritual person judges all things but is not subject to anyone else's judgment—affirms trusting one's own discernment."
+        },
+        {
+          "osis_ref": "GAL.1.10",
+          "rationale": "Paul declares he's not trying to please people or win approval—he trusts his own conviction over popular opinion."
+        },
+        {
+          "osis_ref": "ROM.14.5",
+          "rationale": "Each person should be fully convinced in their own mind about disputable matters—direct affirmation of personal judgment."
+        },
+        {
+          "osis_ref": "1TH.5.21",
+          "rationale": "Test everything and hold fast to what is good—encourages active evaluation rather than passive acceptance."
+        },
+        {
+          "osis_ref": "ACT.5.29",
+          "rationale": "Peter's declaration that obedience to God trumps human authority—standing firm when confident voices conflict with deeper conviction."
+        },
+        {
+          "osis_ref": "PRO.14.12",
+          "rationale": "There is a way that seems right to a person but ends in death—cautions that confident-sounding paths can be wrong."
+        },
+        {
+          "osis_ref": "1JN.4.1",
+          "rationale": "Do not believe every spirit but test them—explicit instruction to evaluate confident claims rather than accept them at face value."
+        }
+      ]
+    },
+    {
+      "theme_id": "humility-about-a-tools-limits",
+      "candidates": [
+        {
+          "osis_ref": "1CO.1.25",
+          "rationale": "Paul writes that the foolishness of God is wiser than human wisdom, reminding us that even our most confident human reasoning has inherent limits compared to divine wisdom."
+        },
+        {
+          "osis_ref": "PRO.3.5-7",
+          "rationale": "This passage warns against leaning on our own understanding and being wise in our own eyes, explicitly acknowledging the blind spots in human judgment and the need for humility."
+        },
+        {
+          "osis_ref": "JOB.38.1-4",
+          "rationale": "God confronts Job by asking where he was when the foundations of the earth were laid, dramatically illustrating the vast limitations of human knowledge and perspective."
+        },
+        {
+          "osis_ref": "1CO.13.9",
+          "rationale": "Paul states that we know in part and prophesy in part, directly acknowledging that even spiritual gifts and human knowledge are partial and incomplete."
+        },
+        {
+          "osis_ref": "ISA.55.8-9",
+          "rationale": "God declares that His thoughts and ways are higher than ours as the heavens are above the earth, emphasizing the fundamental limitations of human understanding compared to divine perspective."
+        }
+      ]
+    },
+    {
+      "theme_id": "stewardship-of-delegated-work",
+      "candidates": [
+        {
+          "osis_ref": "NEH.5.14-19",
+          "rationale": "Nehemiah takes full responsibility for the conduct and work of his administration, including what his servants did under his authority, holding himself accountable for their actions."
+        },
+        {
+          "osis_ref": "1KI.21.1-16",
+          "rationale": "Ahab is held responsible for Jezebel's orchestration of Naboth's murder even though she executed the plan; he directed the outcome he desired and bears the guilt."
+        },
+        {
+          "osis_ref": "2SA.11.14-17",
+          "rationale": "David bears full moral responsibility for Uriah's death even though Joab carried out the orders and other soldiers did the actual killing; he authored the scheme."
+        },
+        {
+          "osis_ref": "EXO.32.21-24",
+          "rationale": "Moses holds Aaron accountable for the golden calf incident despite Aaron's attempt to deflect responsibility by claiming the people brought the gold and 'out came this calf,' demanding Aaron own what happened under his watch."
+        },
+        {
+          "osis_ref": "MAT.27.24-25",
+          "rationale": "Pilate attempts to wash his hands of responsibility for Jesus's crucifixion even though others will physically carry it out, illustrating the failure to own the consequences of one's authoritative decisions."
+        },
+        {
+          "osis_ref": "MAT.25.14-19",
+          "rationale": "The parable of the talents: servants are entrusted with their master's property and held fully accountable for how they manage it, even though it wasn't originally theirs."
+        },
+        {
+          "osis_ref": "1CO.4.2",
+          "rationale": "Direct statement that those entrusted with a responsibility must prove faithful—stewardship requires proving trustworthy with what you oversee, not just what you personally create."
+        },
+        {
+          "osis_ref": "LUK.12.42-48",
+          "rationale": "The faithful and wise manager put in charge of the master's household and servants is held accountable for how the household runs under his oversight."
+        },
+        {
+          "osis_ref": "LUK.16.10-12",
+          "rationale": "Whoever is faithful with very little is also faithful with much; if you haven't been trustworthy with someone else's property, who will trust you with property of your own?"
+        },
+        {
+          "osis_ref": "MAT.25.21",
+          "rationale": "The master commends the servant who was faithful with what was entrusted to him—'well done, good and faithful servant' is spoken over stewardship, not just personal effort."
+        },
+        {
+          "osis_ref": "1PE.4.10",
+          "rationale": "Each should use whatever gift they have received to serve others, faithfully administering God's grace in its various forms—stewarding resources beyond your own creation."
+        },
+        {
+          "osis_ref": "TIT.1.7",
+          "rationale": "An overseer is entrusted with God's work and must be blameless—leadership and oversight carry accountability for outcomes, not just personal actions."
+        },
+        {
+          "osis_ref": "GEN.39.4-6",
+          "rationale": "Joseph is put in charge of Potiphar's household and everything he owned; Potiphar held Joseph responsible for the entire estate's management and outcomes."
         }
       ]
     }

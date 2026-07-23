@@ -17,21 +17,21 @@ This is the real, inspectable record of how `data/themes.json` — the verified 
 
 | Stage | Count |
 |---|---|
-| Themes seeded | 48 |
-| Candidate proposals made (incl. gap-filling rounds) | 432 |
-| Unique references sent to YouVersion for verification | 313 |
-| Verified (real text fetched, checksummed) | 299 |
-| Rejected at verification (reference didn't resolve) | 14 |
-| Candidates fit-checked | 418 |
-| Kept (passed both certainty *and* yes/no judgment) | 267 |
-| Rejected at fit-check: failed the yes/no judgment | 148 |
-| Rejected at fit-check: below the certainty threshold (0.35) | 3 |
-| **Final verified references in `themes.json`** (deduped) | **253** |
-| References per theme | min 2, max 12, avg 5.3 |
+| Themes seeded | 54 |
+| Candidate proposals made (incl. gap-filling rounds) | 486 |
+| Unique references sent to YouVersion for verification | 344 |
+| Verified (real text fetched, checksummed) | 329 |
+| Rejected at verification (reference didn't resolve) | 15 |
+| Candidates fit-checked | 471 |
+| Kept (passed both certainty *and* yes/no judgment) | 294 |
+| Rejected at fit-check: failed the yes/no judgment | 172 |
+| Rejected at fit-check: below the certainty threshold (0.35) | 5 |
+| **Final verified references in `themes.json`** (deduped) | **280** |
+| References per theme | min 2, max 12, avg 5.2 |
 
-Worth flagging plainly rather than burying in the table: **every one of the 148 fit-check rejections failed on the yes/no judgment, not the certainty score.** Once the retrieval-window bug below was fixed, Gloo Search's certainty for same-domain content (184-254 short Bible verses, all thematically similar to begin with) clustered tightly in the 0.5-0.7 range regardless of actual fit — meaning the numeric embedding-similarity signal doesn't discriminate much within a corpus this narrow, and the real filtering work is being done by the independent judgment call, not the score. The certainty gate stays in the pipeline as a genuine check (an out-of-domain or truly unrelated item would still fail it), but for this specific corpus it hasn't been the deciding factor even once.
+Worth flagging plainly rather than burying in the table: **every one of the 172 fit-check rejections failed on the yes/no judgment, not the certainty score.** Once the retrieval-window bug below was fixed, Gloo Search's certainty for same-domain content (184-254 short Bible verses, all thematically similar to begin with) clustered tightly in the 0.5-0.7 range regardless of actual fit — meaning the numeric embedding-similarity signal doesn't discriminate much within a corpus this narrow, and the real filtering work is being done by the independent judgment call, not the score. The certainty gate stays in the pipeline as a genuine check (an out-of-domain or truly unrelated item would still fail it), but for this specific corpus it hasn't been the deciding factor even once.
 
-Every one of the 14 verification-stage rejections, in full:
+Every one of the 15 verification-stage rejections, in full:
 
 - `JAM.1.19-20`: HTTP 404: {"message":"Bible passage JAM.1.19-20 for version 111 not found"}
 - `JOEL.2.25`: HTTP 404
@@ -47,6 +47,7 @@ Every one of the 14 verification-stage rejections, in full:
 - `1COR.15.58`: HTTP 404
 - `PROV.24.27`: HTTP 404
 - `2THI.2.15`: HTTP 404
+- `JER.42.1-43.7`: HTTP 404: {"message":"Bible passage JER.42.1-43.7 for version 111 not found"}
 
 Worth being precise here rather than overselling it: only `JAM.1.19-20` was a genuinely fabricated-*looking* reference, and even that turned out to be a real verse (James 1:19-20) under a non-standard book code (`JAM` instead of the correct OSIS code `JAS`) — Gloo got the content right and the code wrong. Re-querying under the correct code resolves cleanly. The other three (`JOEL.2.25`, `MAR.6.31-32`, `MAR.12.28-34`) were similar near-misses from later gap-filling rounds, not invented content. Zero references in this taxonomy are outright hallucinated Scripture — every rejection here is a resolution failure, not a fabrication catch, and the pipeline is built to treat both the same way: discard, log, move on.
 
@@ -74,4 +75,4 @@ The theme still sits at the low end of the taxonomy (2 verified references, vers
 
 ## What this leaves provable
 
-Every one of the 253 verified references in `data/themes.json` carries a real `youversion_fetch` record — the fetch timestamp, the exact API URL used, and a SHA-256 checksum of the fetched text. Nothing in the runtime selection or generation layer can point to a verse that isn't sitting in that file with its own audit trail already attached.
+Every one of the 280 verified references in `data/themes.json` carries a real `youversion_fetch` record — the fetch timestamp, the exact API URL used, and a SHA-256 checksum of the fetched text. Nothing in the runtime selection or generation layer can point to a verse that isn't sitting in that file with its own audit trail already attached.
