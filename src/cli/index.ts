@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { fileURLToPath } from "node:url";
 import { disable, enable, status } from "./toggle.js";
 import { printScriptureContext } from "./scripture-context.js";
 import { init } from "./init.js";
@@ -60,6 +59,4 @@ async function main(): Promise<void> {
   process.exit(1);
 }
 
-if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  main();
-}
+main();
