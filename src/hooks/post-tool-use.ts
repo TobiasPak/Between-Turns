@@ -3,6 +3,7 @@ import { loadSessionState, saveSessionState } from "../state/session-store.js";
 import { runStruggleVisiblePipeline } from "../runtime/fail-closed.js";
 import { emitBlockReason, readHookInput } from "./shared/hook-io.js";
 import { isEnabled } from "./shared/opt-in-gate.js";
+import { loadDotEnv } from "./shared/load-env.js";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import type { BetweenTurnsConfig } from "../types/config.js";
@@ -22,6 +23,7 @@ import type { BetweenTurnsConfig } from "../types/config.js";
  */
 async function main(): Promise<void> {
   const input = await readHookInput();
+  loadDotEnv(input.cwd);
 
   if (!isEnabled(input.cwd)) {
     process.exit(0);

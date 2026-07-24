@@ -6,6 +6,7 @@ import { runVisiblePipeline } from "../runtime/fail-closed.js";
 import type { BetweenTurnsConfig } from "../types/config.js";
 import { emitPreToolUseDeny, readHookInput } from "./shared/hook-io.js";
 import { isEnabled } from "./shared/opt-in-gate.js";
+import { loadDotEnv } from "./shared/load-env.js";
 
 function currentBranch(cwd: string): string {
   try {
@@ -27,6 +28,7 @@ function currentBranch(cwd: string): string {
  */
 async function main(): Promise<void> {
   const input = await readHookInput();
+  loadDotEnv(input.cwd);
 
   if (!isEnabled(input.cwd)) {
     process.exit(0);

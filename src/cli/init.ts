@@ -12,6 +12,11 @@ const DEFAULT_CONFIG = {
     repetition_window: 5,
   },
   gloo: {
+    // Left blank deliberately -- these identify *your own* Gloo tenant and
+    // Publisher, not a shared default. Run `between-turns configure` to fill
+    // these in from your own Gloo AI Studio account (Organizations ->
+    // Publishers), then `between-turns ingest-taxonomy` to populate that
+    // tenant with the verified verse taxonomy before enabling.
     tenant: "",
     collection: "GlooProd",
     publisher_id: "",
@@ -198,6 +203,30 @@ export function init(cwd: string): void {
     console.log("Installed the /scripture-context slash command.");
   }
 
+  // 5. .gitignore -- ensure .env and .between-turns/ are excluded *before*
+  // `configure` ever writes real credentials into .env. Non-destructive:
+  // appends only the entries that are missing, never touches existing lines.
+  ensureGitignore(cwd);
+
   console.log();
-  console.log("Setup complete. Between Turns is still disabled -- run `between-turns enable` when you're ready to turn it on.");
+  console.log("Setup complete. Between Turns is still disabled.");
+  console.log("Next: `between-turns configure` (your own Gloo credentials) -> `between-turns ingest-taxonomy` -> `between-turns enable`.");
+}
+
+const REQUIRED_GITIGNORE_ENTRIES = [".env", ".between-turns/"];
+
+function ensureGitignore(cwd: string): void {
+  const path = join(cwd, ".gitignore");
+  const existing = existsSync(path) ? readFileSync(path, "utf-8") : "";
+  const existingLines = new Set(existing.split("\n").map((l) => l.trim()));
+
+  const missing = REQUIRED_GITIGNORE_ENTRIES.filter((entry) => !existingLines.has(entry));
+  if (missing.length === 0) {
+    console.log(".gitignore already excludes .env -- left as-is.");
+    return;
+  }
+
+  const separator = existing.length > 0 && !existing.endsWith("\n") ? "\n" : "";
+  writeFileSync(path, `${existing}${separator}${missing.join("\n")}\n`);
+  console.log(`Added to .gitignore: ${missing.join(", ")} (so \`configure\` never writes real credentials somewhere git could track).`);
 }

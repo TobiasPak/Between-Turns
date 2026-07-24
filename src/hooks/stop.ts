@@ -5,6 +5,7 @@ import { runVisiblePipeline } from "../runtime/fail-closed.js";
 import type { BetweenTurnsConfig } from "../types/config.js";
 import { emitBlockReason, readHookInput } from "./shared/hook-io.js";
 import { isEnabled } from "./shared/opt-in-gate.js";
+import { loadDotEnv } from "./shared/load-env.js";
 
 // A trivial one-or-two-message exchange doesn't warrant a debrief -- wait
 // for a session with some real back-and-forth before the first attempt.
@@ -20,6 +21,7 @@ const DEBRIEF_MIN_TURNS_BETWEEN = 10;
 
 async function main(): Promise<void> {
   const input = await readHookInput();
+  loadDotEnv(input.cwd);
 
   if (!isEnabled(input.cwd)) {
     process.exit(0);

@@ -121,4 +121,39 @@ describe("init", () => {
     const result = readFileSync(join(commandsDir, "scripture-context.md"), "utf-8");
     assert.equal(result, "custom content the developer wrote themselves");
   });
+
+  test("default config has blank tenant/publisher_id, not a hardcoded real value", () => {
+    tmpCwd = mkdtempSync(join(tmpdir(), "bt-init-"));
+    init(tmpCwd);
+    const config = JSON.parse(readFileSync(join(tmpCwd, "between-turns.config.json"), "utf-8"));
+    assert.equal(config.gloo.tenant, "");
+    assert.equal(config.gloo.publisher_id, "");
+  });
+
+  test("creates .gitignore with .env and .between-turns/ when none exists", () => {
+    tmpCwd = mkdtempSync(join(tmpdir(), "bt-init-"));
+    init(tmpCwd);
+    const gitignore = readFileSync(join(tmpCwd, ".gitignore"), "utf-8");
+    assert.match(gitignore, /^\.env$/m);
+    assert.match(gitignore, /^\.between-turns\/$/m);
+  });
+
+  test("appends missing entries to an existing .gitignore without touching what's already there", () => {
+    tmpCwd = mkdtempSync(join(tmpdir(), "bt-init-"));
+    writeFileSync(join(tmpCwd, ".gitignore"), "node_modules/\ndist/\n");
+    init(tmpCwd);
+    const gitignore = readFileSync(join(tmpCwd, ".gitignore"), "utf-8");
+    assert.match(gitignore, /node_modules\//);
+    assert.match(gitignore, /dist\//);
+    assert.match(gitignore, /^\.env$/m);
+  });
+
+  test("does not duplicate .gitignore entries on a second run", () => {
+    tmpCwd = mkdtempSync(join(tmpdir(), "bt-init-"));
+    init(tmpCwd);
+    init(tmpCwd);
+    const gitignore = readFileSync(join(tmpCwd, ".gitignore"), "utf-8");
+    const envLines = gitignore.split("\n").filter((l) => l.trim() === ".env");
+    assert.equal(envLines.length, 1);
+  });
 });

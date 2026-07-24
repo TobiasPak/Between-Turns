@@ -2,6 +2,9 @@
 import { disable, enable, status } from "./toggle.js";
 import { printScriptureContext } from "./scripture-context.js";
 import { init } from "./init.js";
+import { configure } from "./configure.js";
+import { ingestTaxonomy } from "./ingest-taxonomy.js";
+import { loadDotEnv } from "../hooks/shared/load-env.js";
 
 const HOOK_MODULES: Record<string, string> = {
   "post-tool-use": "../hooks/post-tool-use.js",
@@ -12,6 +15,7 @@ const HOOK_MODULES: Record<string, string> = {
 
 async function main(): Promise<void> {
   const [command, sub] = process.argv.slice(2);
+  loadDotEnv(process.cwd());
 
   if (command === "hook") {
     const modulePath = sub ? HOOK_MODULES[sub] : undefined;
@@ -26,6 +30,26 @@ async function main(): Promise<void> {
   if (command === "init") {
     try {
       init(process.cwd());
+    } catch (err) {
+      console.error((err as Error).message);
+      process.exit(1);
+    }
+    return;
+  }
+
+  if (command === "configure") {
+    try {
+      await configure(process.cwd());
+    } catch (err) {
+      console.error((err as Error).message);
+      process.exit(1);
+    }
+    return;
+  }
+
+  if (command === "ingest-taxonomy") {
+    try {
+      await ingestTaxonomy(process.cwd());
     } catch (err) {
       console.error((err as Error).message);
       process.exit(1);
@@ -55,7 +79,7 @@ async function main(): Promise<void> {
     return;
   }
 
-  console.error("usage: between-turns <init|hook <name>|enable|disable|status|scripture-context [n]>");
+  console.error("usage: between-turns <init|configure|ingest-taxonomy|hook <name>|enable|disable|status|scripture-context [n]>");
   process.exit(1);
 }
 
