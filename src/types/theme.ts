@@ -18,12 +18,6 @@ export interface VerifiedReference {
   gloo_search_certainty: number;
   gloo_yesno_verdict: "yes" | "no";
   gloo_yesno_rationale: string;
-  human_spot_check?: {
-    checked: boolean;
-    checked_by: string;
-    verdict: "approved" | "rejected";
-    notes?: string;
-  };
 }
 
 export interface RejectedAtBuild {
