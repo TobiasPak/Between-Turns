@@ -29,8 +29,8 @@ npm install -g between-turns
 
 **Running from source (current state at submission time — this repo has not been published to the npm registry yet):**
 ```
-git clone <this repository's URL>
-cd between-turns
+git clone https://github.com/TobiasPak/Between-Turns.git
+cd Between-Turns
 npm install
 npm run build
 npm link
