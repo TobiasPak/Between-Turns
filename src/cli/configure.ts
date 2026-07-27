@@ -74,37 +74,66 @@ export function applyConfiguration(cwd: string, values: ConfigureValues): void {
   writeEnvValues(cwd, envValues);
 }
 
+interface Question {
+  label: string;
+  current: string;
+}
+
+function promptText(q: Question): string {
+  const suffix = q.current ? ` [current: ${q.current}]` : "";
+  return `${q.label}${suffix}: `;
+}
+
+/**
+ * Reads answers via the readline interface's async-iterator form (`for
+ * await...of rl`), not repeated `rl.question()` calls -- confirmed by direct
+ * testing that repeated `.question()` awaits on the same interface hang
+ * indefinitely on the second call when stdin is piped/non-interactive
+ * (a real, reproducible Node readline limitation, not specific to this
+ * code). The iterator form reads reliably either way.
+ */
+async function askAll(questions: Question[]): Promise<string[]> {
+  const rl = createInterface({ input: process.stdin, output: process.stdout });
+  const answers: string[] = [];
+  try {
+    process.stdout.write(promptText(questions[0]!));
+    for await (const rawLine of rl) {
+      const q = questions[answers.length]!;
+      answers.push(rawLine.trim() || q.current);
+      if (answers.length >= questions.length) break;
+      process.stdout.write(promptText(questions[answers.length]!));
+    }
+  } finally {
+    rl.close();
+  }
+  return answers;
+}
+
 export async function configure(cwd: string): Promise<void> {
   // Fails fast if init hasn't run yet, before bothering to prompt for anything.
   const existing = loadConfig(cwd);
 
-  const rl = createInterface({ input: process.stdin, output: process.stdout });
   console.log("Configuring Between Turns with your own Gloo AI credentials.");
   console.log("Find your tenant (Publisher Name) and publisher_id in Gloo AI Studio -> Organizations -> Publishers.");
   console.log("These identify *your own* Gloo account -- Between Turns never ships with anyone else's.\n");
 
-  try {
-    const ask = async (question: string, current: string): Promise<string> => {
-      const suffix = current ? ` [current: ${current}]` : "";
-      const answer = (await rl.question(`${question}${suffix}: `)).trim();
-      return answer || current;
-    };
+  const [tenant, publisherId, clientId, clientSecret, youversionKey] = await askAll([
+    { label: "Gloo tenant (Publisher Name)", current: existing.gloo.tenant },
+    { label: "Gloo publisher_id", current: existing.gloo.publisher_id },
+    { label: "Gloo client ID", current: "" },
+    { label: "Gloo client secret", current: "" },
+    { label: "YouVersion API key (optional -- only needed to rebuild/expand the taxonomy yourself, press enter to skip)", current: "" },
+  ]);
 
-    const tenant = await ask("Gloo tenant (Publisher Name)", existing.gloo.tenant);
-    const publisherId = await ask("Gloo publisher_id", existing.gloo.publisher_id);
-    const clientId = await ask("Gloo client ID", "");
-    const clientSecret = await ask("Gloo client secret", "");
-    const youversionKey = await ask(
-      "YouVersion API key (optional -- only needed to rebuild/expand the taxonomy yourself, press enter to skip)",
-      ""
-    );
+  applyConfiguration(cwd, {
+    tenant: tenant ?? "",
+    publisherId: publisherId ?? "",
+    clientId: clientId ?? "",
+    clientSecret: clientSecret ?? "",
+    youversionKey: youversionKey || undefined,
+  });
 
-    applyConfiguration(cwd, { tenant, publisherId, clientId, clientSecret, youversionKey: youversionKey || undefined });
-
-    console.log("\nSaved tenant/publisher_id to between-turns.config.json.");
-    console.log("Saved credentials to .env (gitignored -- never committed, never shared).");
-    console.log("\nNext: `between-turns ingest-taxonomy` to populate your tenant, then `between-turns enable`.");
-  } finally {
-    rl.close();
-  }
+  console.log("\nSaved tenant/publisher_id to between-turns.config.json.");
+  console.log("Saved credentials to .env (gitignored -- never committed, never shared).");
+  console.log("\nNext: `between-turns ingest-taxonomy` to populate your tenant, then `between-turns enable`.");
 }

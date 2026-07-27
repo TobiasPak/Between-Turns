@@ -2,6 +2,7 @@
   "name": "between-turns",
   "version": "0.1.0",
   "description": "A Claude Code companion that lets an opted-in Claude's character be shaped by real, verified Scripture at genuine moments of struggle and completion.",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "bin": {
